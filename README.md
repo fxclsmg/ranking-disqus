@@ -68,7 +68,7 @@ Hospedagem:
 
 ---
 
-# 3. Criando o projeto
+# 3. Criar a solução
 
 Criar diretório:
 
