@@ -1,0 +1,17 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <ItemGroup>
+    <ProjectReference Include="..\DisqusAnalytics.Domain\DisqusAnalytics.Domain.csproj" />
+    <ProjectReference Include="..\DisqusAnalytics.Abstractions\DisqusAnalytics.Abstractions.csproj" />
+    <ProjectReference Include="..\DisqusAnalytics.Disqus\DisqusAnalytics.Disqus.csproj" />
+    <ProjectReference Include="..\DisqusAnalytics.Persistence\DisqusAnalytics.Persistence.csproj" />
+    <ProjectReference Include="..\DisqusAnalytics.Analytics\DisqusAnalytics.Analytics.csproj" />
+  </ItemGroup>
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+</Project>

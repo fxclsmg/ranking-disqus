@@ -88,14 +88,23 @@ dotnet new sln -n DisqusAnalytics
 
 # 4. Criar projetos
 
+
+---
+
+## Abstractions
+
+Interfaces compartilhadas.
+
+```bash
+dotnet new classlib -n DisqusAnalytics.Abstractions -o src/DisqusAnalytics.Abstractions
+```
+
 ## Domínio
 
 Responsável pelas entidades e regras básicas.
 
 ```bash
-dotnet new classlib \
--n DisqusAnalytics.Domain \
--o src/DisqusAnalytics.Domain
+dotnet new classlib -n DisqusAnalytics.Domain -o src/DisqusAnalytics.Domain
 ```
 
 ---
@@ -105,9 +114,7 @@ dotnet new classlib \
 Responsável pelo banco de dados.
 
 ```bash
-dotnet new classlib \
--n DisqusAnalytics.Persistence \
--o src/DisqusAnalytics.Persistence
+dotnet new classlib -n DisqusAnalytics.Persistence -o src/DisqusAnalytics.Persistence
 ```
 
 ---
@@ -117,9 +124,7 @@ dotnet new classlib \
 Responsável pela comunicação com a API.
 
 ```bash
-dotnet new classlib \
--n DisqusAnalytics.Disqus \
--o src/DisqusAnalytics.Disqus
+dotnet new classlib -n DisqusAnalytics.Disqus -o src/DisqusAnalytics.Disqus
 ```
 
 ---
@@ -129,9 +134,7 @@ dotnet new classlib \
 Responsável por baixar e atualizar dados.
 
 ```bash
-dotnet new classlib \
--n DisqusAnalytics.Sync \
--o src/DisqusAnalytics.Sync
+dotnet new classlib -n DisqusAnalytics.Sync -o src/DisqusAnalytics.Sync
 ```
 
 ---
@@ -141,9 +144,7 @@ dotnet new classlib \
 Responsável pelos cálculos estatísticos.
 
 ```bash
-dotnet new classlib \
--n DisqusAnalytics.Analytics \
--o src/DisqusAnalytics.Analytics
+dotnet new classlib -n DisqusAnalytics.Analytics -o src/DisqusAnalytics.Analytics
 ```
 
 ---
@@ -153,9 +154,7 @@ dotnet new classlib \
 Ponto de entrada inicial.
 
 ```bash
-dotnet new console \
--n DisqusAnalytics.Console \
--o src/DisqusAnalytics.Console
+dotnet new console -n DisqusAnalytics.Console -o src/DisqusAnalytics.Console
 ```
 
 ---
@@ -163,6 +162,8 @@ dotnet new console \
 # 5. Adicionar projetos na Solution
 
 ```bash
+dotnet sln add src/DisqusAnalytics.Abstractions
+
 dotnet sln add src/DisqusAnalytics.Domain
 
 dotnet sln add src/DisqusAnalytics.Persistence
@@ -180,20 +181,28 @@ dotnet sln add src/DisqusAnalytics.Console
 
 # 6. Referências entre projetos
 
-## Persistence depende do Domain
+## Abstractions depende do Domain
 
 ```bash
-dotnet add src/DisqusAnalytics.Persistence reference \
-src/DisqusAnalytics.Domain
+dotnet add src/DisqusAnalytics.Abstractions reference src/DisqusAnalytics.Domain
+```
+
+## Persistence depende de Domain e Abstractions
+
+```bash
+dotnet add src/DisqusAnalytics.Persistence reference src/DisqusAnalytics.Domain
+
+dotnet add src/DisqusAnalytics.Persistence reference src/DisqusAnalytics.Abstractions
 ```
 
 ---
 
-## Disqus depende do Domain
+## Disqus depende do Domain e Abstractions
 
 ```bash
-dotnet add src/DisqusAnalytics.Disqus reference \
-src/DisqusAnalytics.Domain
+dotnet add src/DisqusAnalytics.Disqus reference src/DisqusAnalytics.Domain
+
+dotnet add src/DisqusAnalytics.Persistence reference src/DisqusAnalytics.Abstractions
 ```
 
 ---
@@ -201,38 +210,33 @@ src/DisqusAnalytics.Domain
 ## Sync depende de:
 
 ```bash
-dotnet add src/DisqusAnalytics.Sync reference \
-src/DisqusAnalytics.Domain
+dotnet add src/DisqusAnalytics.Sync reference src/DisqusAnalytics.Domain
 
-dotnet add src/DisqusAnalytics.Sync reference \
-src/DisqusAnalytics.Disqus
+dotnet add src/DisqusAnalytics.Sync reference src/DisqusAnalytics.Abstractions
 
-dotnet add src/DisqusAnalytics.Sync reference \
-src/DisqusAnalytics.Persistence
+dotnet add src/DisqusAnalytics.Sync reference src/DisqusAnalytics.Disqus
+
+dotnet add src/DisqusAnalytics.Sync reference src/DisqusAnalytics.Persistence
+
+dotnet add src/DisqusAnalytics.Sync reference src/DisqusAnalytics.Analytics
 ```
 
 ---
 
-## Analytics depende do Domain
+## Analytics depende do Domain e Abstractions
 
 ```bash
-dotnet add src/DisqusAnalytics.Analytics reference \
-src/DisqusAnalytics.Domain
+dotnet add src/DisqusAnalytics.Analytics reference src/DisqusAnalytics.Domain
+
+dotnet add src/DisqusAnalytics.Persistence reference src/DisqusAnalytics.Abstractions
 ```
 
 ---
 
-## Console depende dos serviços
+## Console depende dos Sync
 
 ```bash
-dotnet add src/DisqusAnalytics.Console reference \
-src/DisqusAnalytics.Sync
-
-dotnet add src/DisqusAnalytics.Console reference \
-src/DisqusAnalytics.Analytics
-
-dotnet add src/DisqusAnalytics.Console reference \
-src/DisqusAnalytics.Persistence
+dotnet add src/DisqusAnalytics.Console reference src/DisqusAnalytics.Sync
 ```
 
 ---
@@ -275,10 +279,13 @@ DisqusAnalytics
 │
 ├── src
 │
+│   ├── DisqusAnalytics.Abistractions
+│   │
+│   │   └── Interfaces
+│   │
 │   ├── DisqusAnalytics.Domain
 │   │
 │   │   ├── Entities
-│   │   ├── Interfaces
 │   │   └── Models
 │   │
 │   ├── DisqusAnalytics.Persistence
