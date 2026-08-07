@@ -533,12 +533,30 @@ Compilar:
 dotnet build
 ```
 
-Executar:
+Sincroniza disqus, Gera estatística e Exporta json:
 
 ```bash
-dotnet run \
---project src/DisqusAnalytics.Console
+dotnet run --project src/DisqusAnalytics.Console run
 ```
+
+Sincroniza os dados do disqus:
+
+```bash
+dotnet run --project src/DisqusAnalytics.Console sync
+```
+
+Gera Estatísticas:
+
+```bash
+dotnet run --project src/DisqusAnalytics.Console stats
+```
+
+Exporta os dados processados em json:
+
+```bash
+dotnet run --project src/DisqusAnalytics.Console export
+```
+
 
 ---
 
