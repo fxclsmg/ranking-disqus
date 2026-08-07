@@ -272,8 +272,7 @@ dotnet ef --version
 # 8. Estrutura final
 
 ```
-DisqusAnalytics
-
+DisqusAnalytics (RANKING-DISQUS)
 │
 ├── DisqusAnalytics.sln
 │
@@ -282,48 +281,64 @@ DisqusAnalytics
 │   ├── DisqusAnalytics.Abistractions
 │   │   │
 │   │   └── Interfaces
+│   │       │
+│   │       └── Comment.cs
 │   │
+│   ├── DisqusAnalytics.Analytics
+│   │   │
+│   │   ├── Statistics...
+│   │   └── Reports...
+│   │
+│   ├── DisqusAnalytics.Console
+│   │   │
+│   │   ├── appSettings.json
+│   │   ├── appSettings.Local.example.json
+│   │   │
+│   │   ├── Commands
+│   │   │   │
+│   │   │   ├── RunCommand.cs
+│   │   │   └── SyncCommand.cs
+│   │   │
+│   │   ├── Extensions
+│   │   │    │
+│   │   │    └── ServiceCollectionExtensions.cs
+│   │   │
+│   │   └── Program.cs
+│   │
+│   ├── DisqusAnalytics.Disqus
+│   │   │
+│   │   ├── Client...
+│   │   ├── DTOs...
+│   │   └── Responses...
 │   │
 │   ├── DisqusAnalytics.Domain
 │   │   │
 │   │   ├── Entities
+│   │   │   │   
 │   │   │   ├── Entity.cs
 │   │   │   ├── Forum.cs
 │   │   │   ├── Discussion.cs
 │   │   │   ├── Author.cs
 │   │   │   └── Comment.cs
 │   │   │
-│   │   ├── Enums
+│   │   ├── Enums...
 │   │   │
-│   │   └── ValueObjects
+│   │   └── ValueObjects...
 │   │
 │   ├── DisqusAnalytics.Persistence
 │   │   │
-│   │   ├── Context
-│   │   ├── Configurations
-│   │   └── Repositories
+│   │   ├── Context...
+│   │   ├── Configurations...
+│   │   └── Repositories...
 │   │
-│   ├── DisqusAnalytics.Disqus
-│   │   │
-│   │   ├── Client
-│   │   ├── DTOs
-│   │   └── Responses
-│   │
-│   ├── DisqusAnalytics.Sync
-│   │   │
-│   │   ├── Services
-│   │   └── Workers
-│   │
-│   ├── DisqusAnalytics.Analytics
-│   │   │
-│   │   ├── Statistics
-│   │   └── Reports
-│   │
-│   └── DisqusAnalytics.Console
+│   └── DisqusAnalytics.Sync
+│       │
+│       ├── Services...
+│       └── Workers...
 │
 └── data
     |
-    └── disqus.db
+    └── disqus.db...
 ```
 
 ---
