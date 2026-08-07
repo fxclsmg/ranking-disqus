@@ -278,35 +278,44 @@ DisqusAnalytics
 ├── DisqusAnalytics.sln
 │
 ├── src
-│
-│   ├── DisqusAnalytics.Abistractions
 │   │
+│   ├── DisqusAnalytics.Abistractions
+│   │   │
 │   │   └── Interfaces
 │   │
-│   ├── DisqusAnalytics.Domain
 │   │
+│   ├── DisqusAnalytics.Domain
+│   │   │
 │   │   ├── Entities
-│   │   └── Models
+│   │   │   ├── Entity.cs
+│   │   │   ├── Forum.cs
+│   │   │   ├── Discussion.cs
+│   │   │   ├── Author.cs
+│   │   │   └── Comment.cs
+│   │   │
+│   │   ├── Enums
+│   │   │
+│   │   └── ValueObjects
 │   │
 │   ├── DisqusAnalytics.Persistence
-│   │
+│   │   │
 │   │   ├── Context
 │   │   ├── Configurations
 │   │   └── Repositories
 │   │
 │   ├── DisqusAnalytics.Disqus
-│   │
+│   │   │
 │   │   ├── Client
 │   │   ├── DTOs
 │   │   └── Responses
 │   │
 │   ├── DisqusAnalytics.Sync
-│   │
+│   │   │
 │   │   ├── Services
 │   │   └── Workers
 │   │
 │   ├── DisqusAnalytics.Analytics
-│   │
+│   │   │
 │   │   ├── Statistics
 │   │   └── Reports
 │   │
