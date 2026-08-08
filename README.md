@@ -202,7 +202,7 @@ dotnet add src/DisqusAnalytics.Persistence reference src/DisqusAnalytics.Abstrac
 ```bash
 dotnet add src/DisqusAnalytics.Disqus reference src/DisqusAnalytics.Domain
 
-dotnet add src/DisqusAnalytics.Persistence reference src/DisqusAnalytics.Abstractions
+dotnet add src/DisqusAnalytics.Disqus reference src/DisqusAnalytics.Abstractions
 ```
 
 ---
@@ -250,6 +250,28 @@ Executar:
 ```bash
 dotnet add src/DisqusAnalytics.Persistence package Microsoft.EntityFrameworkCore.Sqlite
 ```
+
+## Logs da aplicação
+
+```bash
+dotnet add src/DisqusAnalytics.Sync package Microsoft.Extensions.Logging.Abstractions --version 8.0.2
+
+dotnet add src/DisqusAnalytics.Console package Microsoft.Extensions.Logging --version 8.0.1
+
+dotnet add src/DisqusAnalytics.Disqus package Microsoft.Extensions.Logging
+```
+
+## Arquivos de configuração da aplicação
+
+```bash
+dotnet add src/DisqusAnalytics.Disqus package Microsoft.Extensions.Configuration.Abstractions --version 8.0.0
+dotnet add src/DisqusAnalytics.Disqus package Microsoft.Extensions.Options.ConfigurationExtensions --version 8.0.0
+
+dotnet add src/DisqusAnalytics.Console package Microsoft.Extensions.Configuration.Json --version 8.0.1
+```
+
+
+dotnet add src/DisqusAnalytics.Disqus package Microsoft.Extensions.Http
 
 ---
 

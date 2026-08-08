@@ -4,16 +4,24 @@ using Microsoft.Extensions.Logging;
 namespace DisqusAnalytics.Console.Commands;
 
 public sealed class SyncCommand(
+    ISynchronizationService synchronizationService,
     ILogger<SyncCommand> logger) : ICommand
 {
     public string Name => "sync";
 
-    public string Description => "Sincroniza o fórum com o Disqus.";
+    public string Description =>
+        "Sincroniza os dados do fórum com o Disqus.";
 
-    public Task ExecuteAsync(CancellationToken cancellationToken = default)
+    public async Task ExecuteAsync(
+        CancellationToken cancellationToken = default)
     {
-        logger.LogInformation("Comando SYNC iniciado.");
+        logger.LogInformation(
+            "Comando SYNC iniciado.");
 
-        return Task.CompletedTask;
+        await synchronizationService.SynchronizeAsync(
+            cancellationToken);
+
+        logger.LogInformation(
+            "Comando SYNC finalizado.");
     }
 }
