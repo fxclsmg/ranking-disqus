@@ -67,6 +67,14 @@ public sealed class SynchronizationService(
             "Próximo cursor: {Cursor}",
             page.NextCursor ?? "(nenhum)");
 
+        /*foreach (var discussion in page.Items.Take(5))
+        {
+            logger.LogInformation(
+                "Thread: {Id} | {Title} | Comentários: {Comments}",
+                discussion.Id,
+                discussion.Title,
+                discussion.CommentCount);
+        }*/
         foreach (var discussion in page.Items.Take(5))
         {
             logger.LogInformation(
@@ -74,6 +82,15 @@ public sealed class SynchronizationService(
                 discussion.Id,
                 discussion.Title,
                 discussion.CommentCount);
+
+            var comments = await disqusClient.GetCommentsAsync(
+                forum,
+                discussion.Id,
+                cancellationToken: cancellationToken);
+
+            logger.LogInformation(
+                "Comentários recebidos: {Count}",
+                comments.Items.Count);
         }
 
         logger.LogInformation(

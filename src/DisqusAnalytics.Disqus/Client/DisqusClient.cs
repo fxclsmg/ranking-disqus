@@ -161,14 +161,95 @@ public sealed class DisqusClient(
         };
     }
 
-    public Task<CommentPage> GetCommentsAsync(
+    public async Task<CommentPage> GetCommentsAsync(
         string forum,
         long discussionId,
         string? cursor = null,
         int limit = 100,
         CancellationToken cancellationToken = default)
     {
-        throw new NotImplementedException();
+        ArgumentException.ThrowIfNullOrWhiteSpace(forum);
+
+        if (string.IsNullOrWhiteSpace(_options.ApiKey))
+        {
+            throw new InvalidOperationException(
+                "A API Key do Disqus não foi configurada.");
+        }
+
+        if (limit <= 0 || limit > 100)
+        {
+            throw new ArgumentOutOfRangeException(
+                nameof(limit),
+                "O limite deve estar entre 1 e 100.");
+        }
+
+        var url =
+            $"threads/listPosts.json" +
+            $"?forum={Uri.EscapeDataString(forum)}" +
+            $"&thread={discussionId}" +
+            $"&limit={limit}" +
+            $"&api_key={Uri.EscapeDataString(_options.ApiKey)}";
+
+        if (!string.IsNullOrWhiteSpace(cursor))
+        {
+            url +=
+                $"&cursor={Uri.EscapeDataString(cursor)}";
+        }
+
+        logger.LogInformation(
+            "Consultando comentários da thread {DiscussionId}. Cursor: {Cursor}",
+            discussionId,
+            cursor ?? "(inicial)");
+
+        var response =
+            await GetPagedAsync<List<CommentDto>>(
+                url,
+                cancellationToken);
+
+        var comments = (response?.Response ?? [])
+            .Select(MapComment)
+            .ToList();
+
+        return new CommentPage(
+            comments,
+            response?.Cursor?.Next,
+            response?.Cursor?.HasNext
+                ?? response?.Cursor?.More
+                ?? false);
+    }
+
+    private static Comment MapComment(CommentDto dto)
+    {
+        var authorId =
+            long.TryParse(dto.Author?.Id, out var id)
+                ? id
+                : 0;
+
+        return new Comment
+        {
+            Id =
+                long.TryParse(dto.Id, out var commentId)
+                    ? commentId
+                    : 0,
+
+            DiscussionId =
+                long.TryParse(dto.Thread, out var discussionId)
+                    ? discussionId
+                    : 0,
+
+            AuthorId = authorId,
+
+            Message = dto.Message ?? string.Empty,
+
+            CreatedAt = dto.CreatedAt,
+
+            IsDeleted = dto.IsDeleted,
+
+            IsSpam = dto.IsSpam,
+
+            CharacterCount =
+                dto.Message?.Length ?? 0
+        };
     }
 
     private async Task<T?> GetAsync<T>(
