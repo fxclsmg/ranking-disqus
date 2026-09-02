@@ -268,10 +268,10 @@ dotnet add src/DisqusAnalytics.Disqus package Microsoft.Extensions.Configuration
 dotnet add src/DisqusAnalytics.Disqus package Microsoft.Extensions.Options.ConfigurationExtensions --version 8.0.0
 
 dotnet add src/DisqusAnalytics.Console package Microsoft.Extensions.Configuration.Json --version 8.0.1
+dotnet add src/DisqusAnalytics.Disqus package Microsoft.Extensions.Http
 ```
 
 
-dotnet add src/DisqusAnalytics.Disqus package Microsoft.Extensions.Http
 
 ---
 

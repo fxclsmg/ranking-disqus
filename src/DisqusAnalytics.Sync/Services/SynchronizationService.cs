@@ -67,14 +67,6 @@ public sealed class SynchronizationService(
             "Próximo cursor: {Cursor}",
             page.NextCursor ?? "(nenhum)");
 
-        /*foreach (var discussion in page.Items.Take(5))
-        {
-            logger.LogInformation(
-                "Thread: {Id} | {Title} | Comentários: {Comments}",
-                discussion.Id,
-                discussion.Title,
-                discussion.CommentCount);
-        }*/
         foreach (var discussion in page.Items.Take(5))
         {
             logger.LogInformation(
@@ -97,45 +89,4 @@ public sealed class SynchronizationService(
             "Sincronização do fórum concluída.");
     }
 
-    /*
-    public async Task SynchronizeAsync(
-        CancellationToken cancellationToken = default)
-    {
-        cancellationToken.ThrowIfCancellationRequested();
-
-        const string forum = "scicastpodcast";
-
-        logger.LogInformation(
-            "Iniciando sincronização do fórum {Forum}.",
-            forum);
-
-        var result = await disqusClient.GetForumAsync(
-            forum,
-            cancellationToken);
-
-        if (result is null)
-        {
-            logger.LogWarning(
-                "O fórum {Forum} não foi encontrado.",
-                forum);
-
-            return;
-        }
-
-        logger.LogInformation(
-            "Fórum encontrado: {Name} ({ShortName}).",
-            result.Name,
-            result.ShortName);
-
-        logger.LogInformation(
-            "URL: {Url}",
-            result.Url);
-
-        logger.LogInformation(
-            "ID: {Id}",
-            result.Id);
-
-        logger.LogInformation($"Sincronização do fórum {forum} concluída.");
-    }
-    */
 }

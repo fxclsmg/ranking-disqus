@@ -35,7 +35,7 @@ public sealed class DisqusClient(
             $"&api_key={Uri.EscapeDataString(_options.ApiKey)}";
 
         logger.LogInformation(
-            "Consultando fórum {Forum}.",
+            "Consultando fórum {Forum}...",
             forum);
 
         var response =
