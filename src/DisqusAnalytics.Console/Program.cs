@@ -7,6 +7,9 @@ using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
 using Microsoft.Extensions.Logging;
 using Microsoft.Extensions.Configuration;
+using DisqusAnalytics.Persistence;
+using DisqusAnalytics.Persistence.Data;
+using Microsoft.EntityFrameworkCore;
 
 var builder = Host.CreateApplicationBuilder(args);
 
@@ -31,8 +34,18 @@ builder.Services.AddCommands();
 
 builder.Services.AddSynchronization();
 
+builder.Services.AddPersistence(builder.Configuration);
+
 
 using var host = builder.Build();
+
+using (var scope = host.Services.CreateScope())
+{
+    var dbContext = scope.ServiceProvider
+        .GetRequiredService<DisqusDbContext>();
+
+    await dbContext.Database.EnsureCreatedAsync();
+}
 
 var logger = host.Services.GetRequiredService<ILogger<Program>>();
 

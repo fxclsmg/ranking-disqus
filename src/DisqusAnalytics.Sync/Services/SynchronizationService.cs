@@ -8,6 +8,8 @@ namespace DisqusAnalytics.Sync.Services;
 /// </summary>
 public sealed class SynchronizationService(
     IDisqusClient disqusClient,
+    IForumRepository forumRepository,
+    IDiscussionRepository discussionRepository,
     ILogger<SynchronizationService> logger) : ISynchronizationService
 {
     public async Task SynchronizeAsync(
@@ -40,53 +42,88 @@ public sealed class SynchronizationService(
             forumResult.ShortName);
 
         logger.LogInformation(
-            "URL: {Url}",
-            forumResult.Url);
-
-        logger.LogInformation(
-            "ID: {Id}",
+            "ID do fórum: {Id}",
             forumResult.Id);
 
-        logger.LogInformation(
-            "Consultando primeira página de threads...");
-
-        var page = await disqusClient.GetDiscussionsAsync(
-            forum,
-            limit: 100,
-            cancellationToken: cancellationToken);
+        await forumRepository.UpsertAsync(
+            forumResult,
+            cancellationToken);
 
         logger.LogInformation(
-            "Threads recebidas: {Count}",
-            page.Items.Count);
+            "Fórum salvo no banco de dados.");
 
-        logger.LogInformation(
-            "Existe próxima página: {HasNextPage}",
-            page.HasNextPage);
+        string? cursor = null;
+        var pageNumber = 0;
+        var totalThreads = 0;
 
-        logger.LogInformation(
-            "Próximo cursor: {Cursor}",
-            page.NextCursor ?? "(nenhum)");
-
-        foreach (var discussion in page.Items.Take(5))
+        while (true)
         {
-            logger.LogInformation(
-                "Thread: {Id} | {Title} | Comentários: {Comments}",
-                discussion.Id,
-                discussion.Title,
-                discussion.CommentCount);
+            cancellationToken.ThrowIfCancellationRequested();
 
-            var comments = await disqusClient.GetCommentsAsync(
+            pageNumber++;
+
+            logger.LogInformation(
+                "Consultando página {Page}. Cursor: {Cursor}",
+                pageNumber,
+                cursor ?? "(inicial)");
+
+            var page = await disqusClient.GetDiscussionsAsync(
                 forum,
-                discussion.Id,
+                cursor,
+                limit: 100,
                 cancellationToken: cancellationToken);
 
             logger.LogInformation(
-                "Comentários recebidos: {Count}",
-                comments.Items.Count);
+                "Página {Page}: {Count} threads recebidas.",
+                pageNumber,
+                page.Items.Count);
+
+            if (page.Items.Count > 0)
+            {
+                foreach (var discussion in page.Items)
+                {
+                    discussion.ForumId = forumResult.Id;
+                }
+
+                await discussionRepository.UpsertRangeAsync(
+                    page.Items,
+                    cancellationToken);
+
+                totalThreads += page.Items.Count;
+
+                logger.LogInformation(
+                    "Página {Page}: {Count} threads salvas.",
+                    pageNumber,
+                    page.Items.Count);
+            }
+
+            if (!page.HasNextPage)
+            {
+                break;
+            }
+
+            if (string.IsNullOrWhiteSpace(page.NextCursor))
+            {
+                throw new InvalidOperationException(
+                    "A API informou que existe uma próxima página, " +
+                    "mas não retornou um cursor.");
+            }
+
+            cursor = page.NextCursor;
+
+            logger.LogInformation(
+                "Existe próxima página. Próximo cursor: {Cursor}",
+                cursor);
         }
 
-        logger.LogInformation(
-            "Sincronização do fórum concluída.");
-    }
+        forumResult.LastSyncAt = DateTimeOffset.UtcNow;
 
+        await forumRepository.UpsertAsync(
+            forumResult,
+            cancellationToken);
+
+        logger.LogInformation(
+            "Sincronização concluída. {TotalThreads} threads processadas.",
+            totalThreads);
+    }
 }

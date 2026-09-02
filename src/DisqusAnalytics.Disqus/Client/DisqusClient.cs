@@ -64,12 +64,11 @@ public sealed class DisqusClient(
         };
     }
 
-    public async Task<DisqusAnalytics.Domain.ValueObjects.DiscussionPage>
-        GetDiscussionsAsync(
-            string forum,
-            string? cursor = null,
-            int limit = 100,
-            CancellationToken cancellationToken = default)
+    public async Task<Domain.ValueObjects.DiscussionPage> GetDiscussionsAsync(
+        string forum,
+        string? cursor = null,
+        int limit = 100,
+        CancellationToken cancellationToken = default)
     {
         ArgumentException.ThrowIfNullOrWhiteSpace(forum);
 
@@ -110,7 +109,7 @@ public sealed class DisqusClient(
 
         if (response?.Response is null)
         {
-            return new DisqusAnalytics.Domain.ValueObjects.DiscussionPage(
+            return new Domain.ValueObjects.DiscussionPage(
                 [],
                 response?.Cursor?.Next,
                 response?.Cursor?.HasNext
@@ -122,14 +121,13 @@ public sealed class DisqusClient(
             .Select(MapDiscussion)
             .ToList();
 
-        return new DisqusAnalytics.Domain.ValueObjects.DiscussionPage(
+        return new Domain.ValueObjects.DiscussionPage(
             discussions,
             response.Cursor?.Next,
             response.Cursor?.HasNext
                 ?? response.Cursor?.More
                 ?? false);
     }
-        
 
     private static Discussion MapDiscussion(
         DiscussionDto dto)
@@ -137,11 +135,6 @@ public sealed class DisqusClient(
         return new Discussion
         {
             Id = dto.Id,
-
-            ForumId =
-                long.TryParse(dto.Forum, out var forumId)
-                    ? forumId
-                    : 0,
 
             Title = dto.Title ?? string.Empty,
 
