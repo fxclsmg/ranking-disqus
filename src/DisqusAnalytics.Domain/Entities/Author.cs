@@ -6,6 +6,12 @@ namespace DisqusAnalytics.Domain.Entities;
 public class Author
 {
     /// <summary>
+    /// Identificador utilizado quando o comentário não possui autor
+    /// (conta removida ou comentário anônimo).
+    /// </summary>
+    public const long AnonymousId = -1;
+
+    /// <summary>
     /// Identificador do usuário no Disqus.
     /// </summary>
     public long Id { get; set; }

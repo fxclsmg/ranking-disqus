@@ -46,4 +46,15 @@ public interface IDisqusClient
         string? cursor = null,
         int limit = 100,
         CancellationToken cancellationToken = default);
+
+    /// <summary>
+    /// Consulta a cota de requisições restante na janela atual.
+    /// </summary>
+    /// <param name="forum">
+    /// Nome curto de um fórum qualquer, utilizado apenas para
+    /// validar a chave da API.
+    /// </param>
+    Task<DisqusQuota?> GetQuotaAsync(
+        string forum,
+        CancellationToken cancellationToken = default);
 }

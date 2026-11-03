@@ -1,0 +1,6656 @@
+window.DISQUS_STATS = {
+  "generatedAt": "2026-11-02T23:49:13.704899-03:00",
+  "shows": [
+    {
+      "name": "RPGuaxa",
+      "forum": "scicastpodcast",
+      "totals": {
+        "discussions": 229,
+        "discussionsWithComments": 221,
+        "comments": 5006,
+        "authors": 827,
+        "singleCommentAuthors": 371,
+        "singleCommentAuthorsShare": 44.9,
+        "topTenAuthorsShare": 20.3,
+        "characters": 3339584,
+        "averageCharacters": 667.1,
+        "commentsPerDiscussion": 21.9,
+        "medianFirstResponseHours": 5.7,
+        "vocabularySize": 28006,
+        "rareWordCount": 13813,
+        "hashtagCount": 202,
+        "emojiCount": 2635,
+        "commentsWithEmoji": 905,
+        "oneYearWords": 15871,
+        "oneYearWordsShare": 56.7,
+        "duplicatedComments": 59,
+        "duplicatedCommentsShare": 1.2,
+        "commentsWithLinks": 182,
+        "commentsWithImages": 0,
+        "firstCommentAt": "2018-12-13T12:19:25-02:00",
+        "lastCommentAt": "2026-11-02T19:00:05-03:00"
+      },
+      "topAuthors": [
+        {
+          "authorId": 173188691,
+          "name": "Todê Zistino",
+          "username": "disqus_5DZEogKOnp",
+          "profileUrl": "https://disqus.com/by/disqus_5DZEogKOnp/",
+          "comments": 162,
+          "characters": 39338,
+          "averageCharacters": 242.8,
+          "discussions": 146,
+          "episodeShare": 63.8,
+          "share": 3.2,
+          "firstCommentAt": "2018-12-23T22:25:32-02:00",
+          "lastCommentAt": "2025-03-24T10:12:52-03:00"
+        },
+        {
+          "authorId": 350201366,
+          "name": "Jean Macedo",
+          "username": "disqus_DcjUFZAYET",
+          "profileUrl": "https://disqus.com/by/disqus_DcjUFZAYET/",
+          "comments": 153,
+          "characters": 98870,
+          "averageCharacters": 646.2,
+          "discussions": 93,
+          "episodeShare": 40.6,
+          "share": 3.1,
+          "firstCommentAt": "2022-01-20T12:15:28-03:00",
+          "lastCommentAt": "2026-11-02T19:00:05-03:00"
+        },
+        {
+          "authorId": 356741850,
+          "name": "Jorge Marcos Santos Silva",
+          "username": "jorgemarcossantossilva",
+          "profileUrl": "https://disqus.com/by/jorgemarcossantossilva/",
+          "comments": 123,
+          "characters": 125134,
+          "averageCharacters": 1017.3,
+          "discussions": 122,
+          "episodeShare": 53.3,
+          "share": 2.5,
+          "firstCommentAt": "2020-11-12T08:58:12-03:00",
+          "lastCommentAt": "2025-04-03T07:01:44-03:00"
+        },
+        {
+          "authorId": 392625114,
+          "name": "O Bardo Petiz",
+          "username": "obardopetiz",
+          "profileUrl": "https://disqus.com/by/obardopetiz/",
+          "comments": 110,
+          "characters": 89905,
+          "averageCharacters": 817.3,
+          "discussions": 95,
+          "episodeShare": 41.5,
+          "share": 2.2,
+          "firstCommentAt": "2023-03-02T17:34:12-03:00",
+          "lastCommentAt": "2026-11-02T12:48:42-03:00"
+        },
+        {
+          "authorId": 365883823,
+          "name": "Marceles Rey",
+          "username": "marcelesrey",
+          "profileUrl": "https://disqus.com/by/marcelesrey/",
+          "comments": 86,
+          "characters": 67328,
+          "averageCharacters": 782.9,
+          "discussions": 74,
+          "episodeShare": 32.3,
+          "share": 1.7,
+          "firstCommentAt": "2021-03-10T15:19:09-03:00",
+          "lastCommentAt": "2026-03-01T01:41:01-03:00"
+        },
+        {
+          "authorId": 179614806,
+          "name": "Gabriel Balardino",
+          "username": "gabrielbalardino",
+          "profileUrl": "https://disqus.com/by/gabrielbalardino/",
+          "comments": 85,
+          "characters": 110090,
+          "averageCharacters": 1295.2,
+          "discussions": 84,
+          "episodeShare": 36.7,
+          "share": 1.7,
+          "firstCommentAt": "2021-03-04T09:00:07-03:00",
+          "lastCommentAt": "2026-10-12T11:39:24-03:00"
+        },
+        {
+          "authorId": 168880434,
+          "name": "Fabíola",
+          "username": "disqus_mMjv7khE8l",
+          "profileUrl": "https://disqus.com/by/disqus_mMjv7khE8l/",
+          "comments": 82,
+          "characters": 43346,
+          "averageCharacters": 528.6,
+          "discussions": 66,
+          "episodeShare": 28.8,
+          "share": 1.6,
+          "firstCommentAt": "2021-02-24T15:16:55-03:00",
+          "lastCommentAt": "2026-08-31T20:38:55-03:00"
+        },
+        {
+          "authorId": 408747255042686,
+          "name": "L.F. Herdy",
+          "username": "lfherdy",
+          "profileUrl": "https://disqus.com/by/lfherdy/",
+          "comments": 75,
+          "characters": 71061,
+          "averageCharacters": 947.5,
+          "discussions": 36,
+          "episodeShare": 15.7,
+          "share": 1.5,
+          "firstCommentAt": "2025-06-26T01:18:39-03:00",
+          "lastCommentAt": "2026-10-29T01:17:08-03:00"
+        },
+        {
+          "authorId": 256999562,
+          "name": "LUIS EDVALDO CORREA",
+          "username": "luisedvaldocorrea",
+          "profileUrl": "https://disqus.com/by/luisedvaldocorrea/",
+          "comments": 71,
+          "characters": 44104,
+          "averageCharacters": 621.2,
+          "discussions": 64,
+          "episodeShare": 27.9,
+          "share": 1.4,
+          "firstCommentAt": "2021-04-15T08:14:20-03:00",
+          "lastCommentAt": "2026-08-14T11:41:16-03:00"
+        },
+        {
+          "authorId": 342952640,
+          "name": "Chutei o Adão do Eden",
+          "username": "ewaalmeida",
+          "profileUrl": "https://disqus.com/by/ewaalmeida/",
+          "comments": 69,
+          "characters": 24158,
+          "averageCharacters": 350.1,
+          "discussions": 29,
+          "episodeShare": 12.7,
+          "share": 1.4,
+          "firstCommentAt": "2020-01-05T18:02:34-03:00",
+          "lastCommentAt": "2026-10-26T21:10:15-03:00"
+        },
+        {
+          "authorId": 164063402,
+          "name": "Fernando Lobo",
+          "username": "Ispiner",
+          "profileUrl": "https://disqus.com/by/Ispiner/",
+          "comments": 63,
+          "characters": 47050,
+          "averageCharacters": 746.8,
+          "discussions": 62,
+          "episodeShare": 27.1,
+          "share": 1.3,
+          "firstCommentAt": "2021-05-28T01:42:58-03:00",
+          "lastCommentAt": "2024-09-13T18:36:28-03:00"
+        },
+        {
+          "authorId": 379667736747832,
+          "name": "Vegano Thiago",
+          "username": "veganothiago",
+          "profileUrl": "https://disqus.com/by/veganothiago/",
+          "comments": 58,
+          "characters": 30868,
+          "averageCharacters": 532.2,
+          "discussions": 31,
+          "episodeShare": 13.5,
+          "share": 1.2,
+          "firstCommentAt": "2024-08-01T08:48:55-03:00",
+          "lastCommentAt": "2026-08-17T20:19:19-03:00"
+        },
+        {
+          "authorId": 244537035,
+          "name": "Juliana Leyva",
+          "username": "disqus_HjLIH9bEhg",
+          "profileUrl": "https://disqus.com/by/disqus_HjLIH9bEhg/",
+          "comments": 52,
+          "characters": 29134,
+          "averageCharacters": 560.3,
+          "discussions": 40,
+          "episodeShare": 17.5,
+          "share": 1,
+          "firstCommentAt": "2021-09-03T12:56:32-03:00",
+          "lastCommentAt": "2026-07-06T21:06:56-03:00"
+        },
+        {
+          "authorId": 334710804,
+          "name": "André Trapani",
+          "username": "andrtrapanipossignolo",
+          "profileUrl": "https://disqus.com/by/andrtrapanipossignolo/",
+          "comments": 51,
+          "characters": 38623,
+          "averageCharacters": 757.3,
+          "discussions": 43,
+          "episodeShare": 18.8,
+          "share": 1,
+          "firstCommentAt": "2020-09-23T12:50:24-03:00",
+          "lastCommentAt": "2026-02-26T10:09:23-03:00"
+        },
+        {
+          "authorId": 402479966,
+          "name": "Maria Clara",
+          "username": "disqus_ezcDVsZ26w",
+          "profileUrl": "https://disqus.com/by/disqus_ezcDVsZ26w/",
+          "comments": 47,
+          "characters": 58633,
+          "averageCharacters": 1247.5,
+          "discussions": 46,
+          "episodeShare": 20.1,
+          "share": 0.9,
+          "firstCommentAt": "2024-02-17T23:32:31-03:00",
+          "lastCommentAt": "2026-05-11T13:44:57-03:00"
+        },
+        {
+          "authorId": 370749326,
+          "name": "João Balieiro",
+          "username": "joobalieiroqueiroz",
+          "profileUrl": "https://disqus.com/by/joobalieiroqueiroz/",
+          "comments": 45,
+          "characters": 33300,
+          "averageCharacters": 740,
+          "discussions": 44,
+          "episodeShare": 19.2,
+          "share": 0.9,
+          "firstCommentAt": "2021-06-10T14:36:27-03:00",
+          "lastCommentAt": "2026-10-23T10:16:58-03:00"
+        },
+        {
+          "authorId": 61545989,
+          "name": "Caio Lourêncio",
+          "username": "caiolourencio",
+          "profileUrl": "https://disqus.com/by/caiolourencio/",
+          "comments": 44,
+          "characters": 26160,
+          "averageCharacters": 594.5,
+          "discussions": 42,
+          "episodeShare": 18.3,
+          "share": 0.9,
+          "firstCommentAt": "2021-09-30T15:07:00-03:00",
+          "lastCommentAt": "2026-08-31T14:32:00-03:00"
+        },
+        {
+          "authorId": 412863512044952,
+          "name": "Comentarista do Spotify",
+          "username": "comentaristadospotify",
+          "profileUrl": "https://disqus.com/by/comentaristadospotify/",
+          "comments": 44,
+          "characters": 32547,
+          "averageCharacters": 739.7,
+          "discussions": 44,
+          "episodeShare": 19.2,
+          "share": 0.9,
+          "firstCommentAt": "2025-08-11T17:16:24-03:00",
+          "lastCommentAt": "2025-12-15T13:00:13-03:00"
+        },
+        {
+          "authorId": 377317815110348,
+          "name": "Jujulili",
+          "username": "disqus_0CDohLkQgC",
+          "profileUrl": "https://disqus.com/by/disqus_0CDohLkQgC/",
+          "comments": 44,
+          "characters": 30075,
+          "averageCharacters": 683.5,
+          "discussions": 40,
+          "episodeShare": 17.5,
+          "share": 0.9,
+          "firstCommentAt": "2024-07-05T19:06:00-03:00",
+          "lastCommentAt": "2026-10-26T20:29:27-03:00"
+        },
+        {
+          "authorId": 25528527,
+          "name": "Rodrigo (Bodas)",
+          "username": "bodas",
+          "profileUrl": "https://disqus.com/by/bodas/",
+          "comments": 43,
+          "characters": 8886,
+          "averageCharacters": 206.7,
+          "discussions": 42,
+          "episodeShare": 18.3,
+          "share": 0.9,
+          "firstCommentAt": "2023-04-03T21:45:02-03:00",
+          "lastCommentAt": "2026-10-31T10:33:24-03:00"
+        },
+        {
+          "authorId": 356387110,
+          "name": "Allan Felipe",
+          "username": "disqus_aEQiAzTmKV",
+          "profileUrl": "https://disqus.com/by/disqus_aEQiAzTmKV/",
+          "comments": 41,
+          "characters": 36235,
+          "averageCharacters": 883.8,
+          "discussions": 39,
+          "episodeShare": 17,
+          "share": 0.8,
+          "firstCommentAt": "2020-09-17T18:18:40-03:00",
+          "lastCommentAt": "2026-11-02T09:14:05-03:00"
+        },
+        {
+          "authorId": 149028490,
+          "name": "Rodrigo Basso",
+          "username": "rodrigo_basso",
+          "profileUrl": "https://disqus.com/by/rodrigo_basso/",
+          "comments": 41,
+          "characters": 26461,
+          "averageCharacters": 645.4,
+          "discussions": 38,
+          "episodeShare": 16.6,
+          "share": 0.8,
+          "firstCommentAt": "2022-05-02T16:50:36-03:00",
+          "lastCommentAt": "2026-06-22T19:49:35-03:00"
+        },
+        {
+          "authorId": 399144803352739,
+          "name": "Lucas Felipe T. Ciseski.",
+          "username": "LCiseski",
+          "profileUrl": "https://disqus.com/by/LCiseski/",
+          "comments": 40,
+          "characters": 36433,
+          "averageCharacters": 910.8,
+          "discussions": 31,
+          "episodeShare": 13.5,
+          "share": 0.8,
+          "firstCommentAt": "2025-03-20T10:54:42-03:00",
+          "lastCommentAt": "2026-10-28T23:41:55-03:00"
+        },
+        {
+          "authorId": 239768210,
+          "name": "Felipe Xavier",
+          "username": "fxclsmg",
+          "profileUrl": "https://disqus.com/by/fxclsmg/",
+          "comments": 39,
+          "characters": 15182,
+          "averageCharacters": 389.3,
+          "discussions": 29,
+          "episodeShare": 12.7,
+          "share": 0.8,
+          "firstCommentAt": "2018-12-13T22:47:50-02:00",
+          "lastCommentAt": "2026-08-03T19:41:05-03:00"
+        },
+        {
+          "authorId": 22398706,
+          "name": "Tahlla Slade",
+          "username": "disqus_NOLlT1egAx",
+          "profileUrl": "https://disqus.com/by/disqus_NOLlT1egAx/",
+          "comments": 39,
+          "characters": 31842,
+          "averageCharacters": 816.5,
+          "discussions": 39,
+          "episodeShare": 17,
+          "share": 0.8,
+          "firstCommentAt": "2023-08-21T13:40:28-03:00",
+          "lastCommentAt": "2026-10-23T11:10:18-03:00"
+        }
+      ],
+      "topDiscussions": [
+        {
+          "id": 9002054581,
+          "title": "Quando Você Morre? (+16) (RPGuaxa #100)",
+          "link": "https://www.deviante.com.br/podcasts/rpguaxa/rpguaxa100/",
+          "createdAt": "2022-02-03T00:11:41-03:00",
+          "comments": 69,
+          "authors": 63
+        },
+        {
+          "id": 10623022860,
+          "title": "O Som do Espaço (RPGuaxa #200)",
+          "link": "https://www.deviante.com.br/podcasts/rpguaxa/rpguaxa200/",
+          "createdAt": "2025-09-17T23:09:47-03:00",
+          "comments": 64,
+          "authors": 52
+        },
+        {
+          "id": 9619587614,
+          "title": "O Baile (RPGuaxa #131)",
+          "link": "https://www.deviante.com.br/podcasts/rpguaxa/rpguaxa131/",
+          "createdAt": "2023-03-16T05:19:22-03:00",
+          "comments": 58,
+          "authors": 40
+        },
+        {
+          "id": 9656288980,
+          "title": "O Bom, O Mau e O Ceifador (RPGuaxa #133)",
+          "link": "https://www.deviante.com.br/podcasts/rpguaxa/rpguaxa133/",
+          "createdAt": "2023-04-13T00:03:03-03:00",
+          "comments": 58,
+          "authors": 39
+        },
+        {
+          "id": 9143295324,
+          "title": "TÉO (RPGuaxa #106)",
+          "link": "https://www.deviante.com.br/podcasts/rpguaxa/rpguaxa106/",
+          "createdAt": "2022-04-28T00:05:17-03:00",
+          "comments": 54,
+          "authors": 50
+        },
+        {
+          "id": 11047487225,
+          "title": "Pétalas e Segredos (RPGuaxa #214)",
+          "link": "https://www.deviante.com.br/podcasts/rpguaxa/rpguaxa214/",
+          "createdAt": "2026-04-09T06:07:52-03:00",
+          "comments": 53,
+          "authors": 25
+        },
+        {
+          "id": 9600205722,
+          "title": "Cinco (RPGuaxa #130)",
+          "link": "https://www.deviante.com.br/podcasts/rpguaxa/rpguaxa130/",
+          "createdAt": "2023-03-02T01:40:47-03:00",
+          "comments": 51,
+          "authors": 39
+        },
+        {
+          "id": 9417599488,
+          "title": "O Homem de Terno Carmim (RPGuaxa #121)",
+          "link": "https://www.deviante.com.br/podcasts/rpguaxa/rpguaxa121/",
+          "createdAt": "2022-10-27T00:09:50-03:00",
+          "comments": 51,
+          "authors": 38
+        },
+        {
+          "id": 10440310921,
+          "title": "Contos da Meia-Noite &#8211; Leticia (RPGuaxa #183)",
+          "link": "https://www.deviante.com.br/podcasts/rpguaxa/rpguaxa183/",
+          "createdAt": "2025-01-22T23:10:20-03:00",
+          "comments": 50,
+          "authors": 40
+        },
+        {
+          "id": 9637569985,
+          "title": "A Escola de Criaturas Adolescentes (RPGuaxa #132)",
+          "link": "https://www.deviante.com.br/podcasts/rpguaxa/rpguaxa132/",
+          "createdAt": "2023-03-30T03:07:06-03:00",
+          "comments": 49,
+          "authors": 34
+        },
+        {
+          "id": 10614486702,
+          "title": "O Túmulo de Talion (RPGuaxa #199)",
+          "link": "https://www.deviante.com.br/podcasts/rpguaxa/rpguaxa199/",
+          "createdAt": "2025-09-03T23:47:44-03:00",
+          "comments": 47,
+          "authors": 36
+        },
+        {
+          "id": 9744633410,
+          "title": "Anjos de Metal: Êxodo (RPGuaxa #140)",
+          "link": "https://www.deviante.com.br/podcasts/rpguaxa/rpguaxa140/",
+          "createdAt": "2023-06-22T00:13:21-03:00",
+          "comments": 43,
+          "authors": 34
+        },
+        {
+          "id": 10453770494,
+          "title": "A Avó, O Aniversário e As Três Gatas (RPGuaxa #184)",
+          "link": "https://www.deviante.com.br/podcasts/rpguaxa/rpguaxa184/",
+          "createdAt": "2025-02-05T23:19:49-03:00",
+          "comments": 42,
+          "authors": 37
+        },
+        {
+          "id": 10979560841,
+          "title": "Aquarela (RPGuaxa #212)",
+          "link": "https://www.deviante.com.br/podcasts/rpguaxa/rpguaxa212/",
+          "createdAt": "2026-03-12T01:11:43-03:00",
+          "comments": 41,
+          "authors": 27
+        },
+        {
+          "id": 9250611993,
+          "title": "Guerreiras Mágicas do Guaxinim (RPGuaxa #113)",
+          "link": "https://www.deviante.com.br/podcasts/rpguaxa/rpguaxa113/",
+          "createdAt": "2022-07-07T00:11:34-03:00",
+          "comments": 41,
+          "authors": 37
+        },
+        {
+          "id": 9560496007,
+          "title": "Juju Alive (+16) (RPGuaxa #128)",
+          "link": "https://www.deviante.com.br/podcasts/rpguaxa/rpguaxa128/",
+          "createdAt": "2023-02-02T00:21:55-03:00",
+          "comments": 41,
+          "authors": 31
+        },
+        {
+          "id": 9682910202,
+          "title": "O Jogo da Nadine (RPGuaxa #135)",
+          "link": "https://www.deviante.com.br/podcasts/rpguaxa/rpguaxa135/",
+          "createdAt": "2023-05-04T00:19:56-03:00",
+          "comments": 41,
+          "authors": 34
+        },
+        {
+          "id": 9708647177,
+          "title": "Os Animais da Floresta e O Grande Roubo do Bolo (RPGuaxa #138)",
+          "link": "https://www.deviante.com.br/podcasts/rpguaxa/rpguaxa138/",
+          "createdAt": "2023-05-25T04:26:49-03:00",
+          "comments": 41,
+          "authors": 33
+        },
+        {
+          "id": 9209682400,
+          "title": "A Voz da Garotinha (RPGuaxa #111)",
+          "link": "https://www.deviante.com.br/podcasts/rpguaxa/rpguaxa111/",
+          "createdAt": "2022-06-09T00:08:46-03:00",
+          "comments": 40,
+          "authors": 28
+        },
+        {
+          "id": 9780900951,
+          "title": "A Véia Embaixo da Cama (RPGuaxa #142) #OPodcastÉDelas2023!",
+          "link": "https://www.deviante.com.br/podcasts/rpguaxa/rpguaxa142/",
+          "createdAt": "2023-07-20T00:03:13-03:00",
+          "comments": 40,
+          "authors": 35
+        },
+        {
+          "id": 9727136298,
+          "title": "O Casamento, A Festa Junina e o Chifrudo (RPGuaxa #139)",
+          "link": "https://www.deviante.com.br/podcasts/rpguaxa/rpguaxa139/",
+          "createdAt": "2023-06-08T00:20:01-03:00",
+          "comments": 40,
+          "authors": 32
+        },
+        {
+          "id": 9439054582,
+          "title": "Convite de Casamento (RPGuaxa #122)",
+          "link": "https://www.deviante.com.br/podcasts/rpguaxa/rpguaxa122/",
+          "createdAt": "2022-11-09T23:44:16-03:00",
+          "comments": 39,
+          "authors": 33
+        },
+        {
+          "id": 9270466864,
+          "title": "O Som da Escuridão (RPGuaxa #114)",
+          "link": "https://www.deviante.com.br/podcasts/rpguaxa/rpguaxa114/",
+          "createdAt": "2022-07-21T00:07:31-03:00",
+          "comments": 39,
+          "authors": 33
+        },
+        {
+          "id": 10596983300,
+          "title": "O Sumiço da Galinha Viajante (RPGuaxa #197)",
+          "link": "https://www.deviante.com.br/podcasts/rpguaxa/rpguaxa197/",
+          "createdAt": "2025-08-06T23:49:45-03:00",
+          "comments": 39,
+          "authors": 36
+        },
+        {
+          "id": 10606070295,
+          "title": "Kung Fu no Ramen (RPGuaxa #198)",
+          "link": "https://www.deviante.com.br/podcasts/rpguaxa/rpguaxa198/",
+          "createdAt": "2025-08-20T23:44:30-03:00",
+          "comments": 38,
+          "authors": 29
+        }
+      ],
+      "commentsByMonth": [
+        {
+          "period": "2018-12",
+          "comments": 14,
+          "authors": 13
+        },
+        {
+          "period": "2019-01",
+          "comments": 16,
+          "authors": 11
+        },
+        {
+          "period": "2019-02",
+          "comments": 15,
+          "authors": 12
+        },
+        {
+          "period": "2019-03",
+          "comments": 35,
+          "authors": 25
+        },
+        {
+          "period": "2019-04",
+          "comments": 15,
+          "authors": 10
+        },
+        {
+          "period": "2019-05",
+          "comments": 35,
+          "authors": 27
+        },
+        {
+          "period": "2019-06",
+          "comments": 31,
+          "authors": 21
+        },
+        {
+          "period": "2019-07",
+          "comments": 16,
+          "authors": 14
+        },
+        {
+          "period": "2019-08",
+          "comments": 14,
+          "authors": 13
+        },
+        {
+          "period": "2019-09",
+          "comments": 6,
+          "authors": 6
+        },
+        {
+          "period": "2019-10",
+          "comments": 22,
+          "authors": 11
+        },
+        {
+          "period": "2019-11",
+          "comments": 25,
+          "authors": 12
+        },
+        {
+          "period": "2019-12",
+          "comments": 15,
+          "authors": 9
+        },
+        {
+          "period": "2020-01",
+          "comments": 11,
+          "authors": 8
+        },
+        {
+          "period": "2020-02",
+          "comments": 17,
+          "authors": 13
+        },
+        {
+          "period": "2020-03",
+          "comments": 5,
+          "authors": 5
+        },
+        {
+          "period": "2020-04",
+          "comments": 6,
+          "authors": 6
+        },
+        {
+          "period": "2020-05",
+          "comments": 21,
+          "authors": 17
+        },
+        {
+          "period": "2020-06",
+          "comments": 8,
+          "authors": 7
+        },
+        {
+          "period": "2020-07",
+          "comments": 3,
+          "authors": 3
+        },
+        {
+          "period": "2020-08",
+          "comments": 8,
+          "authors": 7
+        },
+        {
+          "period": "2020-09",
+          "comments": 21,
+          "authors": 18
+        },
+        {
+          "period": "2020-10",
+          "comments": 41,
+          "authors": 30
+        },
+        {
+          "period": "2020-11",
+          "comments": 27,
+          "authors": 21
+        },
+        {
+          "period": "2020-12",
+          "comments": 24,
+          "authors": 19
+        },
+        {
+          "period": "2021-01",
+          "comments": 33,
+          "authors": 30
+        },
+        {
+          "period": "2021-02",
+          "comments": 67,
+          "authors": 51
+        },
+        {
+          "period": "2021-03",
+          "comments": 64,
+          "authors": 47
+        },
+        {
+          "period": "2021-04",
+          "comments": 54,
+          "authors": 40
+        },
+        {
+          "period": "2021-05",
+          "comments": 94,
+          "authors": 66
+        },
+        {
+          "period": "2021-06",
+          "comments": 54,
+          "authors": 39
+        },
+        {
+          "period": "2021-07",
+          "comments": 43,
+          "authors": 38
+        },
+        {
+          "period": "2021-08",
+          "comments": 56,
+          "authors": 45
+        },
+        {
+          "period": "2021-09",
+          "comments": 47,
+          "authors": 36
+        },
+        {
+          "period": "2021-10",
+          "comments": 56,
+          "authors": 42
+        },
+        {
+          "period": "2021-11",
+          "comments": 63,
+          "authors": 44
+        },
+        {
+          "period": "2021-12",
+          "comments": 58,
+          "authors": 32
+        },
+        {
+          "period": "2022-01",
+          "comments": 51,
+          "authors": 35
+        },
+        {
+          "period": "2022-02",
+          "comments": 94,
+          "authors": 72
+        },
+        {
+          "period": "2022-03",
+          "comments": 62,
+          "authors": 40
+        },
+        {
+          "period": "2022-04",
+          "comments": 66,
+          "authors": 47
+        },
+        {
+          "period": "2022-05",
+          "comments": 87,
+          "authors": 53
+        },
+        {
+          "period": "2022-06",
+          "comments": 84,
+          "authors": 49
+        },
+        {
+          "period": "2022-07",
+          "comments": 80,
+          "authors": 52
+        },
+        {
+          "period": "2022-08",
+          "comments": 62,
+          "authors": 42
+        },
+        {
+          "period": "2022-09",
+          "comments": 80,
+          "authors": 59
+        },
+        {
+          "period": "2022-10",
+          "comments": 73,
+          "authors": 51
+        },
+        {
+          "period": "2022-11",
+          "comments": 72,
+          "authors": 47
+        },
+        {
+          "period": "2022-12",
+          "comments": 49,
+          "authors": 41
+        },
+        {
+          "period": "2023-01",
+          "comments": 49,
+          "authors": 35
+        },
+        {
+          "period": "2023-02",
+          "comments": 73,
+          "authors": 45
+        },
+        {
+          "period": "2023-03",
+          "comments": 139,
+          "authors": 64
+        },
+        {
+          "period": "2023-04",
+          "comments": 90,
+          "authors": 51
+        },
+        {
+          "period": "2023-05",
+          "comments": 152,
+          "authors": 76
+        },
+        {
+          "period": "2023-06",
+          "comments": 83,
+          "authors": 52
+        },
+        {
+          "period": "2023-07",
+          "comments": 70,
+          "authors": 46
+        },
+        {
+          "period": "2023-08",
+          "comments": 67,
+          "authors": 49
+        },
+        {
+          "period": "2023-09",
+          "comments": 70,
+          "authors": 47
+        },
+        {
+          "period": "2023-10",
+          "comments": 54,
+          "authors": 35
+        },
+        {
+          "period": "2023-11",
+          "comments": 34,
+          "authors": 21
+        },
+        {
+          "period": "2023-12",
+          "comments": 53,
+          "authors": 36
+        },
+        {
+          "period": "2024-01",
+          "comments": 43,
+          "authors": 26
+        },
+        {
+          "period": "2024-02",
+          "comments": 59,
+          "authors": 39
+        },
+        {
+          "period": "2024-03",
+          "comments": 73,
+          "authors": 52
+        },
+        {
+          "period": "2024-04",
+          "comments": 59,
+          "authors": 42
+        },
+        {
+          "period": "2024-05",
+          "comments": 45,
+          "authors": 30
+        },
+        {
+          "period": "2024-06",
+          "comments": 38,
+          "authors": 25
+        },
+        {
+          "period": "2024-07",
+          "comments": 41,
+          "authors": 27
+        },
+        {
+          "period": "2024-08",
+          "comments": 48,
+          "authors": 26
+        },
+        {
+          "period": "2024-09",
+          "comments": 71,
+          "authors": 47
+        },
+        {
+          "period": "2024-10",
+          "comments": 47,
+          "authors": 31
+        },
+        {
+          "period": "2024-11",
+          "comments": 63,
+          "authors": 37
+        },
+        {
+          "period": "2024-12",
+          "comments": 53,
+          "authors": 38
+        },
+        {
+          "period": "2025-01",
+          "comments": 76,
+          "authors": 48
+        },
+        {
+          "period": "2025-02",
+          "comments": 75,
+          "authors": 52
+        },
+        {
+          "period": "2025-03",
+          "comments": 55,
+          "authors": 41
+        },
+        {
+          "period": "2025-04",
+          "comments": 43,
+          "authors": 31
+        },
+        {
+          "period": "2025-05",
+          "comments": 42,
+          "authors": 28
+        },
+        {
+          "period": "2025-06",
+          "comments": 62,
+          "authors": 38
+        },
+        {
+          "period": "2025-07",
+          "comments": 53,
+          "authors": 37
+        },
+        {
+          "period": "2025-08",
+          "comments": 111,
+          "authors": 48
+        },
+        {
+          "period": "2025-09",
+          "comments": 113,
+          "authors": 63
+        },
+        {
+          "period": "2025-10",
+          "comments": 81,
+          "authors": 45
+        },
+        {
+          "period": "2025-11",
+          "comments": 53,
+          "authors": 37
+        },
+        {
+          "period": "2025-12",
+          "comments": 53,
+          "authors": 31
+        },
+        {
+          "period": "2026-01",
+          "comments": 38,
+          "authors": 24
+        },
+        {
+          "period": "2026-02",
+          "comments": 58,
+          "authors": 37
+        },
+        {
+          "period": "2026-03",
+          "comments": 78,
+          "authors": 36
+        },
+        {
+          "period": "2026-04",
+          "comments": 77,
+          "authors": 34
+        },
+        {
+          "period": "2026-05",
+          "comments": 51,
+          "authors": 30
+        },
+        {
+          "period": "2026-06",
+          "comments": 53,
+          "authors": 29
+        },
+        {
+          "period": "2026-07",
+          "comments": 66,
+          "authors": 37
+        },
+        {
+          "period": "2026-08",
+          "comments": 67,
+          "authors": 27
+        },
+        {
+          "period": "2026-09",
+          "comments": 54,
+          "authors": 32
+        },
+        {
+          "period": "2026-10",
+          "comments": 63,
+          "authors": 34
+        },
+        {
+          "period": "2026-11",
+          "comments": 10,
+          "authors": 8
+        }
+      ],
+      "topWords": [
+        {
+          "word": "episódio",
+          "count": 5920,
+          "authors": 592
+        },
+        {
+          "word": "guaxa",
+          "count": 4660,
+          "authors": 593
+        },
+        {
+          "word": "boa",
+          "count": 1544,
+          "authors": 300
+        },
+        {
+          "word": "bom",
+          "count": 1417,
+          "authors": 324
+        },
+        {
+          "word": "parabéns",
+          "count": 1373,
+          "authors": 325
+        },
+        {
+          "word": "dia",
+          "count": 1324,
+          "authors": 295
+        },
+        {
+          "word": "jogadores",
+          "count": 1321,
+          "authors": 323
+        },
+        {
+          "word": "olá",
+          "count": 1309,
+          "authors": 326
+        },
+        {
+          "word": "noite",
+          "count": 1168,
+          "authors": 240
+        },
+        {
+          "word": "episódios",
+          "count": 1103,
+          "authors": 353
+        },
+        {
+          "word": "tempo",
+          "count": 1061,
+          "authors": 299
+        },
+        {
+          "word": "rpguaxa",
+          "count": 1055,
+          "authors": 331
+        },
+        {
+          "word": "incrível",
+          "count": 1044,
+          "authors": 261
+        },
+        {
+          "word": "aventura",
+          "count": 1001,
+          "authors": 257
+        },
+        {
+          "word": "vez",
+          "count": 975,
+          "authors": 322
+        },
+        {
+          "word": "ouvir",
+          "count": 932,
+          "authors": 302
+        },
+        {
+          "word": "mundo",
+          "count": 931,
+          "authors": 240
+        },
+        {
+          "word": "história",
+          "count": 927,
+          "authors": 228
+        },
+        {
+          "word": "final",
+          "count": 852,
+          "authors": 281
+        },
+        {
+          "word": "pessoas",
+          "count": 787,
+          "authors": 210
+        },
+        {
+          "word": "guaxaverso",
+          "count": 781,
+          "authors": 260
+        },
+        {
+          "word": "vida",
+          "count": 767,
+          "authors": 235
+        },
+        {
+          "word": "abraço",
+          "count": 756,
+          "authors": 210
+        },
+        {
+          "word": "personagens",
+          "count": 713,
+          "authors": 218
+        },
+        {
+          "word": "demais",
+          "count": 688,
+          "authors": 176
+        },
+        {
+          "word": "obrigado",
+          "count": 681,
+          "authors": 239
+        },
+        {
+          "word": "grande",
+          "count": 671,
+          "authors": 203
+        },
+        {
+          "word": "maravilhoso",
+          "count": 616,
+          "authors": 222
+        },
+        {
+          "word": "biscoitos",
+          "count": 606,
+          "authors": 163
+        },
+        {
+          "word": "desse",
+          "count": 606,
+          "authors": 222
+        },
+        {
+          "word": "comentário",
+          "count": 605,
+          "authors": 232
+        },
+        {
+          "word": "todes",
+          "count": 604,
+          "authors": 117
+        },
+        {
+          "word": "espero",
+          "count": 599,
+          "authors": 216
+        },
+        {
+          "word": "parte",
+          "count": 597,
+          "authors": 224
+        },
+        {
+          "word": "guaxinim",
+          "count": 591,
+          "authors": 210
+        },
+        {
+          "word": "personagem",
+          "count": 588,
+          "authors": 198
+        },
+        {
+          "word": "forma",
+          "count": 548,
+          "authors": 186
+        },
+        {
+          "word": "amei",
+          "count": 547,
+          "authors": 153
+        },
+        {
+          "word": "alguma",
+          "count": 545,
+          "authors": 186
+        },
+        {
+          "word": "deixar",
+          "count": 544,
+          "authors": 221
+        },
+        {
+          "word": "queria",
+          "count": 509,
+          "authors": 227
+        },
+        {
+          "word": "dessa",
+          "count": 507,
+          "authors": 189
+        },
+        {
+          "word": "fim",
+          "count": 494,
+          "authors": 170
+        },
+        {
+          "word": "zorzal",
+          "count": 493,
+          "authors": 130
+        },
+        {
+          "word": "perguntas",
+          "count": 482,
+          "authors": 173
+        },
+        {
+          "word": "momento",
+          "count": 474,
+          "authors": 178
+        },
+        {
+          "word": "comentários",
+          "count": 472,
+          "authors": 162
+        },
+        {
+          "word": "mestre",
+          "count": 465,
+          "authors": 190
+        },
+        {
+          "word": "comentar",
+          "count": 457,
+          "authors": 204
+        },
+        {
+          "word": "algum",
+          "count": 453,
+          "authors": 191
+        },
+        {
+          "word": "tarde",
+          "count": 446,
+          "authors": 127
+        },
+        {
+          "word": "meio",
+          "count": 439,
+          "authors": 186
+        },
+        {
+          "word": "edição",
+          "count": 438,
+          "authors": 155
+        },
+        {
+          "word": "primeiro",
+          "count": 426,
+          "authors": 221
+        },
+        {
+          "word": "adorei",
+          "count": 425,
+          "authors": 146
+        },
+        {
+          "word": "nem",
+          "count": 422,
+          "authors": 172
+        },
+        {
+          "word": "corvo",
+          "count": 409,
+          "authors": 169
+        },
+        {
+          "word": "podcast",
+          "count": 409,
+          "authors": 223
+        },
+        {
+          "word": "feliz",
+          "count": 408,
+          "authors": 160
+        },
+        {
+          "word": "projeto",
+          "count": 403,
+          "authors": 198
+        },
+        {
+          "word": "convidade",
+          "count": 400,
+          "authors": 101
+        },
+        {
+          "word": "voz",
+          "count": 396,
+          "authors": 142
+        },
+        {
+          "word": "histórias",
+          "count": 391,
+          "authors": 171
+        },
+        {
+          "word": "pergunta",
+          "count": 391,
+          "authors": 163
+        },
+        {
+          "word": "nome",
+          "count": 388,
+          "authors": 179
+        },
+        {
+          "word": "realmente",
+          "count": 386,
+          "authors": 149
+        },
+        {
+          "word": "envolvidos",
+          "count": 382,
+          "authors": 156
+        },
+        {
+          "word": "taberna",
+          "count": 370,
+          "authors": 124
+        },
+        {
+          "word": "episodio",
+          "count": 366,
+          "authors": 114
+        },
+        {
+          "word": "novo",
+          "count": 363,
+          "authors": 158
+        },
+        {
+          "word": "certo",
+          "count": 360,
+          "authors": 160
+        },
+        {
+          "word": "ano",
+          "count": 359,
+          "authors": 161
+        },
+        {
+          "word": "próxima",
+          "count": 358,
+          "authors": 103
+        },
+        {
+          "word": "amo",
+          "count": 355,
+          "authors": 129
+        },
+        {
+          "word": "shelly",
+          "count": 355,
+          "authors": 112
+        },
+        {
+          "word": "incríveis",
+          "count": 354,
+          "authors": 140
+        },
+        {
+          "word": "trabalho",
+          "count": 349,
+          "authors": 195
+        },
+        {
+          "word": "rpg",
+          "count": 347,
+          "authors": 177
+        },
+        {
+          "word": "ouvi",
+          "count": 345,
+          "authors": 180
+        },
+        {
+          "word": "primeira",
+          "count": 340,
+          "authors": 228
+        },
+        {
+          "word": "obrigada",
+          "count": 336,
+          "authors": 76
+        },
+        {
+          "word": "existe",
+          "count": 335,
+          "authors": 159
+        },
+        {
+          "word": "guaxomunidade",
+          "count": 334,
+          "authors": 97
+        },
+        {
+          "word": "universo",
+          "count": 330,
+          "authors": 147
+        },
+        {
+          "word": "anos",
+          "count": 325,
+          "authors": 175
+        },
+        {
+          "word": "grupo",
+          "count": 322,
+          "authors": 132
+        },
+        {
+          "word": "jogar",
+          "count": 319,
+          "authors": 134
+        },
+        {
+          "word": "spoilers",
+          "count": 318,
+          "authors": 97
+        },
+        {
+          "word": "vezes",
+          "count": 317,
+          "authors": 166
+        },
+        {
+          "word": "agradecer",
+          "count": 316,
+          "authors": 161
+        },
+        {
+          "word": "futuro",
+          "count": 313,
+          "authors": 98
+        },
+        {
+          "word": "coração",
+          "count": 304,
+          "authors": 127
+        },
+        {
+          "word": "poderia",
+          "count": 301,
+          "authors": 144
+        },
+        {
+          "word": "algumas",
+          "count": 298,
+          "authors": 146
+        },
+        {
+          "word": "morte",
+          "count": 296,
+          "authors": 122
+        },
+        {
+          "word": "hora",
+          "count": 294,
+          "authors": 137
+        },
+        {
+          "word": "abraços",
+          "count": 292,
+          "authors": 115
+        },
+        {
+          "word": "ouvindo",
+          "count": 292,
+          "authors": 152
+        },
+        {
+          "word": "pessoa",
+          "count": 291,
+          "authors": 140
+        },
+        {
+          "word": "caso",
+          "count": 288,
+          "authors": 138
+        }
+      ],
+      "rareWords": [
+        {
+          "word": "yohohohohohohohohohohoho",
+          "count": 1,
+          "authors": 1
+        },
+        {
+          "word": "geremiasoelfoquenaomias",
+          "count": 1,
+          "authors": 1
+        },
+        {
+          "word": "kashuashuashuashuashua",
+          "count": 1,
+          "authors": 1
+        },
+        {
+          "word": "paranguaricutimiruaru",
+          "count": 1,
+          "authors": 1
+        },
+        {
+          "word": "cacajwhazjwpqnakqoq",
+          "count": 1,
+          "authors": 1
+        },
+        {
+          "word": "comentaristaspotify",
+          "count": 1,
+          "authors": 1
+        },
+        {
+          "word": "extraordinariamente",
+          "count": 1,
+          "authors": 1
+        },
+        {
+          "word": "hahahhahahahahahjaa",
+          "count": 1,
+          "authors": 1
+        },
+        {
+          "word": "indiscriminadamente",
+          "count": 1,
+          "authors": 1
+        },
+        {
+          "word": "revolucionárioxinim",
+          "count": 1,
+          "authors": 1
+        },
+        {
+          "word": "desafortunadamente",
+          "count": 1,
+          "authors": 1
+        },
+        {
+          "word": "guaxoláinfinitodes",
+          "count": 1,
+          "authors": 1
+        },
+        {
+          "word": "institucionalidade",
+          "count": 1,
+          "authors": 1
+        },
+        {
+          "word": "instrumentalização",
+          "count": 1,
+          "authors": 1
+        },
+        {
+          "word": "kashuashuashuashua",
+          "count": 1,
+          "authors": 1
+        },
+        {
+          "word": "sensaciofuckingnal",
+          "count": 1,
+          "authors": 1
+        },
+        {
+          "word": "tatatatatatataravo",
+          "count": 1,
+          "authors": 1
+        },
+        {
+          "word": "amaldiçoantemente",
+          "count": 1,
+          "authors": 1
+        },
+        {
+          "word": "audiodramatizaçao",
+          "count": 1,
+          "authors": 1
+        },
+        {
+          "word": "contemporaneidade",
+          "count": 1,
+          "authors": 1
+        },
+        {
+          "word": "envergonhadamente",
+          "count": 1,
+          "authors": 1
+        },
+        {
+          "word": "espetaculincrível",
+          "count": 1,
+          "authors": 1
+        },
+        {
+          "word": "extraoficialmente",
+          "count": 1,
+          "authors": 1
+        },
+        {
+          "word": "guaxaespectadores",
+          "count": 1,
+          "authors": 1
+        },
+        {
+          "word": "guaxaexploradores",
+          "count": 1,
+          "authors": 1
+        },
+        {
+          "word": "guaxogadorvindado",
+          "count": 1,
+          "authors": 1
+        },
+        {
+          "word": "incomparavelmente",
+          "count": 1,
+          "authors": 1
+        },
+        {
+          "word": "independentemente",
+          "count": 1,
+          "authors": 1
+        },
+        {
+          "word": "inindentificaveis",
+          "count": 1,
+          "authors": 1
+        },
+        {
+          "word": "ininterruptamente",
+          "count": 1,
+          "authors": 1
+        },
+        {
+          "word": "insuportavelmente",
+          "count": 1,
+          "authors": 1
+        },
+        {
+          "word": "inteligentíssimas",
+          "count": 1,
+          "authors": 1
+        },
+        {
+          "word": "interdimensionais",
+          "count": 1,
+          "authors": 1
+        },
+        {
+          "word": "interessantissimo",
+          "count": 1,
+          "authors": 1
+        },
+        {
+          "word": "irresistivelmente",
+          "count": 1,
+          "authors": 1
+        },
+        {
+          "word": "kakakakakaakkaakj",
+          "count": 1,
+          "authors": 1
+        },
+        {
+          "word": "multidimensionais",
+          "count": 1,
+          "authors": 1
+        },
+        {
+          "word": "proporcionalidade",
+          "count": 1,
+          "authors": 1
+        },
+        {
+          "word": "rpguaxomunológico",
+          "count": 1,
+          "authors": 1
+        },
+        {
+          "word": "satisfatoriamente",
+          "count": 1,
+          "authors": 1
+        }
+      ],
+      "wordLengths": [
+        {
+          "length": 3,
+          "words": 705,
+          "occurrences": 15553,
+          "rareWords": 286
+        },
+        {
+          "length": 4,
+          "words": 1597,
+          "occurrences": 21893,
+          "rareWords": 643
+        },
+        {
+          "length": 5,
+          "words": 2899,
+          "occurrences": 47408,
+          "rareWords": 1176
+        },
+        {
+          "length": 6,
+          "words": 3593,
+          "occurrences": 38519,
+          "rareWords": 1449
+        },
+        {
+          "length": 7,
+          "words": 4415,
+          "occurrences": 35837,
+          "rareWords": 2016
+        },
+        {
+          "length": 8,
+          "words": 4414,
+          "occurrences": 40918,
+          "rareWords": 2207
+        },
+        {
+          "length": 9,
+          "words": 3526,
+          "occurrences": 22241,
+          "rareWords": 1868
+        },
+        {
+          "length": 10,
+          "words": 2811,
+          "occurrences": 13075,
+          "rareWords": 1604
+        },
+        {
+          "length": 11,
+          "words": 1810,
+          "occurrences": 8670,
+          "rareWords": 1119
+        },
+        {
+          "length": 12,
+          "words": 1128,
+          "occurrences": 4811,
+          "rareWords": 694
+        },
+        {
+          "length": 13,
+          "words": 553,
+          "occurrences": 2521,
+          "rareWords": 367
+        },
+        {
+          "length": 14,
+          "words": 300,
+          "occurrences": 935,
+          "rareWords": 197
+        },
+        {
+          "length": 15,
+          "words": 135,
+          "occurrences": 336,
+          "rareWords": 94
+        },
+        {
+          "length": 16,
+          "words": 66,
+          "occurrences": 131,
+          "rareWords": 50
+        },
+        {
+          "length": 17,
+          "words": 34,
+          "occurrences": 45,
+          "rareWords": 26
+        },
+        {
+          "length": 18,
+          "words": 10,
+          "occurrences": 24,
+          "rareWords": 7
+        },
+        {
+          "length": 19,
+          "words": 6,
+          "occurrences": 6,
+          "rareWords": 6
+        },
+        {
+          "length": 21,
+          "words": 1,
+          "occurrences": 1,
+          "rareWords": 1
+        },
+        {
+          "length": 22,
+          "words": 1,
+          "occurrences": 1,
+          "rareWords": 1
+        },
+        {
+          "length": 23,
+          "words": 1,
+          "occurrences": 1,
+          "rareWords": 1
+        },
+        {
+          "length": 24,
+          "words": 1,
+          "occurrences": 1,
+          "rareWords": 1
+        }
+      ],
+      "hashtags": [
+        {
+          "tag": "#BobaFree",
+          "count": 4,
+          "authors": 1
+        },
+        {
+          "tag": "#podvircorvo",
+          "count": 4,
+          "authors": 4
+        },
+        {
+          "tag": "#voltaBoba",
+          "count": 4,
+          "authors": 1
+        },
+        {
+          "tag": "#NetflixGravaRPGuaxa",
+          "count": 3,
+          "authors": 1
+        },
+        {
+          "tag": "#teamKelly",
+          "count": 3,
+          "authors": 3
+        },
+        {
+          "tag": "#ArrozDeFesta",
+          "count": 2,
+          "authors": 1
+        },
+        {
+          "tag": "#MeDeixaSonhar",
+          "count": 2,
+          "authors": 1
+        },
+        {
+          "tag": "#TodosComemora",
+          "count": 2,
+          "authors": 1
+        },
+        {
+          "tag": "#AdamVive",
+          "count": 1,
+          "authors": 1
+        },
+        {
+          "tag": "#AlwaysLookOnTheBrightSideOfLife",
+          "count": 1,
+          "authors": 1
+        },
+        {
+          "tag": "#AmamosShelly",
+          "count": 1,
+          "authors": 1
+        },
+        {
+          "tag": "#AOrdemdoPrimeiroFilho_Parte2",
+          "count": 1,
+          "authors": 1
+        },
+        {
+          "tag": "#BobaLivre",
+          "count": 1,
+          "authors": 1
+        },
+        {
+          "tag": "#caotico",
+          "count": 1,
+          "authors": 1
+        },
+        {
+          "tag": "#chamaeu",
+          "count": 1,
+          "authors": 1
+        },
+        {
+          "tag": "#Châniapoderosa",
+          "count": 1,
+          "authors": 1
+        },
+        {
+          "tag": "#cobrasroxas",
+          "count": 1,
+          "authors": 1
+        },
+        {
+          "tag": "#da",
+          "count": 1,
+          "authors": 1
+        },
+        {
+          "tag": "#DedãoDeSalsicha",
+          "count": 1,
+          "authors": 1
+        },
+        {
+          "tag": "#DeOFrangoDeLidia",
+          "count": 1,
+          "authors": 1
+        }
+      ],
+      "emojis": [
+        {
+          "emoji": "❤️",
+          "count": 238,
+          "authors": 57
+        },
+        {
+          "emoji": "\uD83D\uDE02",
+          "count": 188,
+          "authors": 38
+        },
+        {
+          "emoji": "\uD83E\uDD23",
+          "count": 161,
+          "authors": 26
+        },
+        {
+          "emoji": "\uD83D\uDC40",
+          "count": 110,
+          "authors": 38
+        },
+        {
+          "emoji": "\uD83D\uDC9C",
+          "count": 95,
+          "authors": 14
+        },
+        {
+          "emoji": "\uD83E\uDD70",
+          "count": 68,
+          "authors": 20
+        },
+        {
+          "emoji": "\uD83D\uDE05",
+          "count": 61,
+          "authors": 33
+        },
+        {
+          "emoji": "\uD83D\uDE0D",
+          "count": 59,
+          "authors": 24
+        },
+        {
+          "emoji": "\uD83D\uDE01",
+          "count": 55,
+          "authors": 24
+        },
+        {
+          "emoji": "\uD83D\uDC4F",
+          "count": 53,
+          "authors": 9
+        },
+        {
+          "emoji": "\uD83D\uDE18",
+          "count": 50,
+          "authors": 14
+        },
+        {
+          "emoji": "\uD83D\uDC4F\uD83C\uDFFB",
+          "count": 46,
+          "authors": 5
+        },
+        {
+          "emoji": "\uD83C\uDF6A",
+          "count": 41,
+          "authors": 10
+        },
+        {
+          "emoji": "\uD83E\uDD2D",
+          "count": 38,
+          "authors": 13
+        },
+        {
+          "emoji": "\uD83D\uDE2D",
+          "count": 37,
+          "authors": 16
+        },
+        {
+          "emoji": "\uD83E\uDD9D",
+          "count": 34,
+          "authors": 13
+        },
+        {
+          "emoji": "\uD83E\uDD73",
+          "count": 33,
+          "authors": 14
+        },
+        {
+          "emoji": "\uD83D\uDC95",
+          "count": 32,
+          "authors": 8
+        },
+        {
+          "emoji": "\uD83E\uDD14",
+          "count": 32,
+          "authors": 15
+        },
+        {
+          "emoji": "\uD83C\uDF89",
+          "count": 31,
+          "authors": 11
+        },
+        {
+          "emoji": "\uD83D\uDE09",
+          "count": 30,
+          "authors": 11
+        },
+        {
+          "emoji": "\uD83D\uDE4C\uD83C\uDFFB",
+          "count": 30,
+          "authors": 1
+        },
+        {
+          "emoji": "\uD83E\uDD0D",
+          "count": 30,
+          "authors": 6
+        },
+        {
+          "emoji": "\uD83E\uDD29",
+          "count": 29,
+          "authors": 11
+        }
+      ],
+      "vocabularyByYear": [
+        {
+          "year": 2018,
+          "words": 173,
+          "newWords": 173,
+          "lostWords": 0,
+          "seasonWords": [
+            {
+              "word": "cheiram",
+              "count": 2,
+              "authors": 1
+            },
+            {
+              "word": "amêndoas",
+              "count": 1,
+              "authors": 1
+            },
+            {
+              "word": "amônia",
+              "count": 1,
+              "authors": 1
+            },
+            {
+              "word": "barbado",
+              "count": 1,
+              "authors": 1
+            },
+            {
+              "word": "caí",
+              "count": 1,
+              "authors": 1
+            },
+            {
+              "word": "colisão",
+              "count": 1,
+              "authors": 1
+            },
+            {
+              "word": "excepicional",
+              "count": 1,
+              "authors": 1
+            },
+            {
+              "word": "huahuhaha",
+              "count": 1,
+              "authors": 1
+            }
+          ]
+        },
+        {
+          "year": 2019,
+          "words": 1731,
+          "newWords": 1650,
+          "lostWords": 92,
+          "seasonWords": [
+            {
+              "word": "javali",
+              "count": 4,
+              "authors": 3
+            },
+            {
+              "word": "cavaquinho",
+              "count": 3,
+              "authors": 3
+            },
+            {
+              "word": "debb",
+              "count": 3,
+              "authors": 1
+            },
+            {
+              "word": "homão",
+              "count": 3,
+              "authors": 2
+            },
+            {
+              "word": "vanda",
+              "count": 3,
+              "authors": 2
+            },
+            {
+              "word": "cinderella",
+              "count": 2,
+              "authors": 2
+            },
+            {
+              "word": "crhisllane",
+              "count": 2,
+              "authors": 1
+            },
+            {
+              "word": "farofinha",
+              "count": 2,
+              "authors": 2
+            }
+          ]
+        },
+        {
+          "year": 2020,
+          "words": 1938,
+          "newWords": 1342,
+          "lostWords": 1154,
+          "seasonWords": [
+            {
+              "word": "esmeralda",
+              "count": 4,
+              "authors": 4
+            },
+            {
+              "word": "nadador",
+              "count": 4,
+              "authors": 2
+            },
+            {
+              "word": "nativos",
+              "count": 4,
+              "authors": 2
+            },
+            {
+              "word": "costeira",
+              "count": 3,
+              "authors": 3
+            },
+            {
+              "word": "lâmia",
+              "count": 3,
+              "authors": 2
+            },
+            {
+              "word": "abduzido",
+              "count": 2,
+              "authors": 2
+            },
+            {
+              "word": "aia",
+              "count": 2,
+              "authors": 2
+            },
+            {
+              "word": "aucantarilha",
+              "count": 2,
+              "authors": 1
+            }
+          ]
+        },
+        {
+          "year": 2021,
+          "words": 8563,
+          "newWords": 6544,
+          "lostWords": 578,
+          "seasonWords": [
+            {
+              "word": "lester",
+              "count": 14,
+              "authors": 8
+            },
+            {
+              "word": "scps",
+              "count": 12,
+              "authors": 1
+            },
+            {
+              "word": "dentista",
+              "count": 8,
+              "authors": 6
+            },
+            {
+              "word": "sally",
+              "count": 7,
+              "authors": 5
+            },
+            {
+              "word": "gary",
+              "count": 6,
+              "authors": 5
+            },
+            {
+              "word": "jaca",
+              "count": 6,
+              "authors": 4
+            },
+            {
+              "word": "nikki",
+              "count": 6,
+              "authors": 5
+            },
+            {
+              "word": "pelicano",
+              "count": 6,
+              "authors": 4
+            }
+          ]
+        },
+        {
+          "year": 2022,
+          "words": 10608,
+          "newWords": 5656,
+          "lostWords": 3967,
+          "seasonWords": [
+            {
+              "word": "narciso",
+              "count": 28,
+              "authors": 16
+            },
+            {
+              "word": "amelie",
+              "count": 21,
+              "authors": 4
+            },
+            {
+              "word": "margaux",
+              "count": 19,
+              "authors": 2
+            },
+            {
+              "word": "morgana",
+              "count": 15,
+              "authors": 13
+            },
+            {
+              "word": "field",
+              "count": 10,
+              "authors": 7
+            },
+            {
+              "word": "gulliver",
+              "count": 9,
+              "authors": 4
+            },
+            {
+              "word": "salomé",
+              "count": 9,
+              "authors": 7
+            },
+            {
+              "word": "zinha",
+              "count": 9,
+              "authors": 8
+            }
+          ]
+        },
+        {
+          "year": 2023,
+          "words": 10368,
+          "newWords": 4277,
+          "lostWords": 5545,
+          "seasonWords": [
+            {
+              "word": "haruka",
+              "count": 14,
+              "authors": 11
+            },
+            {
+              "word": "guá",
+              "count": 12,
+              "authors": 1
+            },
+            {
+              "word": "nana",
+              "count": 12,
+              "authors": 2
+            },
+            {
+              "word": "avante",
+              "count": 11,
+              "authors": 2
+            },
+            {
+              "word": "lagartixa",
+              "count": 10,
+              "authors": 2
+            },
+            {
+              "word": "roxandra",
+              "count": 10,
+              "authors": 3
+            },
+            {
+              "word": "grumm",
+              "count": 9,
+              "authors": 6
+            },
+            {
+              "word": "mofo",
+              "count": 9,
+              "authors": 8
+            }
+          ]
+        },
+        {
+          "year": 2024,
+          "words": 8455,
+          "newWords": 2583,
+          "lostWords": 5947,
+          "seasonWords": [
+            {
+              "word": "karinen",
+              "count": 17,
+              "authors": 7
+            },
+            {
+              "word": "rasturak",
+              "count": 10,
+              "authors": 6
+            },
+            {
+              "word": "urna",
+              "count": 10,
+              "authors": 7
+            },
+            {
+              "word": "noivas",
+              "count": 8,
+              "authors": 7
+            },
+            {
+              "word": "sniff",
+              "count": 8,
+              "authors": 1
+            },
+            {
+              "word": "tuluiazul",
+              "count": 8,
+              "authors": 2
+            },
+            {
+              "word": "rangel",
+              "count": 7,
+              "authors": 2
+            },
+            {
+              "word": "winston",
+              "count": 7,
+              "authors": 3
+            }
+          ]
+        },
+        {
+          "year": 2025,
+          "words": 11194,
+          "newWords": 3711,
+          "lostWords": 3859,
+          "seasonWords": [
+            {
+              "word": "coletados",
+              "count": 43,
+              "authors": 1
+            },
+            {
+              "word": "dizeres",
+              "count": 43,
+              "authors": 1
+            },
+            {
+              "word": "lobas",
+              "count": 22,
+              "authors": 12
+            },
+            {
+              "word": "response",
+              "count": 19,
+              "authors": 1
+            },
+            {
+              "word": "símbolos",
+              "count": 18,
+              "authors": 2
+            },
+            {
+              "word": "desmots",
+              "count": 17,
+              "authors": 1
+            },
+            {
+              "word": "georges",
+              "count": 17,
+              "authors": 1
+            },
+            {
+              "word": "acoplada",
+              "count": 16,
+              "authors": 1
+            }
+          ]
+        },
+        {
+          "year": 2026,
+          "words": 8287,
+          "newWords": 2070,
+          "lostWords": 6666,
+          "seasonWords": [
+            {
+              "word": "nate",
+              "count": 67,
+              "authors": 30
+            },
+            {
+              "word": "guaxomon",
+              "count": 30,
+              "authors": 12
+            },
+            {
+              "word": "varamir",
+              "count": 13,
+              "authors": 10
+            },
+            {
+              "word": "profano",
+              "count": 12,
+              "authors": 9
+            },
+            {
+              "word": "arnaldo",
+              "count": 9,
+              "authors": 6
+            },
+            {
+              "word": "comunismo",
+              "count": 9,
+              "authors": 8
+            },
+            {
+              "word": "lyra",
+              "count": 9,
+              "authors": 4
+            },
+            {
+              "word": "deck",
+              "count": 8,
+              "authors": 7
+            }
+          ]
+        }
+      ],
+      "longestComment": {
+        "authorName": "Caio Cruz",
+        "username": "caiofeitosadealmeida",
+        "profileUrl": "https://disqus.com/by/caiofeitosadealmeida/",
+        "characters": 8133,
+        "createdAt": "2022-06-09T07:36:08-03:00",
+        "discussionTitle": "A Voz da Garotinha (RPGuaxa #111)",
+        "discussionLink": "https://www.deviante.com.br/podcasts/rpguaxa/rpguaxa111/",
+        "excerpt": "Boa noite. Sei que é estranho vindo de mim, o \"teorista doido\" da taberna, mas sem teorias de Guaxaverso e nem ligações entre mundos hoje. Como começar a explicar meu sentimento com esse episódio tão impactante e surpree…"
+      },
+      "shortestComment": {
+        "authorName": "MarceloGuaxinim",
+        "username": "marceloguaxinim",
+        "profileUrl": "https://disqus.com/by/marceloguaxinim/",
+        "characters": 2,
+        "createdAt": "2019-05-30T11:21:01-03:00",
+        "discussionTitle": "Os Cavaleiros do Bicho e a Cinderela do Baile (RPGuaxa #20)",
+        "discussionLink": "https://www.deviante.com.br/podcasts/rpguaxa/rpguaxa20/",
+        "excerpt": "s2"
+      },
+      "firstCommenters": [
+        {
+          "authorId": 356741850,
+          "name": "Jorge Marcos Santos Silva",
+          "username": "jorgemarcossantossilva",
+          "profileUrl": "https://disqus.com/by/jorgemarcossantossilva/",
+          "count": 72,
+          "share": 32.6
+        },
+        {
+          "authorId": 399144803352739,
+          "name": "Lucas Felipe T. Ciseski.",
+          "username": "LCiseski",
+          "profileUrl": "https://disqus.com/by/LCiseski/",
+          "count": 25,
+          "share": 11.3
+        },
+        {
+          "authorId": 173188691,
+          "name": "Todê Zistino",
+          "username": "disqus_5DZEogKOnp",
+          "profileUrl": "https://disqus.com/by/disqus_5DZEogKOnp/",
+          "count": 13,
+          "share": 5.9
+        },
+        {
+          "authorId": 202739587,
+          "name": "Leandro Gomes",
+          "username": "leandroprim",
+          "profileUrl": "https://disqus.com/by/leandroprim/",
+          "count": 5,
+          "share": 2.3
+        },
+        {
+          "authorId": 113883313,
+          "name": "Allen, Redhand",
+          "username": "AllenSousa",
+          "profileUrl": "https://disqus.com/by/AllenSousa/",
+          "count": 4,
+          "share": 1.8
+        },
+        {
+          "authorId": 168880434,
+          "name": "Fabíola",
+          "username": "disqus_mMjv7khE8l",
+          "profileUrl": "https://disqus.com/by/disqus_mMjv7khE8l/",
+          "count": 4,
+          "share": 1.8
+        },
+        {
+          "authorId": 239768210,
+          "name": "Felipe Xavier",
+          "username": "fxclsmg",
+          "profileUrl": "https://disqus.com/by/fxclsmg/",
+          "count": 3,
+          "share": 1.4
+        },
+        {
+          "authorId": 288203241,
+          "name": "Mikio Uyeda",
+          "username": "mikiouyeda",
+          "profileUrl": "https://disqus.com/by/mikiouyeda/",
+          "count": 3,
+          "share": 1.4
+        },
+        {
+          "authorId": 156888308,
+          "name": "Rodrigo Azevedo",
+          "username": "disqus_9CTYzDVWIq",
+          "profileUrl": "https://disqus.com/by/disqus_9CTYzDVWIq/",
+          "count": 3,
+          "share": 1.4
+        },
+        {
+          "authorId": 379667736747832,
+          "name": "Vegano Thiago",
+          "username": "veganothiago",
+          "profileUrl": "https://disqus.com/by/veganothiago/",
+          "count": 3,
+          "share": 1.4
+        }
+      ],
+      "lastCommenters": [
+        {
+          "authorId": 412863512044952,
+          "name": "Comentarista do Spotify",
+          "username": "comentaristadospotify",
+          "profileUrl": "https://disqus.com/by/comentaristadospotify/",
+          "count": 36,
+          "share": 16.3
+        },
+        {
+          "authorId": 173188691,
+          "name": "Todê Zistino",
+          "username": "disqus_5DZEogKOnp",
+          "profileUrl": "https://disqus.com/by/disqus_5DZEogKOnp/",
+          "count": 10,
+          "share": 4.5
+        },
+        {
+          "authorId": 350201366,
+          "name": "Jean Macedo",
+          "username": "disqus_DcjUFZAYET",
+          "profileUrl": "https://disqus.com/by/disqus_DcjUFZAYET/",
+          "count": 8,
+          "share": 3.6
+        },
+        {
+          "authorId": 342952640,
+          "name": "Chutei o Adão do Eden",
+          "username": "ewaalmeida",
+          "profileUrl": "https://disqus.com/by/ewaalmeida/",
+          "count": 7,
+          "share": 3.2
+        },
+        {
+          "authorId": 379667736747832,
+          "name": "Vegano Thiago",
+          "username": "veganothiago",
+          "profileUrl": "https://disqus.com/by/veganothiago/",
+          "count": 7,
+          "share": 3.2
+        },
+        {
+          "authorId": 46685301,
+          "name": "Opusion",
+          "username": "disqus_s2trKMu8f3",
+          "profileUrl": "https://disqus.com/by/disqus_s2trKMu8f3/",
+          "count": 6,
+          "share": 2.7
+        },
+        {
+          "authorId": 79534963,
+          "name": "Iwakika",
+          "username": "franciscaedyrxavier",
+          "profileUrl": "https://disqus.com/by/franciscaedyrxavier/",
+          "count": 5,
+          "share": 2.3
+        },
+        {
+          "authorId": 122515976,
+          "name": "Anderson Camatari Vilas Boas",
+          "username": "andersoncamatarivilasboas",
+          "profileUrl": "https://disqus.com/by/andersoncamatarivilasboas/",
+          "count": 4,
+          "share": 1.8
+        },
+        {
+          "authorId": 392625114,
+          "name": "O Bardo Petiz",
+          "username": "obardopetiz",
+          "profileUrl": "https://disqus.com/by/obardopetiz/",
+          "count": 4,
+          "share": 1.8
+        },
+        {
+          "authorId": 388335823132868,
+          "name": "Anderson",
+          "username": "disqus_iznmvQ6PMvz",
+          "profileUrl": "https://disqus.com/by/disqus_iznmvQ6PMvz/",
+          "count": 3,
+          "share": 1.4
+        }
+      ],
+      "topBigrams": [
+        {
+          "phrase": "boa noite",
+          "count": 870,
+          "authors": 199
+        },
+        {
+          "phrase": "olá guaxa",
+          "count": 584,
+          "authors": 206
+        },
+        {
+          "phrase": "bom dia",
+          "count": 449,
+          "authors": 103
+        },
+        {
+          "phrase": "tudo bem",
+          "count": 422,
+          "authors": 143
+        },
+        {
+          "phrase": "noite guaxa",
+          "count": 383,
+          "authors": 114
+        },
+        {
+          "phrase": "como sempre",
+          "count": 304,
+          "authors": 135
+        },
+        {
+          "phrase": "muito bom",
+          "count": 302,
+          "authors": 134
+        },
+        {
+          "phrase": "não sei",
+          "count": 248,
+          "authors": 147
+        },
+        {
+          "phrase": "ver mais",
+          "count": 244,
+          "authors": 118
+        },
+        {
+          "phrase": "grande abraço",
+          "count": 242,
+          "authors": 79
+        },
+        {
+          "phrase": "boa tarde",
+          "count": 228,
+          "authors": 78
+        },
+        {
+          "phrase": "episódio foi",
+          "count": 224,
+          "authors": 125
+        },
+        {
+          "phrase": "muito bem",
+          "count": 224,
+          "authors": 92
+        },
+        {
+          "phrase": "episódio incrível",
+          "count": 213,
+          "authors": 107
+        },
+        {
+          "phrase": "desse episódio",
+          "count": 208,
+          "authors": 105
+        },
+        {
+          "phrase": "guaxa convidade",
+          "count": 203,
+          "authors": 51
+        },
+        {
+          "phrase": "dia boa",
+          "count": 197,
+          "authors": 56
+        },
+        {
+          "phrase": "me fez",
+          "count": 194,
+          "authors": 123
+        },
+        {
+          "phrase": "primeira vez",
+          "count": 193,
+          "authors": 162
+        },
+        {
+          "phrase": "todo mundo",
+          "count": 193,
+          "authors": 94
+        }
+      ],
+      "newAuthorsByYear": [
+        {
+          "year": 2018,
+          "newAuthors": 13,
+          "newAuthorsComments": 14,
+          "activeAuthors": 13,
+          "comments": 14,
+          "retentionShare": 46.2
+        },
+        {
+          "year": 2019,
+          "newAuthors": 100,
+          "newAuthorsComments": 188,
+          "activeAuthors": 104,
+          "comments": 245,
+          "retentionShare": 32
+        },
+        {
+          "year": 2020,
+          "newAuthors": 78,
+          "newAuthorsComments": 120,
+          "activeAuthors": 97,
+          "comments": 192,
+          "retentionShare": 43.6
+        },
+        {
+          "year": 2021,
+          "newAuthors": 212,
+          "newAuthorsComments": 461,
+          "activeAuthors": 254,
+          "comments": 689,
+          "retentionShare": 36.8
+        },
+        {
+          "year": 2022,
+          "newAuthors": 157,
+          "newAuthorsComments": 373,
+          "activeAuthors": 253,
+          "comments": 860,
+          "retentionShare": 35.7
+        },
+        {
+          "year": 2023,
+          "newAuthors": 119,
+          "newAuthorsComments": 428,
+          "activeAuthors": 226,
+          "comments": 934,
+          "retentionShare": 37.8
+        },
+        {
+          "year": 2024,
+          "newAuthors": 66,
+          "newAuthorsComments": 184,
+          "activeAuthors": 163,
+          "comments": 640,
+          "retentionShare": 37.9
+        },
+        {
+          "year": 2025,
+          "newAuthors": 54,
+          "newAuthorsComments": 208,
+          "activeAuthors": 168,
+          "comments": 817,
+          "retentionShare": 24.1
+        },
+        {
+          "year": 2026,
+          "newAuthors": 28,
+          "newAuthorsComments": 89,
+          "activeAuthors": 105,
+          "comments": 615,
+          "retentionShare": 0
+        }
+      ],
+      "newcomers": [
+        {
+          "authorId": 425793419307957,
+          "name": "LeafarOder",
+          "username": "rafaelleafaroderaraujo",
+          "profileUrl": "https://disqus.com/by/rafaelleafaroderaraujo/",
+          "firstCommentAt": "2026-01-04T16:55:24-03:00",
+          "comments": 14,
+          "discussions": 10,
+          "characters": 530
+        },
+        {
+          "authorId": 436995082342422,
+          "name": "O Melhor",
+          "username": "disqus_vtjAD6iEdo",
+          "profileUrl": "https://disqus.com/by/disqus_vtjAD6iEdo/",
+          "firstCommentAt": "2026-05-11T07:32:22-03:00",
+          "comments": 14,
+          "discussions": 14,
+          "characters": 840
+        },
+        {
+          "authorId": 443197193398979,
+          "name": "Fabio Kubota",
+          "username": "fabiokubota",
+          "profileUrl": "https://disqus.com/by/fabiokubota/",
+          "firstCommentAt": "2026-07-20T10:10:08-03:00",
+          "comments": 9,
+          "discussions": 9,
+          "characters": 6623
+        },
+        {
+          "authorId": 434809981641588,
+          "name": "Tortelle",
+          "username": "tortelle",
+          "profileUrl": "https://disqus.com/by/tortelle/",
+          "firstCommentAt": "2026-04-16T14:49:55-03:00",
+          "comments": 8,
+          "discussions": 8,
+          "characters": 6778
+        },
+        {
+          "authorId": 445630533331292,
+          "name": "SDPpTepR",
+          "username": "disqus_zaPexzqmaF",
+          "profileUrl": "https://disqus.com/by/disqus_zaPexzqmaF/",
+          "firstCommentAt": "2026-08-16T22:15:51-03:00",
+          "comments": 7,
+          "discussions": 7,
+          "characters": 3090
+        },
+        {
+          "authorId": 441624920554743,
+          "name": "Amanda Lopes ✨",
+          "username": "amandalopes1998",
+          "profileUrl": "https://disqus.com/by/amandalopes1998/",
+          "firstCommentAt": "2026-07-02T15:26:01-03:00",
+          "comments": 3,
+          "discussions": 3,
+          "characters": 1904
+        },
+        {
+          "authorId": 430385638824308,
+          "name": "Passageiro do Futuro",
+          "username": "disqus_cY74ACrg5N",
+          "profileUrl": "https://disqus.com/by/disqus_cY74ACrg5N/",
+          "firstCommentAt": "2026-03-12T23:27:19-03:00",
+          "comments": 3,
+          "discussions": 3,
+          "characters": 245
+        },
+        {
+          "authorId": 449170364870319,
+          "name": "Biscoito de 1 real",
+          "username": "biscoitode1real",
+          "profileUrl": "https://disqus.com/by/biscoitode1real/",
+          "firstCommentAt": "2026-09-25T22:17:15-03:00",
+          "comments": 2,
+          "discussions": 2,
+          "characters": 789
+        },
+        {
+          "authorId": 432691673152384,
+          "name": "Breno Rocha",
+          "username": "disqus_RB76oTAU8b",
+          "profileUrl": "https://disqus.com/by/disqus_RB76oTAU8b/",
+          "firstCommentAt": "2026-04-13T19:21:22-03:00",
+          "comments": 2,
+          "discussions": 1,
+          "characters": 844
+        },
+        {
+          "authorId": 428109612070872,
+          "name": "Fex o Cachorro Azul",
+          "username": "fexocachorroazul",
+          "profileUrl": "https://disqus.com/by/fexocachorroazul/",
+          "firstCommentAt": "2026-01-30T21:29:43-03:00",
+          "comments": 2,
+          "discussions": 2,
+          "characters": 2382
+        }
+      ],
+      "activityByWeekdayHour": [
+        {
+          "weekday": 0,
+          "hour": 0,
+          "comments": 11
+        },
+        {
+          "weekday": 0,
+          "hour": 1,
+          "comments": 8
+        },
+        {
+          "weekday": 0,
+          "hour": 2,
+          "comments": 4
+        },
+        {
+          "weekday": 0,
+          "hour": 3,
+          "comments": 5
+        },
+        {
+          "weekday": 0,
+          "hour": 4,
+          "comments": 6
+        },
+        {
+          "weekday": 0,
+          "hour": 6,
+          "comments": 4
+        },
+        {
+          "weekday": 0,
+          "hour": 7,
+          "comments": 7
+        },
+        {
+          "weekday": 0,
+          "hour": 8,
+          "comments": 9
+        },
+        {
+          "weekday": 0,
+          "hour": 9,
+          "comments": 9
+        },
+        {
+          "weekday": 0,
+          "hour": 10,
+          "comments": 25
+        },
+        {
+          "weekday": 0,
+          "hour": 11,
+          "comments": 24
+        },
+        {
+          "weekday": 0,
+          "hour": 12,
+          "comments": 24
+        },
+        {
+          "weekday": 0,
+          "hour": 13,
+          "comments": 32
+        },
+        {
+          "weekday": 0,
+          "hour": 14,
+          "comments": 20
+        },
+        {
+          "weekday": 0,
+          "hour": 15,
+          "comments": 22
+        },
+        {
+          "weekday": 0,
+          "hour": 16,
+          "comments": 21
+        },
+        {
+          "weekday": 0,
+          "hour": 17,
+          "comments": 25
+        },
+        {
+          "weekday": 0,
+          "hour": 18,
+          "comments": 28
+        },
+        {
+          "weekday": 0,
+          "hour": 19,
+          "comments": 28
+        },
+        {
+          "weekday": 0,
+          "hour": 20,
+          "comments": 23
+        },
+        {
+          "weekday": 0,
+          "hour": 21,
+          "comments": 28
+        },
+        {
+          "weekday": 0,
+          "hour": 22,
+          "comments": 38
+        },
+        {
+          "weekday": 0,
+          "hour": 23,
+          "comments": 19
+        },
+        {
+          "weekday": 1,
+          "hour": 0,
+          "comments": 15
+        },
+        {
+          "weekday": 1,
+          "hour": 1,
+          "comments": 11
+        },
+        {
+          "weekday": 1,
+          "hour": 2,
+          "comments": 3
+        },
+        {
+          "weekday": 1,
+          "hour": 3,
+          "comments": 3
+        },
+        {
+          "weekday": 1,
+          "hour": 4,
+          "comments": 3
+        },
+        {
+          "weekday": 1,
+          "hour": 5,
+          "comments": 8
+        },
+        {
+          "weekday": 1,
+          "hour": 6,
+          "comments": 9
+        },
+        {
+          "weekday": 1,
+          "hour": 7,
+          "comments": 24
+        },
+        {
+          "weekday": 1,
+          "hour": 8,
+          "comments": 38
+        },
+        {
+          "weekday": 1,
+          "hour": 9,
+          "comments": 53
+        },
+        {
+          "weekday": 1,
+          "hour": 10,
+          "comments": 59
+        },
+        {
+          "weekday": 1,
+          "hour": 11,
+          "comments": 77
+        },
+        {
+          "weekday": 1,
+          "hour": 12,
+          "comments": 101
+        },
+        {
+          "weekday": 1,
+          "hour": 13,
+          "comments": 74
+        },
+        {
+          "weekday": 1,
+          "hour": 14,
+          "comments": 71
+        },
+        {
+          "weekday": 1,
+          "hour": 15,
+          "comments": 76
+        },
+        {
+          "weekday": 1,
+          "hour": 16,
+          "comments": 59
+        },
+        {
+          "weekday": 1,
+          "hour": 17,
+          "comments": 82
+        },
+        {
+          "weekday": 1,
+          "hour": 18,
+          "comments": 116
+        },
+        {
+          "weekday": 1,
+          "hour": 19,
+          "comments": 182
+        },
+        {
+          "weekday": 1,
+          "hour": 20,
+          "comments": 180
+        },
+        {
+          "weekday": 1,
+          "hour": 21,
+          "comments": 105
+        },
+        {
+          "weekday": 1,
+          "hour": 22,
+          "comments": 27
+        },
+        {
+          "weekday": 1,
+          "hour": 23,
+          "comments": 12
+        },
+        {
+          "weekday": 2,
+          "hour": 0,
+          "comments": 4
+        },
+        {
+          "weekday": 2,
+          "hour": 1,
+          "comments": 7
+        },
+        {
+          "weekday": 2,
+          "hour": 2,
+          "comments": 1
+        },
+        {
+          "weekday": 2,
+          "hour": 3,
+          "comments": 2
+        },
+        {
+          "weekday": 2,
+          "hour": 4,
+          "comments": 4
+        },
+        {
+          "weekday": 2,
+          "hour": 5,
+          "comments": 1
+        },
+        {
+          "weekday": 2,
+          "hour": 6,
+          "comments": 1
+        },
+        {
+          "weekday": 2,
+          "hour": 7,
+          "comments": 8
+        },
+        {
+          "weekday": 2,
+          "hour": 8,
+          "comments": 14
+        },
+        {
+          "weekday": 2,
+          "hour": 9,
+          "comments": 11
+        },
+        {
+          "weekday": 2,
+          "hour": 10,
+          "comments": 14
+        },
+        {
+          "weekday": 2,
+          "hour": 11,
+          "comments": 18
+        },
+        {
+          "weekday": 2,
+          "hour": 12,
+          "comments": 15
+        },
+        {
+          "weekday": 2,
+          "hour": 13,
+          "comments": 26
+        },
+        {
+          "weekday": 2,
+          "hour": 14,
+          "comments": 20
+        },
+        {
+          "weekday": 2,
+          "hour": 15,
+          "comments": 30
+        },
+        {
+          "weekday": 2,
+          "hour": 16,
+          "comments": 15
+        },
+        {
+          "weekday": 2,
+          "hour": 17,
+          "comments": 28
+        },
+        {
+          "weekday": 2,
+          "hour": 18,
+          "comments": 28
+        },
+        {
+          "weekday": 2,
+          "hour": 19,
+          "comments": 34
+        },
+        {
+          "weekday": 2,
+          "hour": 20,
+          "comments": 28
+        },
+        {
+          "weekday": 2,
+          "hour": 21,
+          "comments": 26
+        },
+        {
+          "weekday": 2,
+          "hour": 22,
+          "comments": 10
+        },
+        {
+          "weekday": 2,
+          "hour": 23,
+          "comments": 9
+        },
+        {
+          "weekday": 3,
+          "hour": 0,
+          "comments": 3
+        },
+        {
+          "weekday": 3,
+          "hour": 1,
+          "comments": 7
+        },
+        {
+          "weekday": 3,
+          "hour": 3,
+          "comments": 3
+        },
+        {
+          "weekday": 3,
+          "hour": 5,
+          "comments": 1
+        },
+        {
+          "weekday": 3,
+          "hour": 6,
+          "comments": 4
+        },
+        {
+          "weekday": 3,
+          "hour": 7,
+          "comments": 3
+        },
+        {
+          "weekday": 3,
+          "hour": 8,
+          "comments": 10
+        },
+        {
+          "weekday": 3,
+          "hour": 9,
+          "comments": 10
+        },
+        {
+          "weekday": 3,
+          "hour": 10,
+          "comments": 12
+        },
+        {
+          "weekday": 3,
+          "hour": 11,
+          "comments": 16
+        },
+        {
+          "weekday": 3,
+          "hour": 12,
+          "comments": 10
+        },
+        {
+          "weekday": 3,
+          "hour": 13,
+          "comments": 10
+        },
+        {
+          "weekday": 3,
+          "hour": 14,
+          "comments": 17
+        },
+        {
+          "weekday": 3,
+          "hour": 15,
+          "comments": 19
+        },
+        {
+          "weekday": 3,
+          "hour": 16,
+          "comments": 15
+        },
+        {
+          "weekday": 3,
+          "hour": 17,
+          "comments": 22
+        },
+        {
+          "weekday": 3,
+          "hour": 18,
+          "comments": 15
+        },
+        {
+          "weekday": 3,
+          "hour": 19,
+          "comments": 24
+        },
+        {
+          "weekday": 3,
+          "hour": 20,
+          "comments": 23
+        },
+        {
+          "weekday": 3,
+          "hour": 21,
+          "comments": 20
+        },
+        {
+          "weekday": 3,
+          "hour": 22,
+          "comments": 15
+        },
+        {
+          "weekday": 3,
+          "hour": 23,
+          "comments": 25
+        },
+        {
+          "weekday": 4,
+          "hour": 0,
+          "comments": 38
+        },
+        {
+          "weekday": 4,
+          "hour": 1,
+          "comments": 22
+        },
+        {
+          "weekday": 4,
+          "hour": 2,
+          "comments": 11
+        },
+        {
+          "weekday": 4,
+          "hour": 3,
+          "comments": 9
+        },
+        {
+          "weekday": 4,
+          "hour": 4,
+          "comments": 5
+        },
+        {
+          "weekday": 4,
+          "hour": 5,
+          "comments": 29
+        },
+        {
+          "weekday": 4,
+          "hour": 6,
+          "comments": 51
+        },
+        {
+          "weekday": 4,
+          "hour": 7,
+          "comments": 59
+        },
+        {
+          "weekday": 4,
+          "hour": 8,
+          "comments": 80
+        },
+        {
+          "weekday": 4,
+          "hour": 9,
+          "comments": 78
+        },
+        {
+          "weekday": 4,
+          "hour": 10,
+          "comments": 95
+        },
+        {
+          "weekday": 4,
+          "hour": 11,
+          "comments": 99
+        },
+        {
+          "weekday": 4,
+          "hour": 12,
+          "comments": 89
+        },
+        {
+          "weekday": 4,
+          "hour": 13,
+          "comments": 64
+        },
+        {
+          "weekday": 4,
+          "hour": 14,
+          "comments": 81
+        },
+        {
+          "weekday": 4,
+          "hour": 15,
+          "comments": 84
+        },
+        {
+          "weekday": 4,
+          "hour": 16,
+          "comments": 62
+        },
+        {
+          "weekday": 4,
+          "hour": 17,
+          "comments": 65
+        },
+        {
+          "weekday": 4,
+          "hour": 18,
+          "comments": 56
+        },
+        {
+          "weekday": 4,
+          "hour": 19,
+          "comments": 67
+        },
+        {
+          "weekday": 4,
+          "hour": 20,
+          "comments": 49
+        },
+        {
+          "weekday": 4,
+          "hour": 21,
+          "comments": 65
+        },
+        {
+          "weekday": 4,
+          "hour": 22,
+          "comments": 40
+        },
+        {
+          "weekday": 4,
+          "hour": 23,
+          "comments": 50
+        },
+        {
+          "weekday": 5,
+          "hour": 0,
+          "comments": 47
+        },
+        {
+          "weekday": 5,
+          "hour": 1,
+          "comments": 14
+        },
+        {
+          "weekday": 5,
+          "hour": 2,
+          "comments": 10
+        },
+        {
+          "weekday": 5,
+          "hour": 3,
+          "comments": 6
+        },
+        {
+          "weekday": 5,
+          "hour": 4,
+          "comments": 8
+        },
+        {
+          "weekday": 5,
+          "hour": 5,
+          "comments": 9
+        },
+        {
+          "weekday": 5,
+          "hour": 6,
+          "comments": 8
+        },
+        {
+          "weekday": 5,
+          "hour": 7,
+          "comments": 33
+        },
+        {
+          "weekday": 5,
+          "hour": 8,
+          "comments": 45
+        },
+        {
+          "weekday": 5,
+          "hour": 9,
+          "comments": 42
+        },
+        {
+          "weekday": 5,
+          "hour": 10,
+          "comments": 53
+        },
+        {
+          "weekday": 5,
+          "hour": 11,
+          "comments": 59
+        },
+        {
+          "weekday": 5,
+          "hour": 12,
+          "comments": 61
+        },
+        {
+          "weekday": 5,
+          "hour": 13,
+          "comments": 49
+        },
+        {
+          "weekday": 5,
+          "hour": 14,
+          "comments": 35
+        },
+        {
+          "weekday": 5,
+          "hour": 15,
+          "comments": 49
+        },
+        {
+          "weekday": 5,
+          "hour": 16,
+          "comments": 29
+        },
+        {
+          "weekday": 5,
+          "hour": 17,
+          "comments": 30
+        },
+        {
+          "weekday": 5,
+          "hour": 18,
+          "comments": 49
+        },
+        {
+          "weekday": 5,
+          "hour": 19,
+          "comments": 36
+        },
+        {
+          "weekday": 5,
+          "hour": 20,
+          "comments": 35
+        },
+        {
+          "weekday": 5,
+          "hour": 21,
+          "comments": 35
+        },
+        {
+          "weekday": 5,
+          "hour": 22,
+          "comments": 39
+        },
+        {
+          "weekday": 5,
+          "hour": 23,
+          "comments": 21
+        },
+        {
+          "weekday": 6,
+          "hour": 0,
+          "comments": 23
+        },
+        {
+          "weekday": 6,
+          "hour": 1,
+          "comments": 11
+        },
+        {
+          "weekday": 6,
+          "hour": 2,
+          "comments": 9
+        },
+        {
+          "weekday": 6,
+          "hour": 3,
+          "comments": 2
+        },
+        {
+          "weekday": 6,
+          "hour": 4,
+          "comments": 2
+        },
+        {
+          "weekday": 6,
+          "hour": 5,
+          "comments": 4
+        },
+        {
+          "weekday": 6,
+          "hour": 6,
+          "comments": 2
+        },
+        {
+          "weekday": 6,
+          "hour": 7,
+          "comments": 9
+        },
+        {
+          "weekday": 6,
+          "hour": 8,
+          "comments": 12
+        },
+        {
+          "weekday": 6,
+          "hour": 9,
+          "comments": 14
+        },
+        {
+          "weekday": 6,
+          "hour": 10,
+          "comments": 24
+        },
+        {
+          "weekday": 6,
+          "hour": 11,
+          "comments": 23
+        },
+        {
+          "weekday": 6,
+          "hour": 12,
+          "comments": 25
+        },
+        {
+          "weekday": 6,
+          "hour": 13,
+          "comments": 21
+        },
+        {
+          "weekday": 6,
+          "hour": 14,
+          "comments": 24
+        },
+        {
+          "weekday": 6,
+          "hour": 15,
+          "comments": 24
+        },
+        {
+          "weekday": 6,
+          "hour": 16,
+          "comments": 24
+        },
+        {
+          "weekday": 6,
+          "hour": 17,
+          "comments": 17
+        },
+        {
+          "weekday": 6,
+          "hour": 18,
+          "comments": 30
+        },
+        {
+          "weekday": 6,
+          "hour": 19,
+          "comments": 24
+        },
+        {
+          "weekday": 6,
+          "hour": 20,
+          "comments": 18
+        },
+        {
+          "weekday": 6,
+          "hour": 21,
+          "comments": 22
+        },
+        {
+          "weekday": 6,
+          "hour": 22,
+          "comments": 24
+        },
+        {
+          "weekday": 6,
+          "hour": 23,
+          "comments": 22
+        }
+      ]
+    },
+    {
+      "name": "Guaxaverso",
+      "forum": "scicastpodcast",
+      "totals": {
+        "discussions": 176,
+        "discussionsWithComments": 65,
+        "comments": 132,
+        "authors": 75,
+        "singleCommentAuthors": 57,
+        "singleCommentAuthorsShare": 76,
+        "topTenAuthorsShare": 44.6,
+        "characters": 24226,
+        "averageCharacters": 183.5,
+        "commentsPerDiscussion": 0.8,
+        "medianFirstResponseHours": 26.6,
+        "vocabularySize": 1196,
+        "rareWordCount": 915,
+        "hashtagCount": 2,
+        "emojiCount": 35,
+        "commentsWithEmoji": 13,
+        "oneYearWords": 1005,
+        "oneYearWordsShare": 84,
+        "duplicatedComments": 0,
+        "duplicatedCommentsShare": 0,
+        "commentsWithLinks": 9,
+        "commentsWithImages": 0,
+        "firstCommentAt": "2020-09-24T00:29:56-03:00",
+        "lastCommentAt": "2026-05-18T10:43:59-03:00"
+      },
+      "topAuthors": [
+        {
+          "authorId": 173188691,
+          "name": "Todê Zistino",
+          "username": "disqus_5DZEogKOnp",
+          "profileUrl": "https://disqus.com/by/disqus_5DZEogKOnp/",
+          "comments": 27,
+          "characters": 2600,
+          "averageCharacters": 96.3,
+          "discussions": 27,
+          "episodeShare": 15.3,
+          "share": 20.5,
+          "firstCommentAt": "2020-09-24T21:53:38-03:00",
+          "lastCommentAt": "2024-11-07T18:50:58-03:00"
+        },
+        {
+          "authorId": 332326000,
+          "name": "Bode 125cc KS",
+          "username": "MaxSouEu",
+          "profileUrl": "https://disqus.com/by/MaxSouEu/",
+          "comments": 6,
+          "characters": 1225,
+          "averageCharacters": 204.2,
+          "discussions": 1,
+          "episodeShare": 0.6,
+          "share": 4.5,
+          "firstCommentAt": "2023-03-29T09:09:07-03:00",
+          "lastCommentAt": "2023-03-29T09:53:00-03:00"
+        },
+        {
+          "authorId": 379667736747832,
+          "name": "Vegano Thiago",
+          "username": "veganothiago",
+          "profileUrl": "https://disqus.com/by/veganothiago/",
+          "comments": 5,
+          "characters": 733,
+          "averageCharacters": 146.6,
+          "discussions": 4,
+          "episodeShare": 2.3,
+          "share": 3.8,
+          "firstCommentAt": "2025-08-18T19:58:16-03:00",
+          "lastCommentAt": "2026-04-29T18:35:34-03:00"
+        },
+        {
+          "authorId": 166534960,
+          "name": "Filipe Lino",
+          "username": "disqus_1igoy2wM12",
+          "profileUrl": "https://disqus.com/by/disqus_1igoy2wM12/",
+          "comments": 4,
+          "characters": 347,
+          "averageCharacters": 86.8,
+          "discussions": 2,
+          "episodeShare": 1.1,
+          "share": 3,
+          "firstCommentAt": "2020-11-05T09:47:44-03:00",
+          "lastCommentAt": "2021-08-31T15:19:02-03:00"
+        },
+        {
+          "authorId": 291894351,
+          "name": "Lucas Mateus",
+          "username": "disqus_kOl0h1qTMB",
+          "profileUrl": "https://disqus.com/by/disqus_kOl0h1qTMB/",
+          "comments": 4,
+          "characters": 625,
+          "averageCharacters": 156.2,
+          "discussions": 4,
+          "episodeShare": 2.3,
+          "share": 3,
+          "firstCommentAt": "2020-10-24T18:58:18-03:00",
+          "lastCommentAt": "2026-03-22T21:45:37-03:00"
+        },
+        {
+          "authorId": 55572804,
+          "name": "MarceloGuaxinim",
+          "username": "marceloguaxinim",
+          "profileUrl": "https://disqus.com/by/marceloguaxinim/",
+          "comments": 4,
+          "characters": 156,
+          "averageCharacters": 39,
+          "discussions": 4,
+          "episodeShare": 2.3,
+          "share": 3,
+          "firstCommentAt": "2020-10-21T16:22:13-03:00",
+          "lastCommentAt": "2021-11-08T20:49:19-03:00"
+        },
+        {
+          "authorId": 62706690,
+          "name": "Rogério Moreira Júnior",
+          "username": "rogriomoreirajnior",
+          "profileUrl": "https://disqus.com/by/rogriomoreirajnior/",
+          "comments": 3,
+          "characters": 948,
+          "averageCharacters": 316,
+          "discussions": 3,
+          "episodeShare": 1.7,
+          "share": 2.3,
+          "firstCommentAt": "2021-05-19T20:57:48-03:00",
+          "lastCommentAt": "2021-09-27T22:09:27-03:00"
+        },
+        {
+          "authorId": 334710804,
+          "name": "André Trapani",
+          "username": "andrtrapanipossignolo",
+          "profileUrl": "https://disqus.com/by/andrtrapanipossignolo/",
+          "comments": 2,
+          "characters": 1019,
+          "averageCharacters": 509.5,
+          "discussions": 2,
+          "episodeShare": 1.1,
+          "share": 1.5,
+          "firstCommentAt": "2020-09-24T16:06:43-03:00",
+          "lastCommentAt": "2021-02-19T10:52:55-03:00"
+        },
+        {
+          "authorId": 352277657,
+          "name": "Apesar do Caos",
+          "username": "apesardocaosmli2020",
+          "profileUrl": "https://disqus.com/by/apesardocaosmli2020/",
+          "comments": 2,
+          "characters": 168,
+          "averageCharacters": 84,
+          "discussions": 1,
+          "episodeShare": 0.6,
+          "share": 1.5,
+          "firstCommentAt": "2021-03-02T15:24:27-03:00",
+          "lastCommentAt": "2021-03-02T15:24:38-03:00"
+        },
+        {
+          "authorId": 255053457,
+          "name": "Carlos Henrique Barbosa",
+          "username": "disqus_prElDdLLBp",
+          "profileUrl": "https://disqus.com/by/disqus_prElDdLLBp/",
+          "comments": 2,
+          "characters": 214,
+          "averageCharacters": 107,
+          "discussions": 2,
+          "episodeShare": 1.1,
+          "share": 1.5,
+          "firstCommentAt": "2021-04-08T10:53:14-03:00",
+          "lastCommentAt": "2021-10-22T14:35:53-03:00"
+        },
+        {
+          "authorId": 342952640,
+          "name": "Chutei o Adão do Eden",
+          "username": "ewaalmeida",
+          "profileUrl": "https://disqus.com/by/ewaalmeida/",
+          "comments": 2,
+          "characters": 290,
+          "averageCharacters": 145,
+          "discussions": 2,
+          "episodeShare": 1.1,
+          "share": 1.5,
+          "firstCommentAt": "2021-08-27T13:15:28-03:00",
+          "lastCommentAt": "2021-09-10T19:12:45-03:00"
+        },
+        {
+          "authorId": 394098994,
+          "name": "FELIPE",
+          "username": "drickfelipe",
+          "profileUrl": "https://disqus.com/by/drickfelipe/",
+          "comments": 2,
+          "characters": 26,
+          "averageCharacters": 13,
+          "discussions": 1,
+          "episodeShare": 0.6,
+          "share": 1.5,
+          "firstCommentAt": "2023-09-10T15:02:09-03:00",
+          "lastCommentAt": "2023-09-10T15:17:12-03:00"
+        },
+        {
+          "authorId": 5035373,
+          "name": "Gambi \"O Ornitorrinco\" Arra",
+          "username": "Joseload",
+          "profileUrl": "https://disqus.com/by/Joseload/",
+          "comments": 2,
+          "characters": 231,
+          "averageCharacters": 115.5,
+          "discussions": 2,
+          "episodeShare": 1.1,
+          "share": 1.5,
+          "firstCommentAt": "2020-11-09T16:56:58-03:00",
+          "lastCommentAt": "2021-02-05T08:03:41-03:00"
+        },
+        {
+          "authorId": 408747255042686,
+          "name": "L.F. Herdy",
+          "username": "lfherdy",
+          "profileUrl": "https://disqus.com/by/lfherdy/",
+          "comments": 2,
+          "characters": 68,
+          "averageCharacters": 34,
+          "discussions": 2,
+          "episodeShare": 1.1,
+          "share": 1.5,
+          "firstCommentAt": "2025-08-18T19:44:12-03:00",
+          "lastCommentAt": "2025-09-13T19:56:44-03:00"
+        },
+        {
+          "authorId": 329952013,
+          "name": "Leandro Freitas",
+          "username": "disqus_2u9RuyAyGP",
+          "profileUrl": "https://disqus.com/by/disqus_2u9RuyAyGP/",
+          "comments": 2,
+          "characters": 319,
+          "averageCharacters": 159.5,
+          "discussions": 2,
+          "episodeShare": 1.1,
+          "share": 1.5,
+          "firstCommentAt": "2021-03-29T15:42:47-03:00",
+          "lastCommentAt": "2021-04-08T08:28:46-03:00"
+        },
+        {
+          "authorId": 16070328,
+          "name": "Narciso Pareja",
+          "username": "disqus_tD4V9zrjyh",
+          "profileUrl": "https://disqus.com/by/disqus_tD4V9zrjyh/",
+          "comments": 2,
+          "characters": 327,
+          "averageCharacters": 163.5,
+          "discussions": 1,
+          "episodeShare": 0.6,
+          "share": 1.5,
+          "firstCommentAt": "2021-11-14T16:02:39-03:00",
+          "lastCommentAt": "2021-11-14T16:18:43-03:00"
+        },
+        {
+          "authorId": 376239641422740,
+          "name": "Ohara",
+          "username": "oharacastro",
+          "profileUrl": "https://disqus.com/by/oharacastro/",
+          "comments": 2,
+          "characters": 562,
+          "averageCharacters": 281,
+          "discussions": 2,
+          "episodeShare": 1.1,
+          "share": 1.5,
+          "firstCommentAt": "2024-07-31T06:51:04-03:00",
+          "lastCommentAt": "2024-08-11T22:21:40-03:00"
+        },
+        {
+          "authorId": 293147054,
+          "name": "Ton Borges (Ailton)",
+          "username": "allocine-fr-34b5da42d4019c37e82a566f3b2510dd",
+          "profileUrl": "https://disqus.com/by/allocine-fr-34b5da42d4019c37e82a566f3b2510dd/",
+          "comments": 2,
+          "characters": 716,
+          "averageCharacters": 358,
+          "discussions": 2,
+          "episodeShare": 1.1,
+          "share": 1.5,
+          "firstCommentAt": "2020-10-10T14:44:55-03:00",
+          "lastCommentAt": "2020-10-23T05:19:51-03:00"
+        },
+        {
+          "authorId": 356727046,
+          "name": "'3'",
+          "username": "disqus_mx5rIdSEV0",
+          "profileUrl": "https://disqus.com/by/disqus_mx5rIdSEV0/",
+          "comments": 1,
+          "characters": 24,
+          "averageCharacters": 24,
+          "discussions": 1,
+          "episodeShare": 0.6,
+          "share": 0.8,
+          "firstCommentAt": "2020-09-24T09:12:39-03:00",
+          "lastCommentAt": "2020-09-24T09:12:39-03:00"
+        },
+        {
+          "authorId": 98319634,
+          "name": "Adriano Contreras Alberto",
+          "username": "adrianocontrerasalberto",
+          "profileUrl": "https://disqus.com/by/adrianocontrerasalberto/",
+          "comments": 1,
+          "characters": 223,
+          "averageCharacters": 223,
+          "discussions": 1,
+          "episodeShare": 0.6,
+          "share": 0.8,
+          "firstCommentAt": "2020-09-24T17:56:10-03:00",
+          "lastCommentAt": "2020-09-24T17:56:10-03:00"
+        },
+        {
+          "authorId": 362826530,
+          "name": "Agata Sofia",
+          "username": "agata_sofia",
+          "profileUrl": "https://disqus.com/by/agata_sofia/",
+          "comments": 1,
+          "characters": 473,
+          "averageCharacters": 473,
+          "discussions": 1,
+          "episodeShare": 0.6,
+          "share": 0.8,
+          "firstCommentAt": "2021-05-03T08:35:23-03:00",
+          "lastCommentAt": "2021-05-03T08:35:23-03:00"
+        },
+        {
+          "authorId": 204396804,
+          "name": "Allen Da Costa Araujo",
+          "username": "allendacostaaraujo",
+          "profileUrl": "https://disqus.com/by/allendacostaaraujo/",
+          "comments": 1,
+          "characters": 285,
+          "averageCharacters": 285,
+          "discussions": 1,
+          "episodeShare": 0.6,
+          "share": 0.8,
+          "firstCommentAt": "2020-10-31T10:50:26-03:00",
+          "lastCommentAt": "2020-10-31T10:50:26-03:00"
+        },
+        {
+          "authorId": 356607160,
+          "name": "Ananta",
+          "username": "anantatargaryen",
+          "profileUrl": "https://disqus.com/by/anantatargaryen/",
+          "comments": 1,
+          "characters": 659,
+          "averageCharacters": 659,
+          "discussions": 1,
+          "episodeShare": 0.6,
+          "share": 0.8,
+          "firstCommentAt": "2020-10-10T02:17:29-03:00",
+          "lastCommentAt": "2020-10-10T02:17:29-03:00"
+        },
+        {
+          "authorId": 382044562,
+          "name": "Andrew Zsod",
+          "username": "andrewzsod",
+          "profileUrl": "https://disqus.com/by/andrewzsod/",
+          "comments": 1,
+          "characters": 17,
+          "averageCharacters": 17,
+          "discussions": 1,
+          "episodeShare": 0.6,
+          "share": 0.8,
+          "firstCommentAt": "2022-02-24T18:33:14-03:00",
+          "lastCommentAt": "2022-02-24T18:33:14-03:00"
+        },
+        {
+          "authorId": 335577321,
+          "name": "André",
+          "username": "disqus_FDkSLGPS2j",
+          "profileUrl": "https://disqus.com/by/disqus_FDkSLGPS2j/",
+          "comments": 1,
+          "characters": 5,
+          "averageCharacters": 5,
+          "discussions": 1,
+          "episodeShare": 0.6,
+          "share": 0.8,
+          "firstCommentAt": "2021-03-13T02:59:58-03:00",
+          "lastCommentAt": "2021-03-13T02:59:58-03:00"
+        }
+      ],
+      "topDiscussions": [
+        {
+          "id": 8214025285,
+          "title": "Guaxaverso #01 – Comentários sobre o RPGuaxa #57!",
+          "link": "https://www.deviante.com.br/podcasts/rpguaxa/guaxaverso01/",
+          "createdAt": "2020-09-24T00:03:15-03:00",
+          "comments": 11,
+          "authors": 11
+        },
+        {
+          "id": 8739699467,
+          "title": "GuaxaVerso #28 – Comentários sobre o RPGuaxa #84!",
+          "link": "https://www.deviante.com.br/podcasts/rpguaxa/guaxaverso28/",
+          "createdAt": "2021-08-26T12:12:02-03:00",
+          "comments": 6,
+          "authors": 6
+        },
+        {
+          "id": 9633638403,
+          "title": "Segue o Baile (GuaxaVerso #76)",
+          "link": "https://www.deviante.com.br/podcasts/rpguaxa/guaxaverso76/",
+          "createdAt": "2023-03-27T00:03:31-03:00",
+          "comments": 6,
+          "authors": 1
+        },
+        {
+          "id": 8264819029,
+          "title": "Guaxaverso #05 – Comentários sobre o RPGuaxa #61!",
+          "link": "https://www.deviante.com.br/podcasts/rpguaxa/guaxaverso05/",
+          "createdAt": "2020-11-05T00:56:17-03:00",
+          "comments": 5,
+          "authors": 3
+        },
+        {
+          "id": 8412750771,
+          "title": "Guaxaverso #13 – Comentários sobre o RPGuaxa #69!",
+          "link": "https://www.deviante.com.br/podcasts/rpguaxa/guaxaverso13/",
+          "createdAt": "2021-02-25T00:05:05-03:00",
+          "comments": 5,
+          "authors": 4
+        },
+        {
+          "id": 8433556344,
+          "title": "Guaxaverso #14 – Comentários sobre o RPGuaxa #70!",
+          "link": "https://www.deviante.com.br/podcasts/rpguaxa/guaxaverso14/",
+          "createdAt": "2021-03-11T21:13:46-03:00",
+          "comments": 5,
+          "authors": 5
+        },
+        {
+          "id": 8243193374,
+          "title": "Guaxaverso #03 – Comentários sobre o RPGuaxa #59!",
+          "link": "https://www.deviante.com.br/podcasts/rpguaxa/guaxaverso03/",
+          "createdAt": "2020-10-18T00:09:35-03:00",
+          "comments": 4,
+          "authors": 4
+        },
+        {
+          "id": 8248206662,
+          "title": "Guaxaverso #04 – Comentários sobre o RPGuaxa #60!",
+          "link": "https://www.deviante.com.br/podcasts/rpguaxa/guaxaverso04/",
+          "createdAt": "2020-10-22T00:02:49-03:00",
+          "comments": 4,
+          "authors": 4
+        },
+        {
+          "id": 8469404748,
+          "title": "Guaxaverso #16 – Comentários sobre o RPGuaxa #72!",
+          "link": "https://www.deviante.com.br/podcasts/rpguaxa/guaxaverso16/",
+          "createdAt": "2021-04-08T00:03:19-03:00",
+          "comments": 4,
+          "authors": 4
+        },
+        {
+          "id": 8838663560,
+          "title": "GuaxaVerso #32 – Comentários sobre o RPGuaxa #88!",
+          "link": "https://www.deviante.com.br/podcasts/rpguaxa/guaxaverso32/",
+          "createdAt": "2021-10-21T20:06:34-03:00",
+          "comments": 4,
+          "authors": 4
+        },
+        {
+          "id": 11138730033,
+          "title": "Teoricos do Guaxaverso 001 (Especial de aniversário)",
+          "link": "https://www.deviante.com.br/podcasts/rpguaxa/tdg001/",
+          "createdAt": "2026-05-13T20:57:30-03:00",
+          "comments": 4,
+          "authors": 4
+        },
+        {
+          "id": 8336767374,
+          "title": "Guaxaverso #09 – Comentários sobre o RPGuaxa #65!",
+          "link": "https://www.deviante.com.br/podcasts/rpguaxa/guaxaverso09/",
+          "createdAt": "2020-12-30T23:09:07-03:00",
+          "comments": 3,
+          "authors": 3
+        },
+        {
+          "id": 8525510208,
+          "title": "Guaxaverso #20 – Comentários sobre o RPGuaxa #76!",
+          "link": "https://www.deviante.com.br/podcasts/rpguaxa/guaxaverso20/",
+          "createdAt": "2021-05-17T19:18:24-03:00",
+          "comments": 3,
+          "authors": 3
+        },
+        {
+          "id": 10619735923,
+          "title": "Os Poderes de Uma CEO (GuaxaVerso #145)",
+          "link": "https://www.deviante.com.br/podcasts/rpguaxa/guaxaverso145/",
+          "createdAt": "2025-09-12T21:48:10-03:00",
+          "comments": 3,
+          "authors": 2
+        },
+        {
+          "id": 10604741930,
+          "title": "A Fruta Que Não Viajou (GuaxaVerso #143)",
+          "link": "https://www.deviante.com.br/podcasts/rpguaxa/guaxaverso143/",
+          "createdAt": "2025-08-18T18:16:05-03:00",
+          "comments": 2,
+          "authors": 2
+        },
+        {
+          "id": 9246422944,
+          "title": "De Olho No RPGuaxa – GuaxaVerso #56 – Comentários sobre o RPGuaxa #112!",
+          "link": "https://www.deviante.com.br/podcasts/rpguaxa/guaxaverso56/",
+          "createdAt": "2022-07-04T00:06:13-03:00",
+          "comments": 2,
+          "authors": 2
+        },
+        {
+          "id": 10287948889,
+          "title": "Eu Acredito nas Bolas do Meu Avô! (GuaxaVerso #115)",
+          "link": "https://www.deviante.com.br/podcasts/rpguaxa/guaxaverso115/",
+          "createdAt": "2024-08-11T12:09:10-03:00",
+          "comments": 2,
+          "authors": 2
+        },
+        {
+          "id": 8233296689,
+          "title": "Guaxaverso #02 – Comentários sobre o RPGuaxa #58!",
+          "link": "https://www.deviante.com.br/podcasts/rpguaxa/guaxaverso02/",
+          "createdAt": "2020-10-10T00:39:05-03:00",
+          "comments": 2,
+          "authors": 2
+        },
+        {
+          "id": 8393017101,
+          "title": "Guaxaverso #12 – Comentários sobre o RPGuaxa #68!",
+          "link": "https://www.deviante.com.br/podcasts/rpguaxa/guaxaverso12/",
+          "createdAt": "2021-02-10T23:13:01-03:00",
+          "comments": 2,
+          "authors": 2
+        },
+        {
+          "id": 8450774792,
+          "title": "Guaxaverso #15 – Comentários sobre o RPGuaxa #71!",
+          "link": "https://www.deviante.com.br/podcasts/rpguaxa/guaxaverso15/",
+          "createdAt": "2021-03-25T00:05:08-03:00",
+          "comments": 2,
+          "authors": 2
+        },
+        {
+          "id": 8503848093,
+          "title": "Guaxaverso #18 – Comentários sobre o RPGuaxa #74!",
+          "link": "https://www.deviante.com.br/podcasts/rpguaxa/guaxaverso18/",
+          "createdAt": "2021-05-03T00:13:00-03:00",
+          "comments": 2,
+          "authors": 2
+        },
+        {
+          "id": 8767447102,
+          "title": "GuaxaVerso #29 – Comentários sobre o RPGuaxa #85!",
+          "link": "https://www.deviante.com.br/podcasts/rpguaxa/guaxaverso29/",
+          "createdAt": "2021-09-10T12:36:03-03:00",
+          "comments": 2,
+          "authors": 2
+        },
+        {
+          "id": 8866212684,
+          "title": "GuaxaVerso #33 – Comentários sobre o RPGuaxa #89!",
+          "link": "https://www.deviante.com.br/podcasts/rpguaxa/guaxaverso33/",
+          "createdAt": "2021-11-06T15:24:18-03:00",
+          "comments": 2,
+          "authors": 2
+        },
+        {
+          "id": 9849611021,
+          "title": "Jean Foi Comprar Cigarros (GuaxaVerso #90)",
+          "link": "https://www.deviante.com.br/podcasts/rpguaxa/guaxaverso90/",
+          "createdAt": "2023-09-10T11:13:17-03:00",
+          "comments": 2,
+          "authors": 1
+        },
+        {
+          "id": 9296425266,
+          "title": "NuncaComiPipocaDoce – GuaxaVerso #58 – Comentários sobre o RPGuaxa #114!",
+          "link": "https://www.deviante.com.br/podcasts/rpguaxa/guaxaverso58/",
+          "createdAt": "2022-08-07T13:30:27-03:00",
+          "comments": 2,
+          "authors": 2
+        }
+      ],
+      "commentsByMonth": [
+        {
+          "period": "2020-09",
+          "comments": 11,
+          "authors": 11
+        },
+        {
+          "period": "2020-10",
+          "comments": 10,
+          "authors": 9
+        },
+        {
+          "period": "2020-11",
+          "comments": 5,
+          "authors": 3
+        },
+        {
+          "period": "2020-12",
+          "comments": 3,
+          "authors": 3
+        },
+        {
+          "period": "2021-02",
+          "comments": 6,
+          "authors": 5
+        },
+        {
+          "period": "2021-03",
+          "comments": 9,
+          "authors": 8
+        },
+        {
+          "period": "2021-04",
+          "comments": 5,
+          "authors": 5
+        },
+        {
+          "period": "2021-05",
+          "comments": 6,
+          "authors": 6
+        },
+        {
+          "period": "2021-06",
+          "comments": 2,
+          "authors": 2
+        },
+        {
+          "period": "2021-08",
+          "comments": 6,
+          "authors": 6
+        },
+        {
+          "period": "2021-09",
+          "comments": 3,
+          "authors": 3
+        },
+        {
+          "period": "2021-10",
+          "comments": 3,
+          "authors": 3
+        },
+        {
+          "period": "2021-11",
+          "comments": 5,
+          "authors": 4
+        },
+        {
+          "period": "2021-12",
+          "comments": 1,
+          "authors": 1
+        },
+        {
+          "period": "2022-01",
+          "comments": 1,
+          "authors": 1
+        },
+        {
+          "period": "2022-02",
+          "comments": 2,
+          "authors": 2
+        },
+        {
+          "period": "2022-04",
+          "comments": 2,
+          "authors": 2
+        },
+        {
+          "period": "2022-05",
+          "comments": 1,
+          "authors": 1
+        },
+        {
+          "period": "2022-06",
+          "comments": 2,
+          "authors": 2
+        },
+        {
+          "period": "2022-07",
+          "comments": 3,
+          "authors": 3
+        },
+        {
+          "period": "2022-08",
+          "comments": 2,
+          "authors": 1
+        },
+        {
+          "period": "2022-12",
+          "comments": 1,
+          "authors": 1
+        },
+        {
+          "period": "2023-01",
+          "comments": 2,
+          "authors": 2
+        },
+        {
+          "period": "2023-02",
+          "comments": 1,
+          "authors": 1
+        },
+        {
+          "period": "2023-03",
+          "comments": 6,
+          "authors": 1
+        },
+        {
+          "period": "2023-05",
+          "comments": 1,
+          "authors": 1
+        },
+        {
+          "period": "2023-07",
+          "comments": 1,
+          "authors": 1
+        },
+        {
+          "period": "2023-09",
+          "comments": 2,
+          "authors": 1
+        },
+        {
+          "period": "2023-11",
+          "comments": 1,
+          "authors": 1
+        },
+        {
+          "period": "2023-12",
+          "comments": 1,
+          "authors": 1
+        },
+        {
+          "period": "2024-01",
+          "comments": 4,
+          "authors": 2
+        },
+        {
+          "period": "2024-02",
+          "comments": 2,
+          "authors": 1
+        },
+        {
+          "period": "2024-03",
+          "comments": 1,
+          "authors": 1
+        },
+        {
+          "period": "2024-04",
+          "comments": 1,
+          "authors": 1
+        },
+        {
+          "period": "2024-06",
+          "comments": 1,
+          "authors": 1
+        },
+        {
+          "period": "2024-07",
+          "comments": 1,
+          "authors": 1
+        },
+        {
+          "period": "2024-08",
+          "comments": 2,
+          "authors": 2
+        },
+        {
+          "period": "2024-09",
+          "comments": 1,
+          "authors": 1
+        },
+        {
+          "period": "2024-11",
+          "comments": 2,
+          "authors": 2
+        },
+        {
+          "period": "2025-02",
+          "comments": 1,
+          "authors": 1
+        },
+        {
+          "period": "2025-08",
+          "comments": 2,
+          "authors": 2
+        },
+        {
+          "period": "2025-09",
+          "comments": 3,
+          "authors": 2
+        },
+        {
+          "period": "2026-03",
+          "comments": 1,
+          "authors": 1
+        },
+        {
+          "period": "2026-04",
+          "comments": 2,
+          "authors": 1
+        },
+        {
+          "period": "2026-05",
+          "comments": 4,
+          "authors": 4
+        }
+      ],
+      "topWords": [
+        {
+          "word": "guaxa",
+          "count": 38,
+          "authors": 28
+        },
+        {
+          "word": "episódio",
+          "count": 32,
+          "authors": 23
+        },
+        {
+          "word": "guaxaverso",
+          "count": 23,
+          "authors": 20
+        },
+        {
+          "word": "ouvir",
+          "count": 16,
+          "authors": 11
+        },
+        {
+          "word": "comentário",
+          "count": 11,
+          "authors": 9
+        },
+        {
+          "word": "episódios",
+          "count": 11,
+          "authors": 10
+        },
+        {
+          "word": "rpguaxa",
+          "count": 11,
+          "authors": 8
+        },
+        {
+          "word": "bom",
+          "count": 10,
+          "authors": 9
+        },
+        {
+          "word": "comentários",
+          "count": 9,
+          "authors": 9
+        },
+        {
+          "word": "pikachu",
+          "count": 9,
+          "authors": 1
+        },
+        {
+          "word": "tempo",
+          "count": 9,
+          "authors": 7
+        },
+        {
+          "word": "vitor",
+          "count": 9,
+          "authors": 1
+        },
+        {
+          "word": "obrigado",
+          "count": 8,
+          "authors": 7
+        },
+        {
+          "word": "forma",
+          "count": 7,
+          "authors": 5
+        },
+        {
+          "word": "lido",
+          "count": 7,
+          "authors": 5
+        },
+        {
+          "word": "próximo",
+          "count": 7,
+          "authors": 6
+        },
+        {
+          "word": "abraço",
+          "count": 6,
+          "authors": 6
+        },
+        {
+          "word": "amigos",
+          "count": 6,
+          "authors": 4
+        },
+        {
+          "word": "causa",
+          "count": 6,
+          "authors": 4
+        },
+        {
+          "word": "dia",
+          "count": 6,
+          "authors": 6
+        },
+        {
+          "word": "final",
+          "count": 6,
+          "authors": 6
+        },
+        {
+          "word": "grande",
+          "count": 6,
+          "authors": 5
+        },
+        {
+          "word": "nome",
+          "count": 6,
+          "authors": 5
+        },
+        {
+          "word": "obs",
+          "count": 6,
+          "authors": 2
+        },
+        {
+          "word": "ouvindo",
+          "count": 6,
+          "authors": 6
+        },
+        {
+          "word": "vez",
+          "count": 6,
+          "authors": 4
+        },
+        {
+          "word": "comentar",
+          "count": 5,
+          "authors": 5
+        },
+        {
+          "word": "desse",
+          "count": 5,
+          "authors": 5
+        },
+        {
+          "word": "especial",
+          "count": 5,
+          "authors": 4
+        },
+        {
+          "word": "legal",
+          "count": 5,
+          "authors": 4
+        },
+        {
+          "word": "música",
+          "count": 5,
+          "authors": 4
+        },
+        {
+          "word": "peguei",
+          "count": 5,
+          "authors": 4
+        },
+        {
+          "word": "perguntas",
+          "count": 5,
+          "authors": 5
+        },
+        {
+          "word": "pessoa",
+          "count": 5,
+          "authors": 4
+        },
+        {
+          "word": "primeiro",
+          "count": 5,
+          "authors": 4
+        },
+        {
+          "word": "rápido",
+          "count": 5,
+          "authors": 4
+        },
+        {
+          "word": "abertura",
+          "count": 4,
+          "authors": 3
+        },
+        {
+          "word": "acredite",
+          "count": 4,
+          "authors": 2
+        },
+        {
+          "word": "adorei",
+          "count": 4,
+          "authors": 4
+        },
+        {
+          "word": "amei",
+          "count": 4,
+          "authors": 4
+        },
+        {
+          "word": "bastante",
+          "count": 4,
+          "authors": 3
+        },
+        {
+          "word": "demais",
+          "count": 4,
+          "authors": 4
+        },
+        {
+          "word": "deviante",
+          "count": 4,
+          "authors": 3
+        },
+        {
+          "word": "favor",
+          "count": 4,
+          "authors": 4
+        },
+        {
+          "word": "feliz",
+          "count": 4,
+          "authors": 4
+        },
+        {
+          "word": "formato",
+          "count": 4,
+          "authors": 3
+        },
+        {
+          "word": "gostei",
+          "count": 4,
+          "authors": 4
+        },
+        {
+          "word": "ilha",
+          "count": 4,
+          "authors": 3
+        },
+        {
+          "word": "jogadores",
+          "count": 4,
+          "authors": 2
+        },
+        {
+          "word": "jogo",
+          "count": 4,
+          "authors": 4
+        },
+        {
+          "word": "leitura",
+          "count": 4,
+          "authors": 4
+        },
+        {
+          "word": "malu",
+          "count": 4,
+          "authors": 3
+        },
+        {
+          "word": "maravilhoso",
+          "count": 4,
+          "authors": 4
+        },
+        {
+          "word": "olhos",
+          "count": 4,
+          "authors": 2
+        },
+        {
+          "word": "ouvi",
+          "count": 4,
+          "authors": 4
+        },
+        {
+          "word": "realmente",
+          "count": 4,
+          "authors": 4
+        },
+        {
+          "word": "acertei",
+          "count": 3,
+          "authors": 3
+        },
+        {
+          "word": "adoro",
+          "count": 3,
+          "authors": 3
+        },
+        {
+          "word": "algumas",
+          "count": 3,
+          "authors": 2
+        },
+        {
+          "word": "alguns",
+          "count": 3,
+          "authors": 2
+        },
+        {
+          "word": "ano",
+          "count": 3,
+          "authors": 2
+        },
+        {
+          "word": "anos",
+          "count": 3,
+          "authors": 3
+        },
+        {
+          "word": "ansioso",
+          "count": 3,
+          "authors": 3
+        },
+        {
+          "word": "anterior",
+          "count": 3,
+          "authors": 3
+        },
+        {
+          "word": "apesar",
+          "count": 3,
+          "authors": 3
+        },
+        {
+          "word": "beijei",
+          "count": 3,
+          "authors": 2
+        },
+        {
+          "word": "boa",
+          "count": 3,
+          "authors": 3
+        },
+        {
+          "word": "bola",
+          "count": 3,
+          "authors": 2
+        },
+        {
+          "word": "caso",
+          "count": 3,
+          "authors": 3
+        },
+        {
+          "word": "cheguei",
+          "count": 3,
+          "authors": 3
+        },
+        {
+          "word": "chutei",
+          "count": 3,
+          "authors": 1
+        },
+        {
+          "word": "coincidência",
+          "count": 3,
+          "authors": 2
+        },
+        {
+          "word": "comecei",
+          "count": 3,
+          "authors": 3
+        },
+        {
+          "word": "continuação",
+          "count": 3,
+          "authors": 3
+        },
+        {
+          "word": "criatura",
+          "count": 3,
+          "authors": 3
+        },
+        {
+          "word": "crunchyroll",
+          "count": 3,
+          "authors": 2
+        },
+        {
+          "word": "deixar",
+          "count": 3,
+          "authors": 2
+        },
+        {
+          "word": "desta",
+          "count": 3,
+          "authors": 2
+        },
+        {
+          "word": "episodio",
+          "count": 3,
+          "authors": 3
+        },
+        {
+          "word": "escola",
+          "count": 3,
+          "authors": 1
+        },
+        {
+          "word": "esperando",
+          "count": 3,
+          "authors": 3
+        },
+        {
+          "word": "espero",
+          "count": 3,
+          "authors": 3
+        },
+        {
+          "word": "esqueleto",
+          "count": 3,
+          "authors": 1
+        },
+        {
+          "word": "fabi",
+          "count": 3,
+          "authors": 2
+        },
+        {
+          "word": "felipe",
+          "count": 3,
+          "authors": 1
+        },
+        {
+          "word": "garota",
+          "count": 3,
+          "authors": 2
+        },
+        {
+          "word": "giphy",
+          "count": 3,
+          "authors": 3
+        },
+        {
+          "word": "jogar",
+          "count": 3,
+          "authors": 2
+        },
+        {
+          "word": "link",
+          "count": 3,
+          "authors": 3
+        },
+        {
+          "word": "livro",
+          "count": 3,
+          "authors": 3
+        },
+        {
+          "word": "longe",
+          "count": 3,
+          "authors": 2
+        },
+        {
+          "word": "manezinho",
+          "count": 3,
+          "authors": 2
+        },
+        {
+          "word": "maratonando",
+          "count": 3,
+          "authors": 3
+        },
+        {
+          "word": "media",
+          "count": 3,
+          "authors": 3
+        },
+        {
+          "word": "memória",
+          "count": 3,
+          "authors": 3
+        },
+        {
+          "word": "muletas",
+          "count": 3,
+          "authors": 1
+        },
+        {
+          "word": "mundo",
+          "count": 3,
+          "authors": 2
+        },
+        {
+          "word": "novo",
+          "count": 3,
+          "authors": 3
+        },
+        {
+          "word": "parte",
+          "count": 3,
+          "authors": 2
+        },
+        {
+          "word": "piadas",
+          "count": 3,
+          "authors": 3
+        }
+      ],
+      "rareWords": [
+        {
+          "word": "guaxaversísticos",
+          "count": 1,
+          "authors": 1
+        },
+        {
+          "word": "disponibilidade",
+          "count": 1,
+          "authors": 1
+        },
+        {
+          "word": "enfraquecimento",
+          "count": 1,
+          "authors": 1
+        },
+        {
+          "word": "especificamente",
+          "count": 1,
+          "authors": 1
+        },
+        {
+          "word": "estruturadinho",
+          "count": 1,
+          "authors": 1
+        },
+        {
+          "word": "guaxomentários",
+          "count": 1,
+          "authors": 1
+        },
+        {
+          "word": "hipinotizadora",
+          "count": 1,
+          "authors": 1
+        },
+        {
+          "word": "materialização",
+          "count": 1,
+          "authors": 1
+        },
+        {
+          "word": "principalmente",
+          "count": 1,
+          "authors": 1
+        },
+        {
+          "word": "aspecializada",
+          "count": 1,
+          "authors": 1
+        },
+        {
+          "word": "identificação",
+          "count": 1,
+          "authors": 1
+        },
+        {
+          "word": "indiretamente",
+          "count": 1,
+          "authors": 1
+        },
+        {
+          "word": "primeiramente",
+          "count": 1,
+          "authors": 1
+        },
+        {
+          "word": "provavelmente",
+          "count": 1,
+          "authors": 1
+        },
+        {
+          "word": "recomendações",
+          "count": 1,
+          "authors": 1
+        },
+        {
+          "word": "aproveitando",
+          "count": 1,
+          "authors": 1
+        },
+        {
+          "word": "compartilhar",
+          "count": 1,
+          "authors": 1
+        },
+        {
+          "word": "complementar",
+          "count": 1,
+          "authors": 1
+        },
+        {
+          "word": "desbloqueado",
+          "count": 1,
+          "authors": 1
+        },
+        {
+          "word": "desconhecida",
+          "count": 1,
+          "authors": 1
+        },
+        {
+          "word": "experiências",
+          "count": 1,
+          "authors": 1
+        },
+        {
+          "word": "improvisando",
+          "count": 1,
+          "authors": 1
+        },
+        {
+          "word": "justdancenow",
+          "count": 1,
+          "authors": 1
+        },
+        {
+          "word": "preciosidade",
+          "count": 1,
+          "authors": 1
+        },
+        {
+          "word": "rpguaxaverso",
+          "count": 1,
+          "authors": 1
+        },
+        {
+          "word": "sensacionais",
+          "count": 1,
+          "authors": 1
+        },
+        {
+          "word": "simplesmente",
+          "count": 1,
+          "authors": 1
+        },
+        {
+          "word": "sinceramente",
+          "count": 1,
+          "authors": 1
+        },
+        {
+          "word": "sobrenatural",
+          "count": 1,
+          "authors": 1
+        },
+        {
+          "word": "supernatural",
+          "count": 1,
+          "authors": 1
+        },
+        {
+          "word": "terapeuticos",
+          "count": 1,
+          "authors": 1
+        },
+        {
+          "word": "acompanhada",
+          "count": 1,
+          "authors": 1
+        },
+        {
+          "word": "acreditaria",
+          "count": 1,
+          "authors": 1
+        },
+        {
+          "word": "alimentando",
+          "count": 1,
+          "authors": 1
+        },
+        {
+          "word": "amiotrófica",
+          "count": 1,
+          "authors": 1
+        },
+        {
+          "word": "aproveitado",
+          "count": 1,
+          "authors": 1
+        },
+        {
+          "word": "comentarios",
+          "count": 1,
+          "authors": 1
+        },
+        {
+          "word": "conversamos",
+          "count": 1,
+          "authors": 1
+        },
+        {
+          "word": "cosmogônica",
+          "count": 1,
+          "authors": 1
+        },
+        {
+          "word": "cronológica",
+          "count": 1,
+          "authors": 1
+        }
+      ],
+      "wordLengths": [
+        {
+          "length": 3,
+          "words": 53,
+          "occurrences": 99,
+          "rareWords": 31
+        },
+        {
+          "length": 4,
+          "words": 125,
+          "occurrences": 191,
+          "rareWords": 88
+        },
+        {
+          "length": 5,
+          "words": 214,
+          "occurrences": 374,
+          "rareWords": 157
+        },
+        {
+          "length": 6,
+          "words": 204,
+          "occurrences": 289,
+          "rareWords": 160
+        },
+        {
+          "length": 7,
+          "words": 203,
+          "occurrences": 288,
+          "rareWords": 156
+        },
+        {
+          "length": 8,
+          "words": 161,
+          "occurrences": 253,
+          "rareWords": 128
+        },
+        {
+          "length": 9,
+          "words": 94,
+          "occurrences": 127,
+          "rareWords": 80
+        },
+        {
+          "length": 10,
+          "words": 70,
+          "occurrences": 110,
+          "rareWords": 60
+        },
+        {
+          "length": 11,
+          "words": 36,
+          "occurrences": 60,
+          "rareWords": 24
+        },
+        {
+          "length": 12,
+          "words": 19,
+          "occurrences": 23,
+          "rareWords": 16
+        },
+        {
+          "length": 13,
+          "words": 7,
+          "occurrences": 8,
+          "rareWords": 6
+        },
+        {
+          "length": 14,
+          "words": 5,
+          "occurrences": 5,
+          "rareWords": 5
+        },
+        {
+          "length": 15,
+          "words": 4,
+          "occurrences": 5,
+          "rareWords": 3
+        },
+        {
+          "length": 16,
+          "words": 1,
+          "occurrences": 1,
+          "rareWords": 1
+        }
+      ],
+      "hashtags": [
+        {
+          "tag": "#QuerenosmaisdaDeusa",
+          "count": 1,
+          "authors": 1
+        },
+        {
+          "tag": "#Quero",
+          "count": 1,
+          "authors": 1
+        }
+      ],
+      "emojis": [
+        {
+          "emoji": "\uD83E\uDD23",
+          "count": 8,
+          "authors": 1
+        },
+        {
+          "emoji": "\uD83D\uDE02",
+          "count": 7,
+          "authors": 2
+        },
+        {
+          "emoji": "❤️",
+          "count": 5,
+          "authors": 3
+        },
+        {
+          "emoji": "❣️",
+          "count": 2,
+          "authors": 1
+        },
+        {
+          "emoji": "\uD83D\uDE01",
+          "count": 2,
+          "authors": 1
+        },
+        {
+          "emoji": "\uD83D\uDE09",
+          "count": 2,
+          "authors": 1
+        },
+        {
+          "emoji": "\uD83D\uDE22",
+          "count": 2,
+          "authors": 1
+        },
+        {
+          "emoji": "♥",
+          "count": 1,
+          "authors": 1
+        },
+        {
+          "emoji": "\uD83D\uDC40",
+          "count": 1,
+          "authors": 1
+        },
+        {
+          "emoji": "\uD83D\uDC9E",
+          "count": 1,
+          "authors": 1
+        },
+        {
+          "emoji": "\uD83D\uDCAA",
+          "count": 1,
+          "authors": 1
+        },
+        {
+          "emoji": "\uD83D\uDE04",
+          "count": 1,
+          "authors": 1
+        },
+        {
+          "emoji": "\uD83E\uDD14",
+          "count": 1,
+          "authors": 1
+        },
+        {
+          "emoji": "\uD83E\uDD17",
+          "count": 1,
+          "authors": 1
+        }
+      ],
+      "vocabularyByYear": [
+        {
+          "year": 2020,
+          "words": 332,
+          "newWords": 332,
+          "lostWords": 0,
+          "seasonWords": [
+            {
+              "word": "abertura",
+              "count": 4,
+              "authors": 3
+            },
+            {
+              "word": "acredite",
+              "count": 4,
+              "authors": 2
+            },
+            {
+              "word": "beijei",
+              "count": 3,
+              "authors": 2
+            },
+            {
+              "word": "garota",
+              "count": 3,
+              "authors": 2
+            },
+            {
+              "word": "alien",
+              "count": 2,
+              "authors": 2
+            },
+            {
+              "word": "começa",
+              "count": 2,
+              "authors": 2
+            },
+            {
+              "word": "contar",
+              "count": 2,
+              "authors": 2
+            },
+            {
+              "word": "deve",
+              "count": 2,
+              "authors": 2
+            }
+          ]
+        },
+        {
+          "year": 2021,
+          "words": 442,
+          "newWords": 366,
+          "lostWords": 256,
+          "seasonWords": [
+            {
+              "word": "ilha",
+              "count": 4,
+              "authors": 3
+            },
+            {
+              "word": "alguns",
+              "count": 3,
+              "authors": 2
+            },
+            {
+              "word": "crunchyroll",
+              "count": 3,
+              "authors": 2
+            },
+            {
+              "word": "link",
+              "count": 3,
+              "authors": 3
+            },
+            {
+              "word": "livro",
+              "count": 3,
+              "authors": 3
+            },
+            {
+              "word": "manezinho",
+              "count": 3,
+              "authors": 2
+            },
+            {
+              "word": "presa",
+              "count": 3,
+              "authors": 2
+            },
+            {
+              "word": "suspeito",
+              "count": 3,
+              "authors": 2
+            }
+          ]
+        },
+        {
+          "year": 2022,
+          "words": 284,
+          "newWords": 230,
+          "lostWords": 402,
+          "seasonWords": [
+            {
+              "word": "vitor",
+              "count": 9,
+              "authors": 1
+            },
+            {
+              "word": "escola",
+              "count": 3,
+              "authors": 1
+            },
+            {
+              "word": "muletas",
+              "count": 3,
+              "authors": 1
+            },
+            {
+              "word": "star",
+              "count": 3,
+              "authors": 1
+            },
+            {
+              "word": "série",
+              "count": 3,
+              "authors": 1
+            },
+            {
+              "word": "trek",
+              "count": 3,
+              "authors": 1
+            },
+            {
+              "word": "andar",
+              "count": 2,
+              "authors": 1
+            },
+            {
+              "word": "aniversário",
+              "count": 2,
+              "authors": 1
+            }
+          ]
+        },
+        {
+          "year": 2023,
+          "words": 114,
+          "newWords": 85,
+          "lostWords": 273,
+          "seasonWords": [
+            {
+              "word": "pikachu",
+              "count": 9,
+              "authors": 1
+            },
+            {
+              "word": "esqueleto",
+              "count": 3,
+              "authors": 1
+            },
+            {
+              "word": "digimon",
+              "count": 2,
+              "authors": 1
+            },
+            {
+              "word": "fogo",
+              "count": 2,
+              "authors": 1
+            },
+            {
+              "word": "pokémon",
+              "count": 2,
+              "authors": 1
+            },
+            {
+              "word": "terra",
+              "count": 2,
+              "authors": 1
+            },
+            {
+              "word": "teste",
+              "count": 2,
+              "authors": 1
+            },
+            {
+              "word": "vermelho",
+              "count": 2,
+              "authors": 1
+            }
+          ]
+        },
+        {
+          "year": 2024,
+          "words": 115,
+          "newWords": 67,
+          "lostWords": 105,
+          "seasonWords": [
+            {
+              "word": "shelly",
+              "count": 3,
+              "authors": 2
+            },
+            {
+              "word": "erros",
+              "count": 2,
+              "authors": 1
+            },
+            {
+              "word": "gravação",
+              "count": 2,
+              "authors": 1
+            },
+            {
+              "word": "nomes",
+              "count": 2,
+              "authors": 1
+            },
+            {
+              "word": "acreditei",
+              "count": 1,
+              "authors": 1
+            },
+            {
+              "word": "agr",
+              "count": 1,
+              "authors": 1
+            },
+            {
+              "word": "aguentei",
+              "count": 1,
+              "authors": 1
+            },
+            {
+              "word": "alma",
+              "count": 1,
+              "authors": 1
+            }
+          ]
+        },
+        {
+          "year": 2025,
+          "words": 63,
+          "newWords": 40,
+          "lostWords": 109,
+          "seasonWords": [
+            {
+              "word": "carta",
+              "count": 2,
+              "authors": 1
+            },
+            {
+              "word": "absolute",
+              "count": 1,
+              "authors": 1
+            },
+            {
+              "word": "absoluto",
+              "count": 1,
+              "authors": 1
+            },
+            {
+              "word": "aceito",
+              "count": 1,
+              "authors": 1
+            },
+            {
+              "word": "adição",
+              "count": 1,
+              "authors": 1
+            },
+            {
+              "word": "alta",
+              "count": 1,
+              "authors": 1
+            },
+            {
+              "word": "armadilha",
+              "count": 1,
+              "authors": 1
+            },
+            {
+              "word": "arrasam",
+              "count": 1,
+              "authors": 1
+            }
+          ]
+        },
+        {
+          "year": 2026,
+          "words": 124,
+          "newWords": 76,
+          "lostWords": 57,
+          "seasonWords": [
+            {
+              "word": "chutei",
+              "count": 3,
+              "authors": 1
+            },
+            {
+              "word": "felipe",
+              "count": 3,
+              "authors": 1
+            },
+            {
+              "word": "desses",
+              "count": 2,
+              "authors": 2
+            },
+            {
+              "word": "kung",
+              "count": 2,
+              "authors": 1
+            },
+            {
+              "word": "nuvens",
+              "count": 2,
+              "authors": 1
+            },
+            {
+              "word": "prisioneira",
+              "count": 2,
+              "authors": 1
+            },
+            {
+              "word": "ramen",
+              "count": 2,
+              "authors": 1
+            },
+            {
+              "word": "sangue",
+              "count": 2,
+              "authors": 1
+            }
+          ]
+        }
+      ],
+      "longestComment": {
+        "authorName": "Eugênio Paiva Filho",
+        "username": "Tatu_du_bem",
+        "profileUrl": "https://disqus.com/by/Tatu_du_bem/",
+        "characters": 2393,
+        "createdAt": "2022-05-17T07:56:31-03:00",
+        "discussionTitle": "Chorastes? – GuaxaVerso #50 – Comentários sobre o RPGuaxa #106!",
+        "discussionLink": "https://www.deviante.com.br/podcasts/rpguaxa/guaxaverso50/",
+        "excerpt": "Olá Guaxa. Esse é meu segundo comentário por aqui. Tenho 35 anos, faço aniversário no dia 26 de abril e ouço pelo podcast addict. Pois é hahahahaha. Quando ouvi o episódio fiquei com os olhos marejados perto do fim, e co…"
+      },
+      "shortestComment": {
+        "authorName": "Todê Zistino",
+        "username": "disqus_5DZEogKOnp",
+        "profileUrl": "https://disqus.com/by/disqus_5DZEogKOnp/",
+        "characters": 2,
+        "createdAt": "2021-02-11T18:55:32-03:00",
+        "discussionTitle": "Guaxaverso #12 – Comentários sobre o RPGuaxa #68!",
+        "discussionLink": "https://www.deviante.com.br/podcasts/rpguaxa/guaxaverso12/",
+        "excerpt": "<3"
+      },
+      "firstCommenters": [
+        {
+          "authorId": 173188691,
+          "name": "Todê Zistino",
+          "username": "disqus_5DZEogKOnp",
+          "profileUrl": "https://disqus.com/by/disqus_5DZEogKOnp/",
+          "count": 17,
+          "share": 26.2
+        },
+        {
+          "authorId": 408747255042686,
+          "name": "L.F. Herdy",
+          "username": "lfherdy",
+          "profileUrl": "https://disqus.com/by/lfherdy/",
+          "count": 2,
+          "share": 3.1
+        },
+        {
+          "authorId": 376239641422740,
+          "name": "Ohara",
+          "username": "oharacastro",
+          "profileUrl": "https://disqus.com/by/oharacastro/",
+          "count": 2,
+          "share": 3.1
+        },
+        {
+          "authorId": 379667736747832,
+          "name": "Vegano Thiago",
+          "username": "veganothiago",
+          "profileUrl": "https://disqus.com/by/veganothiago/",
+          "count": 2,
+          "share": 3.1
+        },
+        {
+          "authorId": 362826530,
+          "name": "Agata Sofia",
+          "username": "agata_sofia",
+          "profileUrl": "https://disqus.com/by/agata_sofia/",
+          "count": 1,
+          "share": 1.5
+        },
+        {
+          "authorId": 356607160,
+          "name": "Ananta",
+          "username": "anantatargaryen",
+          "profileUrl": "https://disqus.com/by/anantatargaryen/",
+          "count": 1,
+          "share": 1.5
+        },
+        {
+          "authorId": 9859410,
+          "name": "André Farias",
+          "username": "Alduim",
+          "profileUrl": "https://disqus.com/by/Alduim/",
+          "count": 1,
+          "share": 1.5
+        },
+        {
+          "authorId": 209715015,
+          "name": "André MB",
+          "username": "Andre_MB",
+          "profileUrl": "https://disqus.com/by/Andre_MB/",
+          "count": 1,
+          "share": 1.5
+        },
+        {
+          "authorId": 332326000,
+          "name": "Bode 125cc KS",
+          "username": "MaxSouEu",
+          "profileUrl": "https://disqus.com/by/MaxSouEu/",
+          "count": 1,
+          "share": 1.5
+        },
+        {
+          "authorId": 255053457,
+          "name": "Carlos Henrique Barbosa",
+          "username": "disqus_prElDdLLBp",
+          "profileUrl": "https://disqus.com/by/disqus_prElDdLLBp/",
+          "count": 1,
+          "share": 1.5
+        }
+      ],
+      "lastCommenters": [
+        {
+          "authorId": 173188691,
+          "name": "Todê Zistino",
+          "username": "disqus_5DZEogKOnp",
+          "profileUrl": "https://disqus.com/by/disqus_5DZEogKOnp/",
+          "count": 20,
+          "share": 30.8
+        },
+        {
+          "authorId": 379667736747832,
+          "name": "Vegano Thiago",
+          "username": "veganothiago",
+          "profileUrl": "https://disqus.com/by/veganothiago/",
+          "count": 4,
+          "share": 6.2
+        },
+        {
+          "authorId": 291894351,
+          "name": "Lucas Mateus",
+          "username": "disqus_kOl0h1qTMB",
+          "profileUrl": "https://disqus.com/by/disqus_kOl0h1qTMB/",
+          "count": 3,
+          "share": 4.6
+        },
+        {
+          "authorId": 5035373,
+          "name": "Gambi \"O Ornitorrinco\" Arra",
+          "username": "Joseload",
+          "profileUrl": "https://disqus.com/by/Joseload/",
+          "count": 2,
+          "share": 3.1
+        },
+        {
+          "authorId": 55572804,
+          "name": "MarceloGuaxinim",
+          "username": "marceloguaxinim",
+          "profileUrl": "https://disqus.com/by/marceloguaxinim/",
+          "count": 2,
+          "share": 3.1
+        },
+        {
+          "authorId": 204396804,
+          "name": "Allen Da Costa Araujo",
+          "username": "allendacostaaraujo",
+          "profileUrl": "https://disqus.com/by/allendacostaaraujo/",
+          "count": 1,
+          "share": 1.5
+        },
+        {
+          "authorId": 382044562,
+          "name": "Andrew Zsod",
+          "username": "andrewzsod",
+          "profileUrl": "https://disqus.com/by/andrewzsod/",
+          "count": 1,
+          "share": 1.5
+        },
+        {
+          "authorId": 209715015,
+          "name": "André MB",
+          "username": "Andre_MB",
+          "profileUrl": "https://disqus.com/by/Andre_MB/",
+          "count": 1,
+          "share": 1.5
+        },
+        {
+          "authorId": 334710804,
+          "name": "André Trapani",
+          "username": "andrtrapanipossignolo",
+          "profileUrl": "https://disqus.com/by/andrtrapanipossignolo/",
+          "count": 1,
+          "share": 1.5
+        },
+        {
+          "authorId": 352277657,
+          "name": "Apesar do Caos",
+          "username": "apesardocaosmli2020",
+          "profileUrl": "https://disqus.com/by/apesardocaosmli2020/",
+          "count": 1,
+          "share": 1.5
+        }
+      ],
+      "topBigrams": [
+        {
+          "phrase": "muito bom",
+          "count": 4,
+          "authors": 4
+        },
+        {
+          "phrase": "foi muito",
+          "count": 3,
+          "authors": 3
+        },
+        {
+          "phrase": "guaxa falou",
+          "count": 3,
+          "authors": 3
+        },
+        {
+          "phrase": "media giphy",
+          "count": 3,
+          "authors": 3
+        },
+        {
+          "phrase": "nesse episódio",
+          "count": 3,
+          "authors": 2
+        },
+        {
+          "phrase": "não foi",
+          "count": 3,
+          "authors": 3
+        },
+        {
+          "phrase": "não tem",
+          "count": 3,
+          "authors": 3
+        },
+        {
+          "phrase": "próximo episódio",
+          "count": 3,
+          "authors": 3
+        },
+        {
+          "phrase": "ser lido",
+          "count": 3,
+          "authors": 2
+        },
+        {
+          "phrase": "star trek",
+          "count": 3,
+          "authors": 1
+        },
+        {
+          "phrase": "tava esperando",
+          "count": 3,
+          "authors": 3
+        },
+        {
+          "phrase": "vou me",
+          "count": 3,
+          "authors": 3
+        },
+        {
+          "phrase": "ainda mais",
+          "count": 2,
+          "authors": 2
+        },
+        {
+          "phrase": "ainda não",
+          "count": 2,
+          "authors": 2
+        },
+        {
+          "phrase": "bb meio",
+          "count": 2,
+          "authors": 2
+        },
+        {
+          "phrase": "boa aventura",
+          "count": 2,
+          "authors": 2
+        },
+        {
+          "phrase": "bola prisioneira",
+          "count": 2,
+          "authors": 1
+        },
+        {
+          "phrase": "desisti só",
+          "count": 2,
+          "authors": 1
+        },
+        {
+          "phrase": "desta vez",
+          "count": 2,
+          "authors": 1
+        },
+        {
+          "phrase": "episódio guaxa",
+          "count": 2,
+          "authors": 2
+        }
+      ],
+      "newAuthorsByYear": [
+        {
+          "year": 2020,
+          "newAuthors": 25,
+          "newAuthorsComments": 29,
+          "activeAuthors": 25,
+          "comments": 29,
+          "retentionShare": 24
+        },
+        {
+          "year": 2021,
+          "newAuthors": 23,
+          "newAuthorsComments": 30,
+          "activeAuthors": 29,
+          "comments": 46,
+          "retentionShare": 0
+        },
+        {
+          "year": 2022,
+          "newAuthors": 9,
+          "newAuthorsComments": 9,
+          "activeAuthors": 10,
+          "comments": 14,
+          "retentionShare": 0
+        },
+        {
+          "year": 2023,
+          "newAuthors": 6,
+          "newAuthorsComments": 12,
+          "activeAuthors": 7,
+          "comments": 15,
+          "retentionShare": 0
+        },
+        {
+          "year": 2024,
+          "newAuthors": 5,
+          "newAuthorsComments": 6,
+          "activeAuthors": 7,
+          "comments": 15,
+          "retentionShare": 0
+        },
+        {
+          "year": 2025,
+          "newAuthors": 3,
+          "newAuthorsComments": 6,
+          "activeAuthors": 3,
+          "comments": 6,
+          "retentionShare": 33.3
+        },
+        {
+          "year": 2026,
+          "newAuthors": 4,
+          "newAuthorsComments": 4,
+          "activeAuthors": 6,
+          "comments": 7,
+          "retentionShare": 0
+        }
+      ],
+      "newcomers": [
+        {
+          "authorId": 416580129146941,
+          "name": "Gabi Fazoli",
+          "username": "gabifazoli",
+          "profileUrl": "https://disqus.com/by/gabifazoli/",
+          "firstCommentAt": "2026-05-14T12:25:44-03:00",
+          "comments": 1,
+          "discussions": 1,
+          "characters": 57
+        },
+        {
+          "authorId": 350201366,
+          "name": "Jean Macedo",
+          "username": "disqus_DcjUFZAYET",
+          "profileUrl": "https://disqus.com/by/disqus_DcjUFZAYET/",
+          "firstCommentAt": "2026-05-14T20:20:01-03:00",
+          "comments": 1,
+          "discussions": 1,
+          "characters": 1534
+        },
+        {
+          "authorId": 117794433,
+          "name": "Rubens Mateus Padoveze",
+          "username": "RMPArquimago",
+          "profileUrl": "https://disqus.com/by/RMPArquimago/",
+          "firstCommentAt": "2026-05-18T10:43:59-03:00",
+          "comments": 1,
+          "discussions": 1,
+          "characters": 30
+        },
+        {
+          "authorId": 22398706,
+          "name": "Tahlla Slade",
+          "username": "disqus_NOLlT1egAx",
+          "profileUrl": "https://disqus.com/by/disqus_NOLlT1egAx/",
+          "firstCommentAt": "2026-05-15T09:23:34-03:00",
+          "comments": 1,
+          "discussions": 1,
+          "characters": 177
+        }
+      ],
+      "activityByWeekdayHour": [
+        {
+          "weekday": 0,
+          "hour": 9,
+          "comments": 1
+        },
+        {
+          "weekday": 0,
+          "hour": 12,
+          "comments": 2
+        },
+        {
+          "weekday": 0,
+          "hour": 15,
+          "comments": 2
+        },
+        {
+          "weekday": 0,
+          "hour": 16,
+          "comments": 2
+        },
+        {
+          "weekday": 0,
+          "hour": 18,
+          "comments": 1
+        },
+        {
+          "weekday": 0,
+          "hour": 21,
+          "comments": 1
+        },
+        {
+          "weekday": 0,
+          "hour": 22,
+          "comments": 2
+        },
+        {
+          "weekday": 0,
+          "hour": 23,
+          "comments": 1
+        },
+        {
+          "weekday": 1,
+          "hour": 8,
+          "comments": 1
+        },
+        {
+          "weekday": 1,
+          "hour": 10,
+          "comments": 1
+        },
+        {
+          "weekday": 1,
+          "hour": 11,
+          "comments": 1
+        },
+        {
+          "weekday": 1,
+          "hour": 12,
+          "comments": 4
+        },
+        {
+          "weekday": 1,
+          "hour": 13,
+          "comments": 1
+        },
+        {
+          "weekday": 1,
+          "hour": 15,
+          "comments": 2
+        },
+        {
+          "weekday": 1,
+          "hour": 16,
+          "comments": 2
+        },
+        {
+          "weekday": 1,
+          "hour": 17,
+          "comments": 1
+        },
+        {
+          "weekday": 1,
+          "hour": 18,
+          "comments": 1
+        },
+        {
+          "weekday": 1,
+          "hour": 19,
+          "comments": 2
+        },
+        {
+          "weekday": 1,
+          "hour": 20,
+          "comments": 2
+        },
+        {
+          "weekday": 1,
+          "hour": 21,
+          "comments": 4
+        },
+        {
+          "weekday": 1,
+          "hour": 22,
+          "comments": 1
+        },
+        {
+          "weekday": 2,
+          "hour": 0,
+          "comments": 1
+        },
+        {
+          "weekday": 2,
+          "hour": 7,
+          "comments": 1
+        },
+        {
+          "weekday": 2,
+          "hour": 8,
+          "comments": 1
+        },
+        {
+          "weekday": 2,
+          "hour": 9,
+          "comments": 1
+        },
+        {
+          "weekday": 2,
+          "hour": 10,
+          "comments": 1
+        },
+        {
+          "weekday": 2,
+          "hour": 14,
+          "comments": 1
+        },
+        {
+          "weekday": 2,
+          "hour": 15,
+          "comments": 4
+        },
+        {
+          "weekday": 2,
+          "hour": 17,
+          "comments": 1
+        },
+        {
+          "weekday": 2,
+          "hour": 18,
+          "comments": 1
+        },
+        {
+          "weekday": 2,
+          "hour": 19,
+          "comments": 1
+        },
+        {
+          "weekday": 2,
+          "hour": 20,
+          "comments": 1
+        },
+        {
+          "weekday": 2,
+          "hour": 23,
+          "comments": 1
+        },
+        {
+          "weekday": 3,
+          "hour": 0,
+          "comments": 1
+        },
+        {
+          "weekday": 3,
+          "hour": 6,
+          "comments": 1
+        },
+        {
+          "weekday": 3,
+          "hour": 9,
+          "comments": 6
+        },
+        {
+          "weekday": 3,
+          "hour": 10,
+          "comments": 3
+        },
+        {
+          "weekday": 3,
+          "hour": 11,
+          "comments": 3
+        },
+        {
+          "weekday": 3,
+          "hour": 12,
+          "comments": 1
+        },
+        {
+          "weekday": 3,
+          "hour": 13,
+          "comments": 3
+        },
+        {
+          "weekday": 3,
+          "hour": 15,
+          "comments": 1
+        },
+        {
+          "weekday": 3,
+          "hour": 16,
+          "comments": 2
+        },
+        {
+          "weekday": 3,
+          "hour": 18,
+          "comments": 1
+        },
+        {
+          "weekday": 3,
+          "hour": 19,
+          "comments": 2
+        },
+        {
+          "weekday": 3,
+          "hour": 20,
+          "comments": 2
+        },
+        {
+          "weekday": 4,
+          "hour": 0,
+          "comments": 2
+        },
+        {
+          "weekday": 4,
+          "hour": 1,
+          "comments": 1
+        },
+        {
+          "weekday": 4,
+          "hour": 7,
+          "comments": 1
+        },
+        {
+          "weekday": 4,
+          "hour": 8,
+          "comments": 1
+        },
+        {
+          "weekday": 4,
+          "hour": 9,
+          "comments": 6
+        },
+        {
+          "weekday": 4,
+          "hour": 10,
+          "comments": 3
+        },
+        {
+          "weekday": 4,
+          "hour": 11,
+          "comments": 2
+        },
+        {
+          "weekday": 4,
+          "hour": 12,
+          "comments": 1
+        },
+        {
+          "weekday": 4,
+          "hour": 14,
+          "comments": 1
+        },
+        {
+          "weekday": 4,
+          "hour": 16,
+          "comments": 2
+        },
+        {
+          "weekday": 4,
+          "hour": 17,
+          "comments": 1
+        },
+        {
+          "weekday": 4,
+          "hour": 18,
+          "comments": 6
+        },
+        {
+          "weekday": 4,
+          "hour": 20,
+          "comments": 1
+        },
+        {
+          "weekday": 4,
+          "hour": 21,
+          "comments": 1
+        },
+        {
+          "weekday": 4,
+          "hour": 23,
+          "comments": 1
+        },
+        {
+          "weekday": 5,
+          "hour": 5,
+          "comments": 1
+        },
+        {
+          "weekday": 5,
+          "hour": 7,
+          "comments": 1
+        },
+        {
+          "weekday": 5,
+          "hour": 8,
+          "comments": 1
+        },
+        {
+          "weekday": 5,
+          "hour": 9,
+          "comments": 2
+        },
+        {
+          "weekday": 5,
+          "hour": 10,
+          "comments": 2
+        },
+        {
+          "weekday": 5,
+          "hour": 11,
+          "comments": 1
+        },
+        {
+          "weekday": 5,
+          "hour": 13,
+          "comments": 1
+        },
+        {
+          "weekday": 5,
+          "hour": 14,
+          "comments": 1
+        },
+        {
+          "weekday": 5,
+          "hour": 17,
+          "comments": 1
+        },
+        {
+          "weekday": 5,
+          "hour": 19,
+          "comments": 1
+        },
+        {
+          "weekday": 5,
+          "hour": 23,
+          "comments": 3
+        },
+        {
+          "weekday": 6,
+          "hour": 2,
+          "comments": 3
+        },
+        {
+          "weekday": 6,
+          "hour": 9,
+          "comments": 1
+        },
+        {
+          "weekday": 6,
+          "hour": 10,
+          "comments": 2
+        },
+        {
+          "weekday": 6,
+          "hour": 14,
+          "comments": 1
+        },
+        {
+          "weekday": 6,
+          "hour": 17,
+          "comments": 1
+        },
+        {
+          "weekday": 6,
+          "hour": 18,
+          "comments": 1
+        },
+        {
+          "weekday": 6,
+          "hour": 19,
+          "comments": 1
+        },
+        {
+          "weekday": 6,
+          "hour": 23,
+          "comments": 1
+        }
+      ]
+    }
+  ]
+};

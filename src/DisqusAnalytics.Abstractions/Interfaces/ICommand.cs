@@ -19,5 +19,11 @@ public interface ICommand
     /// <summary>
     /// Executa o comando.
     /// </summary>
-    Task ExecuteAsync(CancellationToken cancellationToken = default);
+    /// <param name="arguments">
+    /// Argumentos informados após o nome do comando.
+    /// Exemplo: sync comments -> ["comments"].
+    /// </param>
+    Task ExecuteAsync(
+        IReadOnlyList<string> arguments,
+        CancellationToken cancellationToken = default);
 }

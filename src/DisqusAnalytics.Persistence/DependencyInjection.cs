@@ -73,6 +73,8 @@ public static class DependencyInjection
 
         services.AddScoped<IForumRepository, ForumRepository>();
         services.AddScoped<IDiscussionRepository, DiscussionRepository>();
+        services.AddScoped<IAuthorRepository, AuthorRepository>();
+        services.AddScoped<ICommentRepository, CommentRepository>();
 
         return services;
     }

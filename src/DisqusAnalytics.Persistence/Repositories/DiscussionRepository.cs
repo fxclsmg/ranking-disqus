@@ -18,6 +18,32 @@ public sealed class DiscussionRepository(
                 cancellationToken);
     }
 
+    public async Task<IReadOnlyList<Discussion>> GetByForumIdAsync(
+        long forumId,
+        bool asTracking = false,
+        CancellationToken cancellationToken = default)
+    {
+        IQueryable<Discussion> query = asTracking
+            ? context.Discussions
+            : context.Discussions.AsNoTracking();
+
+        var items = await query
+            .Where(discussion => discussion.ForumId == forumId)
+            .ToListAsync(cancellationToken);
+
+        // O SQLite não ordena por DateTimeOffset: a ordenação é feita
+        // em memória.
+        return items
+            .OrderBy(discussion => discussion.CreatedAt)
+            .ToList();
+    }
+
+    public async Task SaveChangesAsync(
+        CancellationToken cancellationToken = default)
+    {
+        await context.SaveChangesAsync(cancellationToken);
+    }
+
     public async Task UpsertAsync(
         Discussion discussion,
         CancellationToken cancellationToken = default)
@@ -43,20 +69,35 @@ public sealed class DiscussionRepository(
         IEnumerable<Discussion> discussions,
         CancellationToken cancellationToken = default)
     {
-        foreach (var discussion in discussions)
-        {
-            var existing = await context.Discussions
-                .FirstOrDefaultAsync(
-                    item => item.Id == discussion.Id,
-                    cancellationToken);
+        var items = discussions
+            .GroupBy(discussion => discussion.Id)
+            .Select(group => group.Last())
+            .ToList();
 
-            if (existing is null)
+        if (items.Count == 0)
+        {
+            return;
+        }
+
+        var ids = items
+            .Select(discussion => discussion.Id)
+            .ToList();
+
+        var existing = await context.Discussions
+            .Where(discussion => ids.Contains(discussion.Id))
+            .ToDictionaryAsync(
+                discussion => discussion.Id,
+                cancellationToken);
+
+        foreach (var discussion in items)
+        {
+            if (existing.TryGetValue(discussion.Id, out var current))
             {
-                context.Discussions.Add(discussion);
+                UpdateEntity(current, discussion);
             }
             else
             {
-                UpdateEntity(existing, discussion);
+                context.Discussions.Add(discussion);
             }
         }
 

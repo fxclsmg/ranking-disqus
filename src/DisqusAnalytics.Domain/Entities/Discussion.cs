@@ -56,5 +56,18 @@ public class Discussion
     /// </summary>
     public bool IsRelevant { get; set; }
 
+    /// <summary>
+    /// Data da última sincronização de comentários.
+    /// Null indica que os comentários ainda não foram baixados.
+    /// </summary>
+    public DateTimeOffset? CommentsSyncedAt { get; set; }
+
+    /// <summary>
+    /// Quantidade de comentários informada pelo Disqus no momento
+    /// da última sincronização. Permite detectar comentários novos
+    /// sem consultar a API novamente.
+    /// </summary>
+    public int SyncedCommentCount { get; set; }
+
     public ICollection<Comment> Comments { get; set; } = new List<Comment>();
 }

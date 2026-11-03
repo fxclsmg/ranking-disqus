@@ -1,624 +1,336 @@
 # Disqus Analytics
 
-Sistema genérico para coleta, armazenamento e análise de dados de fóruns Disqus.
+Coleta e analisa os comentários de podcasts que vivem em fóruns do Disqus.
+O programa recebe um fórum, separa as discussões de cada podcast por título,
+baixa os comentários, guarda tudo em SQLite e gera:
 
-O sistema recebe um fórum Disqus, sincroniza threads e comentários, armazena os dados localmente, aplica filtros configuráveis e gera arquivos JSON com estatísticas para consumo por um frontend estático.
+* `docs/statistics.json` — o relatório de estatísticas (para qualquer cliente);
+* `docs/statistics.js` — o mesmo conteúdo como script, que faz a página
+  funcionar aberta direto do disco;
+* `docs/index.html` — uma página estática (HTML/CSS/JS) pronta para o
+  GitHub Pages.
+
+**Exemplo real:** os podcasts RPGuaxa (229 episódios, 5.006 comentários) e
+Guaxaverso (176 episódios, 132 comentários), ambos dentro do fórum
+`scicastpodcast` (Portal Deviante), que tem mais de 8.000 threads.
 
 ---
 
-# 1. Objetivo do Projeto
-
-Criar uma ferramenta capaz de analisar comunidades baseadas em Disqus.
-
-Exemplos de análises:
-
-* Ranking de comentaristas.
-* Posts/discussões com mais comentários.
-* Usuários mais ativos.
-* Usuários que escrevem mais caracteres.
-* Usuários mais concisos.
-* Evolução da comunidade.
-* Estatísticas por período.
-* Estatísticas por discussão.
-
-O frontend não acessará o Disqus diretamente.
-
-Fluxo:
+## O que ele faz
 
 ```
-Disqus API
-    |
-    |
-Backend .NET
-    |
-    +-- Banco 
-    |
-    +-- Processamento estatístico
-    |
-    +-- JSON
-            |
-            |
-      GitHub Pages
+API do Disqus
+     │  forums/details, forums/listThreads, threads/listPosts
+     ▼
+DisqusAnalytics.Sync ────► SQLite (data/disqus.db)
+     │                        Forums, Discussions, Author, Comment
+     │
+     ▼
+DisqusAnalytics.Analytics ──► docs/statistics.json + docs/statistics.js
+                                     │
+                                     ▼
+                              docs/index.html (GitHub Pages)
 ```
 
----
+Decisões que explicam o desenho:
 
-# 2. Tecnologias
-
-## Backend
-
-* .NET 8
-* C#
-* Entity Framework Core
-* SQLite
-* HttpClient
-* System.Text.Json
-
-## Frontend
-
-Inicialmente:
-
-* HTML
-* CSS
-* JavaScript
-
-Hospedagem:
-
-* GitHub Pages
+1. **Filtro antes de baixar.** O Disqus não separa podcasts em fóruns: o
+   Portal Deviante tem um único fórum com todos os programas. Baixar os
+   comentários de 8.000 threads custaria ~8.000 requisições (≈9 h de cota)
+   por dados que não interessam. Por isso cada podcast é um *alvo* definido
+   por filtros de título e só as discussões relevantes têm comentários
+   baixados (405 threads no exemplo).
+2. **Sincronização retomável.** Cada discussão guarda `CommentsSyncedAt` e
+   `SyncedCommentCount`. Uma nova execução só baixa o que mudou, e um
+   HTTP 429 (cota da API) interrompe a coleta sem perder progresso.
+3. **Estatísticas derivadas do banco.** Nenhuma métrica chama a API: rodar
+   `stats` de novo não gasta cota.
 
 ---
 
-# 3. Criar a solução
+## Requisitos
 
-Criar diretório:
+* .NET 8 SDK
+* Uma chave pública da API do Disqus (Disqus → Settings → API)
+
+---
+
+## Como replicar
 
 ```bash
-mkdir DisqusAnalytics
-
-cd DisqusAnalytics
-```
-
-Criar solução:
-
-```bash
-dotnet new sln -n DisqusAnalytics
-```
-
----
-
-# 4. Criar projetos
-
-
----
-
-## Abstractions
-
-Interfaces compartilhadas.
-
-```bash
-dotnet new classlib -n DisqusAnalytics.Abstractions -o src/DisqusAnalytics.Abstractions
-```
-
-## Domínio
-
-Responsável pelas entidades e regras básicas.
-
-```bash
-dotnet new classlib -n DisqusAnalytics.Domain -o src/DisqusAnalytics.Domain
-```
-
----
-
-## Persistência
-
-Responsável pelo banco de dados.
-
-```bash
-dotnet new classlib -n DisqusAnalytics.Persistence -o src/DisqusAnalytics.Persistence
-```
-
----
-
-## Cliente Disqus
-
-Responsável pela comunicação com a API.
-
-```bash
-dotnet new classlib -n DisqusAnalytics.Disqus -o src/DisqusAnalytics.Disqus
-```
-
----
-
-## Sincronização
-
-Responsável por baixar e atualizar dados.
-
-```bash
-dotnet new classlib -n DisqusAnalytics.Sync -o src/DisqusAnalytics.Sync
-```
-
----
-
-## Analytics
-
-Responsável pelos cálculos estatísticos.
-
-```bash
-dotnet new classlib -n DisqusAnalytics.Analytics -o src/DisqusAnalytics.Analytics
-```
-
----
-
-## Aplicação Console
-
-Ponto de entrada inicial.
-
-```bash
-dotnet new console -n DisqusAnalytics.Console -o src/DisqusAnalytics.Console
-```
-
----
-
-# 5. Adicionar projetos na Solution
-
-```bash
-dotnet sln add src/DisqusAnalytics.Abstractions
-
-dotnet sln add src/DisqusAnalytics.Domain
-
-dotnet sln add src/DisqusAnalytics.Persistence
-
-dotnet sln add src/DisqusAnalytics.Disqus
-
-dotnet sln add src/DisqusAnalytics.Sync
-
-dotnet sln add src/DisqusAnalytics.Analytics
-
-dotnet sln add src/DisqusAnalytics.Console
-```
-
----
-
-# 6. Referências entre projetos
-
-## Abstractions depende do Domain
-
-```bash
-dotnet add src/DisqusAnalytics.Abstractions reference src/DisqusAnalytics.Domain
-```
-
-## Persistence depende de Domain e Abstractions
-
-```bash
-dotnet add src/DisqusAnalytics.Persistence reference src/DisqusAnalytics.Domain
-
-dotnet add src/DisqusAnalytics.Persistence reference src/DisqusAnalytics.Abstractions
-```
-
----
-
-## Disqus depende do Domain e Abstractions
-
-```bash
-dotnet add src/DisqusAnalytics.Disqus reference src/DisqusAnalytics.Domain
-
-dotnet add src/DisqusAnalytics.Disqus reference src/DisqusAnalytics.Abstractions
-```
-
----
-
-## Sync depende de:
-
-```bash
-dotnet add src/DisqusAnalytics.Sync reference src/DisqusAnalytics.Domain
-
-dotnet add src/DisqusAnalytics.Sync reference src/DisqusAnalytics.Abstractions
-
-dotnet add src/DisqusAnalytics.Sync reference src/DisqusAnalytics.Disqus
-
-dotnet add src/DisqusAnalytics.Sync reference src/DisqusAnalytics.Persistence
-
-dotnet add src/DisqusAnalytics.Sync reference src/DisqusAnalytics.Analytics
-```
-
----
-
-## Analytics depende do Domain e Abstractions
-
-```bash
-dotnet add src/DisqusAnalytics.Analytics reference src/DisqusAnalytics.Domain
-
-dotnet add src/DisqusAnalytics.Persistence reference src/DisqusAnalytics.Abstractions
-```
-
----
-
-## Console depende dos Sync
-
-```bash
-dotnet add src/DisqusAnalytics.Console reference src/DisqusAnalytics.Sync
-```
-
----
-
-# 7. Pacotes NuGet
-
-## Entity Framework SQLite
-
-Executar:
-
-```bash
-dotnet add src/DisqusAnalytics.Persistence package Microsoft.EntityFrameworkCore.Sqlite
-```
-
-## Logs da aplicação
-
-```bash
-dotnet add src/DisqusAnalytics.Sync package Microsoft.Extensions.Logging.Abstractions --version 8.0.2
-
-dotnet add src/DisqusAnalytics.Console package Microsoft.Extensions.Logging --version 8.0.1
-
-dotnet add src/DisqusAnalytics.Disqus package Microsoft.Extensions.Logging
-```
-
-## Arquivos de configuração da aplicação
-
-```bash
-dotnet add src/DisqusAnalytics.Disqus package Microsoft.Extensions.Configuration.Abstractions --version 8.0.0
-dotnet add src/DisqusAnalytics.Disqus package Microsoft.Extensions.Options.ConfigurationExtensions --version 8.0.0
-
-dotnet add src/DisqusAnalytics.Console package Microsoft.Extensions.Configuration.Json --version 8.0.1
-dotnet add src/DisqusAnalytics.Disqus package Microsoft.Extensions.Http
-```
-
-
-
----
-
-## Ferramenta EF
-
-Instalar:
-
-```bash
-dotnet tool install --global dotnet-ef
-```
-
-Verificar:
-
-```bash
-dotnet ef --version
-```
-
----
-
-# 8. Estrutura final
-
-```
-DisqusAnalytics (RANKING-DISQUS)
-│
-├── DisqusAnalytics.sln
-│
-├── src
-│   │
-│   ├── DisqusAnalytics.Abistractions
-│   │   │
-│   │   └── Interfaces
-│   │       │
-│   │       └── Comment.cs
-│   │
-│   ├── DisqusAnalytics.Analytics
-│   │   │
-│   │   ├── Statistics...
-│   │   └── Reports...
-│   │
-│   ├── DisqusAnalytics.Console
-│   │   │
-│   │   ├── appSettings.json
-│   │   ├── appSettings.Local.example.json
-│   │   │
-│   │   ├── Commands
-│   │   │   │
-│   │   │   ├── RunCommand.cs
-│   │   │   └── SyncCommand.cs
-│   │   │
-│   │   ├── Extensions
-│   │   │    │
-│   │   │    └── ServiceCollectionExtensions.cs
-│   │   │
-│   │   └── Program.cs
-│   │
-│   ├── DisqusAnalytics.Disqus
-│   │   │
-│   │   ├── Client...
-│   │   ├── DTOs...
-│   │   └── Responses...
-│   │
-│   ├── DisqusAnalytics.Domain
-│   │   │
-│   │   ├── Entities
-│   │   │   │   
-│   │   │   ├── Entity.cs
-│   │   │   ├── Forum.cs
-│   │   │   ├── Discussion.cs
-│   │   │   ├── Author.cs
-│   │   │   └── Comment.cs
-│   │   │
-│   │   ├── Enums...
-│   │   │
-│   │   └── ValueObjects...
-│   │
-│   ├── DisqusAnalytics.Persistence
-│   │   │
-│   │   ├── Context...
-│   │   ├── Configurations...
-│   │   └── Repositories...
-│   │
-│   └── DisqusAnalytics.Sync
-│       │
-│       ├── Services...
-│       └── Workers...
-│
-└── data
-    |
-    └── disqus.db...
-```
-
----
-
-# 9. Fases do desenvolvimento
-
----
-
-# Fase 1 - Base do projeto
-
-Objetivo:
-
-Criar estrutura funcional.
-
-Responsabilidades:
-
-* Criar solução.
-* Criar projetos.
-* Configurar dependências.
-* Configurar SQLite.
-* Criar entidades.
-
-Resultado:
-
-Aplicação compilando.
-
----
-
-# Fase 2 - Integração Disqus API
-
-Objetivo:
-
-Comunicar com o Disqus.
-
-Responsabilidades:
-
-Criar:
-
-```
-IDisqusClient
-```
-
-Implementar:
-
-```
-ListThreadsAsync()
-
-ListPostsAsync()
-
-```
-
-Suportar:
-
-* API Key.
-* Paginação por cursor.
-* Tratamento de erros.
-
-Resultado:
-
-Dados retornados da API.
-
----
-
-# Fase 3 - Sincronização
-
-Objetivo:
-
-Persistir dados.
-
-Responsabilidades:
-
-* Buscar threads.
-* Atualizar threads existentes.
-* Buscar comentários.
-* Atualizar usuários.
-* Evitar duplicação.
-
-Resultado:
-
-Banco SQLite populado.
-
----
-
-# Fase 4 - Filtros
-
-Objetivo:
-
-Identificar dados relevantes.
-
-Responsabilidades:
-
-Configurar regras:
-
-Exemplo:
-
-```json
-{
- "titleContains":[
-   "texto"
- ]
-}
-```
-
-Resultado:
-
-Threads relevantes marcadas.
-
----
-
-# Fase 5 - Estatísticas
-
-Objetivo:
-
-Transformar dados em informações.
-
-Responsabilidades:
-
-Criar:
-
-StatisticsService
-
-Exemplos:
-
-* Top comentaristas.
-* Posts mais comentados.
-* Média de tamanho.
-* Usuários mais prolíficos.
-* Usuários mais frequentes.
-
----
-
-# Fase 6 - Exportação JSON
-
-Objetivo:
-
-Gerar dados para frontend.
-
-Saída:
-
-```
-/output/statistics.json
-```
-
-Exemplo:
-
-```json
-{
- "forum":"meuforum",
- "generated":"2026-08-05",
- "ranking":[]
-}
-```
-
----
-
-# Fase 7 - Frontend
-
-Objetivo:
-
-Visualização.
-
-Responsabilidades:
-
-* Ler JSON.
-* Criar gráficos.
-* Mostrar rankings.
-* Criar filtros.
-
-Tecnologias:
-
-* HTML
-* JavaScript
-* Chart.js
-
-Hospedagem:
-
-GitHub Pages.
-
----
-
-# 10. Executar o projeto
-
-Restaurar:
-
-```bash
+git clone <repositorio>
+cd ranking-disqus
 dotnet restore
-```
-
-Compilar:
-
-```bash
 dotnet build
 ```
 
-Sincroniza disqus, Gera estatística e Exporta json:
+Crie `src/DisqusAnalytics.Console/appsettings.Local.json` (o arquivo é
+ignorado pelo git) a partir do exemplo:
 
 ```bash
-dotnet run --project src/DisqusAnalytics.Console run
+cp src/DisqusAnalytics.Console/appsettings.Local.example.json \
+   src/DisqusAnalytics.Console/appsettings.Local.json
 ```
 
-Sincroniza os dados do disqus:
+No PowerShell:
 
-```bash
-dotnet run --project src/DisqusAnalytics.Console sync
+```powershell
+Copy-Item src/DisqusAnalytics.Console/appsettings.Local.example.json `
+          src/DisqusAnalytics.Console/appsettings.Local.json
 ```
 
-Gera Estatísticas:
+E preencha a chave:
+
+```json
+{
+  "Disqus": {
+    "ApiKey": "SUA_CHAVE_AQUI"
+  }
+}
+```
+
+Depois rode, na raiz do projeto:
 
 ```bash
+dotnet run --project src/DisqusAnalytics.Console sync discussions
+dotnet run --project src/DisqusAnalytics.Console sync comments
 dotnet run --project src/DisqusAnalytics.Console stats
 ```
 
-Exporta os dados processados em json:
-
-```bash
-dotnet run --project src/DisqusAnalytics.Console export
-```
-
+Abra `docs/index.html` (duplo clique funciona). Para publicar, veja
+[Página estática](#página-estática).
 
 ---
 
-# 11. Comandos úteis
+## Comandos
 
-Limpar:
+| Comando | O que faz |
+|---|---|
+| `run` | sincroniza discussões + comentários e exporta o relatório |
+| `sync` | igual a `run`, sem exportar |
+| `sync discussions` | baixa/atualiza só as threads dos alvos (≈82 requisições) |
+| `sync comments` | baixa só os comentários das threads relevantes (retomável) |
+| `stats [caminho]` | gera e exporta as estatísticas (padrão: `docs/statistics.json`) |
+| `quota [fórum]` | consulta quantas requisições restam na janela atual |
 
-```bash
-dotnet clean
+---
+
+## Configuração
+
+`src/DisqusAnalytics.Console/appsettings.json` é versionado; o
+`appsettings.Local.json` sobrescreve os valores (use-o para a chave).
+
+```json
+{
+  "Disqus": {
+    "ApiKey": "",
+    "RequestDelayMilliseconds": 250
+  },
+  "Database": {
+    "Provider": "Sqlite",
+    "ConnectionString": "Data Source=data/disqus.db"
+  },
+  "Analytics": {
+    "OutputPath": "docs/statistics.json",
+    "TopAuthors": 25,
+    "TopDiscussions": 25,
+    "TopWords": 100,
+    "MinimumWordLength": 3
+  },
+  "Forums": [
+    {
+      "Name": "RPGuaxa",
+      "Forum": "scicastpodcast",
+      "Filters": {
+        "TitleContains": [ "RPGuaxa" ],
+        "TitleExclude": [ "Guaxaverso" ]
+      }
+    }
+  ]
+}
 ```
 
-Atualizar pacotes:
+| Chave | Para que serve |
+|---|---|
+| `Disqus:ApiKey` | chave pública da API (obrigatória) |
+| `Disqus:RequestDelayMilliseconds` | intervalo entre requisições; evita estourar a cota |
+| `Database:ConnectionString` | caminho do SQLite, relativo à raiz do projeto |
+| `Analytics:OutputPath` | caminho do relatório (o `statistics.js` sai ao lado) |
+| `Analytics:TopAuthors` / `TopDiscussions` / `TopWords` | tamanho dos rankings |
+| `Analytics:MinimumWordLength` | tamanho mínimo de palavra nas estatísticas |
+| `Forums[].Name` | nome exibido no relatório |
+| `Forums[].Forum` | shortname do fórum no Disqus |
+| `Forums[].Filters.TitleContains` | o título precisa conter um destes termos |
+| `Forums[].Filters.TitleExclude` | termos que tiram a discussão do alvo |
 
-```bash
-dotnet list package
+**Atenção ao `Local`:** o provedor de configuração mescla arrays por índice.
+Se o `appsettings.Local.json` definir `Forums`, defina **todos** os alvos nele
+— senão o alvo do arquivo base continua valendo na posição seguinte.
+
+Para incluir outro programa do mesmo fórum basta acrescentar um item em
+`Forums` e rodar `sync comments` de novo. Nenhum código muda.
+
+---
+
+## Como a coleta funciona
+
+1. **Fórum:** é lido do banco; a API só é consultada na primeira execução.
+2. **Discussões:** `forums/listThreads` pagina de 100 em 100 e o resultado é
+   gravado em `Discussions`. Em cada página, `IsRelevant` é recalculado com
+   os filtros de todos os alvos daquele fórum.
+3. **Comentários:** para cada discussão relevante, `threads/listPosts` é
+   paginado e cada página é gravada em `Author` e `Comment` (upsert por id).
+   Discussões sem comentários são marcadas sem gastar requisição.
+
+**Cota:** a chave pública permite **1.000 requisições por janela de 1 hora**;
+o Disqus informa o saldo nos cabeçalhos `X-Ratelimit-*` e o comando `quota`
+mostra o valor. Com 250 ms entre chamadas, 405 threads consomem ~450
+requisições.
+
+---
+
+## Horários
+
+O Disqus devolve os horários em **UTC sem o indicador de fuso**
+(`"2025-08-18T15:44:28"`). O cliente lê esse valor como UTC
+(`UtcDateTimeOffsetConverter`), o banco guarda o instante e o relatório
+converte tudo para **America/Sao_Paulo (-03:00)** — inclusive nas agregações
+por mês, dia da semana e hora. O horário de verão de 2018–2019 é respeitado
+(comentários de dezembro de 2018 aparecem com `-02:00`).
+
+Bancos criados antes dessa correção tinham os horários 3 horas adiantados; a
+migração roda uma única vez, controlada por `PRAGMA user_version`
+(`DatabaseInitializer`).
+
+---
+
+## O que é gerado
+
+`docs/statistics.json` traz um bloco por alvo:
+
+| Campo | Conteúdo |
+|---|---|
+| `totals` | comentários, autores, discussões, média de caracteres, concentração, vocabulário, etc. |
+| `topAuthors` | ranking com comentários, média de caracteres, episódios e `%` do total |
+| `topDiscussions` | episódios mais comentados (com link) |
+| `commentsByMonth` | série mensal de comentários e autores |
+| `topWords`, `topBigrams`, `rareWords` | palavras, pares e palavras usadas uma única vez |
+| `wordLengths` | distribuição exata por comprimento (3 a 24 letras) |
+| `hashtags`, `emojis` | usos, com contagem e autores |
+| `newAuthorsByYear`, `newcomers` | estreias por ano, retenção e quem chegou por último |
+| `activityByWeekdayHour` | heatmap de dia da semana × hora |
+| `vocabularyByYear` | palavras em uso, novas, que sumiram e as exclusivas do ano |
+| `longestComment`, `shortestComment` | recordes, com autor, data e episódio |
+| `firstCommenters`, `lastCommenters` | quem abre e quem fecha a conversa |
+
+Exemplo mínimo:
+
+```json
+{
+  "generatedAt": "2026-11-02T22:33:13-03:00",
+  "shows": [
+    {
+      "name": "RPGuaxa",
+      "forum": "scicastpodcast",
+      "totals": {
+        "discussions": 229,
+        "comments": 5006,
+        "authors": 827,
+        "averageCharacters": 667.1
+      },
+      "topWords": [ { "word": "episódio", "count": 5920, "authors": 592 } ],
+      "emojis": [ { "emoji": "❤️", "count": 238, "authors": 57 } ]
+    }
+  ]
+}
 ```
 
-Ver projetos:
+Tratamento do texto: HTML removido (`CommentText`), stopwords em português,
+comparação sem acentos, hashtags separadas das palavras, emojis lidos como
+elementos de texto (`👍🏻` conta como um) e repetições como `kkkkk`
+descartadas.
 
-```bash
-dotnet sln list
+---
+
+## Página estática
+
+```
+docs/
+├── index.html      estrutura e textos fixos
+├── styles.css      tema escuro e layout responsivo
+├── app.js          monta cartões, gráficos SVG e rankings
+├── statistics.js   dados embutidos (window.DISQUS_STATS)
+└── statistics.json dados para outros clientes
 ```
 
-Executar migrations:
+A página não usa CDN: os gráficos são SVG gerados pelo próprio `app.js`, com
+fonte ajustada ao tamanho real do painel. Como `statistics.js` expõe os dados
+como script, ela funciona com `file://`; servida por HTTP, também tenta
+`fetch("statistics.json")`.
 
-```bash
-dotnet ef database update
+Publicar no GitHub Pages:
+
+1. commit da pasta `docs`;
+2. **Settings → Pages → Source: Deploy from a branch**, branch `main`,
+   pasta `/docs`;
+3. a página fica em `https://SEU_USUARIO.github.io/ranking-disqus/`.
+
+Para atualizar os dados, rode `stats` e commite `docs/statistics.json` e
+`docs/statistics.js`.
+
+---
+
+## Banco de dados
+
+SQLite em `data/disqus.db`, criado por `EnsureCreated` (o projeto **não usa
+migrations**). Alterações posteriores de esquema são aplicadas por
+`DatabaseInitializer`, controladas por `PRAGMA user_version`.
+
+| Tabela | Conteúdo |
+|---|---|
+| `Forums` | fórum Disqus (`Id`, `ShortName`, `Name`, `Url`, `LastSyncAt`) |
+| `Discussions` | threads, `IsRelevant` e o estado da coleta de comentários |
+| `Author` | nome, usuário, perfil e avatar |
+| `Comment` | texto HTML, data, tamanho e flags (`IsDeleted`, `IsSpam`) |
+
+---
+
+## Estrutura
+
+```
+src/
+├── DisqusAnalytics.Abstractions   interfaces, configurações e modelos do relatório
+├── DisqusAnalytics.Domain         entidades, enums e limpeza de texto
+├── DisqusAnalytics.Disqus         cliente HTTP, DTOs e conversão de datas
+├── DisqusAnalytics.Persistence    DbContext, repositórios e inicialização
+├── DisqusAnalytics.Sync           sincronização e filtros por alvo
+├── DisqusAnalytics.Analytics      cálculo das estatísticas e stopwords
+└── DisqusAnalytics.Console        comandos (run, sync, stats, quota)
+docs/                              página estática + dados publicados
+data/                              banco SQLite (ignorado pelo git)
 ```
 
 ---
 
-# 12. Evoluções futuras
+## Limitações conhecidas
 
-Possíveis melhorias:
+* **Comentários removidos e spam** não são devolvidos pela API; o relatório só
+  vê o que está público.
+* **Imagens e GIFs** chegam em um campo `media` que não é armazenado; por isso
+  a contagem de comentários com imagem é sempre zero.
+* **O ano corrente é parcial** — em 2026, “palavras que sumiram” fica inflado.
+* **Cota** de 1.000 requisições/hora por chave; uma coleta completa cabe, mas
+  duas seguidas podem estourar.
+* **Filtro por título** é heurístico: `TitleExclude` existe porque os episódios
+  do Guaxaverso citam “RPGuaxa” no título.
 
-* Migrar SQLite para PostgreSQL.
-* Criar API ASP.NET.
-* Criar Worker agendado.
-* Dashboard autenticado.
-* Cache da API.
-* Múltiplos fóruns simultâneos.
-* Sistema de plugins de análise.
+---
 
+## Próximos passos
+
+* Migrar para EF Core migrations (hoje é `EnsureCreated` + `user_version`).
+* Guardar `parent` e `likes` dos comentários (exige re-sync) para grafo de
+  conversas e curtidas.
+* Curva de Zipf, lei de Heaps, Gini/HHI e legibilidade (Flesch pt-BR).
+* Análise de sentimento e TF-IDF por episódio.
+* Suporte a múltiplos fóruns na mesma execução.

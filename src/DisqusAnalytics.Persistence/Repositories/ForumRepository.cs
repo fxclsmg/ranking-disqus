@@ -18,6 +18,16 @@ public sealed class ForumRepository(
                 cancellationToken);
     }
 
+    public async Task<Forum?> GetByShortNameAsync(
+        string shortName,
+        CancellationToken cancellationToken = default)
+    {
+        return await context.Forums
+            .FirstOrDefaultAsync(
+                forum => forum.ShortName == shortName,
+                cancellationToken);
+    }
+
     public async Task UpsertAsync(
         Forum forum,
         CancellationToken cancellationToken = default)

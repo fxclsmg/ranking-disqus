@@ -1,15 +1,15 @@
-﻿using DisqusAnalytics.Abstractions.Interfaces;
+using DisqusAnalytics.Abstractions.Configuration;
+using DisqusAnalytics.Abstractions.Interfaces;
+using DisqusAnalytics.Analytics.Extensions;
 using DisqusAnalytics.Console.Extensions;
 using DisqusAnalytics.Disqus.Extensions;
-using DisqusAnalytics.Disqus.Configurations;
+using DisqusAnalytics.Persistence;
+using DisqusAnalytics.Persistence.Data;
 using DisqusAnalytics.Sync.Extensions;
+using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
 using Microsoft.Extensions.Logging;
-using Microsoft.Extensions.Configuration;
-using DisqusAnalytics.Persistence;
-using DisqusAnalytics.Persistence.Data;
-using Microsoft.EntityFrameworkCore;
 
 var builder = Host.CreateApplicationBuilder(args);
 
@@ -32,10 +32,15 @@ builder.Logging.AddConsole();
 
 builder.Services.AddCommands();
 
+// Alvos de análise (podcasts) definidos na seção "Forums".
+builder.Services.Configure<ForumTargetsOptions>(
+    builder.Configuration);
+
 builder.Services.AddSynchronization();
 
-builder.Services.AddPersistence(builder.Configuration);
+builder.Services.AddAnalytics(builder.Configuration);
 
+builder.Services.AddPersistence(builder.Configuration);
 
 using var host = builder.Build();
 
@@ -44,7 +49,13 @@ using (var scope = host.Services.CreateScope())
     var dbContext = scope.ServiceProvider
         .GetRequiredService<DisqusDbContext>();
 
-    await dbContext.Database.EnsureCreatedAsync();
+    var initializerLogger = scope.ServiceProvider
+        .GetRequiredService<ILoggerFactory>()
+        .CreateLogger("DatabaseInitializer");
+
+    await DatabaseInitializer.InitializeAsync(
+        dbContext,
+        initializerLogger);
 }
 
 var logger = host.Services.GetRequiredService<ILogger<Program>>();
@@ -79,4 +90,4 @@ if (command is null)
     return;
 }
 
-await command.ExecuteAsync();
+await command.ExecuteAsync(args.Skip(1).ToList());
